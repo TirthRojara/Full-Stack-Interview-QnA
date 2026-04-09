@@ -207,11 +207,12 @@
 - [144. What are Micro-frontends?](#144-what-are-micro-frontends)
 - [145. What is Semantic versioning (SemVer) ?](#145-what-is-semantic-versioning-semver)
 
+<br><br>
 ---
 
 
 # 🌐 Basics / Web Fundamentals
-
+<br><br>
 
 ## **1. Explain the difference between client-side and server-side programming?**
 
@@ -250,11 +251,12 @@ Key Characteristics:
 - Returning a list of products in JSON format for the client to display dynamically.
 
 
+<br><br>
 ---
 
 
 # 🌍 Networking (DNS, HTTP, HTTPS, CORS)
-
+<br><br>
 
 ## **2. What is DNS?**
 
@@ -477,16 +479,13 @@ Fries later
 | Multiplexing | ❌ No | ✅ Yes | ✅ Yes |
 | Head-of-line blocking | ❌ Yes | ⚠️ Partial | ✅ No |
 | Speed | Slow | Fast ⚡ | Faster ⚡⚡ |
-| Encryption | Optional | Optional | Mandatory 🔒 |
-
-<br></br>
-
-
+| Encryption | Optional | Optional | Mandatory 🔒 |  
+<br><br>
 ---
 
 
 # 🟢 Node.js / Backend
-
+<br><br>
 
 ## **8. Explain event loop in Node.js.**
 
@@ -942,34 +941,40 @@ Middleware can:
 
 
 
+<br><br>
 ---
 
-
 # 🗄️ Database (SQL, NoSQL, ACID, Indexing)
+<br><br>
 
 
-## **17. What is normalization and denormalization.**
+## **28. What is normalization and denormalization.**
 
 
 **Normalization** – Normalization removes duplicate data by splitting it into multiple related tables.
 - Reduce redundancy
 
-USER                                                                           ORDER
-{                                                                                  {
-"userId": 1,                                                                "orderId": 1,
-"name": "Tirth",                                                        "userId": 1
-"email": "test@gmail.com"                                   }
+```js
+USER                               ORDER             
+                             
+{                                  {              
+"userId":1,                        "orderId": 1,
+"name":"Tirth",                    "userId": 1,
+"email": "test@gmail.com"          }                         
 }
+```  
 
 **Denormalization** - Denormalization combines data into a single table to reduce joins and improve read performance.
 - Faster queries
 - Fewer joins
 
+```js
 {
   "orderId": 1,
   "userName": "Tirth",
   "userEmail": "test@gmail.com"
 }
+```
 
 In real-world systems, we often use a balance of both — normalized design for consistency and selective denormalization for performance optimization.
 
@@ -980,28 +985,37 @@ In real-world systems, we often use a balance of both — normalized design for 
 ---
 
 
-## **18. Normal Forms (1NF, 2NF, 3NF)**
+## **29. Normal Forms (1NF, 2NF, 3NF)**
 
 
-**🔹 1NF (First Normal Form)**
-❌ Problem: Multiple values in one column
+### **🔹 1NF (First Normal Form)**    
+❌ Problem: Multiple values in one column  
+
+```js
 {
 "studentId": 1,
 "name": "Tirth",
-"courses": ["Math", "Science"]                 // multiple values ❌ Not atomic
+"courses": ["Math", "Science"]  // multiple values ❌ Not atomic
 }
+```
 
-✅ Solution (1NF)
+✅ Solution (1NF)  
+
+```js
 { "studentId": 1, "name": "Tirth", "course": "Math" }
 { "studentId": 1, "name": "Tirth", "course": "Science" }
+```
 
-**🔹 2NF (Second Normal Form)**
-❌ Problem: Partial Dependency
+### **🔹 2NF (Second Normal Form)**
+❌ Problem: Partial Dependency  
+
+```js
 {
   "studentId": 1,
   "course": "Math",
   "studentName": "Tirth"
 }
+```
 
 👉 Problem:
 - studentName depends only on studentId 
@@ -1010,39 +1024,41 @@ In real-world systems, we often use a balance of both — normalized design for 
 
 ✅ Solution (2NF)
 
+```js
 Students Table
 { "studentId": 1, "studentName": "Tirth" }
 
 Enrollments Table
 { "studentId": 1, "course": "Math" }
+```
 
-**🔹 3NF (Third Normal Form)**
+### **🔹 3NF (Third Normal Form)**
 ❌ Problem: Transitive Dependency
 
+```js
 {
   "studentId": 1,
   "course": "Math",
   "teacher": "Mr. A",
   "teacherPhone": "999999"
 }
+```
 
 👉 Problem:
 - teacherPhone depends on teacher 
 - Not directly on studentId ❌
 
-
-
-
-
 ✅ Solution (3NF)
 
+```js
 Teachers Table
 { "teacher": "Mr. A", "teacherPhone": "999999" }
 
 Enrollments Table	
 { "studentId": 1, "course": "Math", "teacher": "Mr. A" }
+```
 
-
+<br>
 
 | Normal Form | What it removes | Simple Meaning |
 | --- | --- | --- |
@@ -1056,7 +1072,7 @@ Enrollments Table
 ---
 
 
-## **19. What is Indexing in Database?**
+## **30. What is Indexing in Database?**
 
 
 Indexing is a technique used to improve the speed of data reads by creating a separate data structure that allows faster searching.
@@ -1072,12 +1088,12 @@ Index improves read performance but adds overhead to write operations.
 ---
 
 
-## **20. What are ACID Properties?**
+## **31. What are ACID Properties?**
 
 
 ACID ensures reliable and consistent database transactions.
 
-🔹 A — Atomicity
+### **🔹 A — Atomicity**
 - Transaction is all or nothing.
 
 **❌ Problem (without atomicity)**
@@ -1090,7 +1106,7 @@ ACID ensures reliable and consistent database transactions.
 - OR both fail ❌
 
 
-🔹 C — Consistency
+### **🔹 C — Consistency**
 - Database remains in a valid state.
 
 Consistency is enforced by:
@@ -1099,14 +1115,7 @@ Consistency is enforced by:
 - Business rules
 
 
-
-
-
-
-
-
-
-🔹 I — Isolation
+### **🔹 I — Isolation**
 - Transactions don’t interfere with each other.
 
 **❌ Without Isolation**
@@ -1121,7 +1130,7 @@ Consistency is enforced by:
 👉 No wrong deduction ✅
 
 
-🔹 D — Durability
+### **🔹 D — Durability**
 - Once committed, data is permanently saved.
 
 Once a transaction is committed, it will NOT be lost — even if the system crashes.
@@ -1151,81 +1160,88 @@ Once a transaction is committed, it will NOT be lost — even if the system cras
 | Scaling | Vertical | Horizontal |
 | Query | SQL language | JSON-like queries |
 
+<br>
 
+**SQL –**  
 
-**SQL –**
 ✅ Best For
 - Banking systems 💰 
 - Payment systems 
 - Inventory 
-- Systems requiring accuracy + consistency 
+- Systems requiring accuracy + consistency   
+
 ⚠️ Limitation
 - Hard to change structure 
 - Scaling is harder
 
+<br>
 
+**NO SQL –**  
 
-
-
-**NO SQL –**
 ✅ Best For
 - Real-time apps (chat, feeds) 
 - Social media 
 - Analytics 
-- Rapid development 
+- Rapid development  
+
 ⚠️ Limitation
 - Data duplication 
 - Hard to maintain consistency
 
-    **🚫 No Joins (Mostly)**
-      Data is often **embedded**
-      Instead of joining tables: You store related data together
+    **🚫 No Joins (Mostly)**  
+      Data is often **embedded**  
+      Instead of joining tables: You store related data together   
 
-**21. Replication and Sharding**
 
-**Replication (Copying Database)**
-Replication = making copies of your database
+## **22. Replication and Sharding**
+
+**Replication (Copying Database)**  
+Replication = making copies of your database  
 Load is distributed 🚀
 
-         Main DB (Write)
-          /	 |	   \
-Read DB  Read DB  Read DB
+```js
+         MainDB (Write)
+        /	  |	     \
+    ReadDB  ReadDB  ReadDB
+```
 
-Main DB → handles **WRITE** (insert/update) 
+Main DB → handles **WRITE** (insert/update)   
 Replicas → handle **READ** (select queries)
 
 ✅ Benefits
 - Faster reads ⚡ 
 - Handles more users 
-- Simple to implement 
+- Simple to implement  
+
 ⚠️ Limitation
 - Slight delay (replication lag) 
 - Only main DB can write
 
-**Sharding (Splitting Database)**
-Sharding = dividing data across multiple databases
+**Sharding (Splitting Database)**  
+Sharding = dividing data across multiple databases  
 Each DB handles **part of data**
 
-🔧 How it works 
-Shard 1 → Users 1–1000
-Shard 2 → Users 1001–2000
-Shard 3 → Users 2001–3000
+🔧 How it works  
+Shard 1 → Users 1–1000  
+Shard 2 → Users 1001–2000  
+Shard 3 → Users 2001–3000  
 
 ✅ Benefits
 - Handles massive data 
 - True horizontal scaling 
 - High performance 
+
 ⚠️ Limitation
 - Complex to manage 😅 
 - Hard joins across shards ❌
 
 
-
+<br><br>
 ---
 
 
 # 🐳 DevOps (Docker, CI/CD, Nginx)
-
+<br>
 
 ## **32. Packages manager in your Node.js**
 
