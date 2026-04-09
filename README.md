@@ -13,199 +13,199 @@
 
 - [2. What is DNS?](#2-what-is-dns)
 - [3. How Does DNS Works?](#3-how-does-dns-works)
-- [5. What is the difference between HTTP and HTTPS?](#5-what-is-the-difference-between-http-and-https)
-- [6. What is CORS, and how do you handle it in a web application?](#6-what-is-cors-and-how-do-you-handle-it-in-a-web-application)
-- [126. How does HTTP work?](#126-how-does-http-work)
-- [127. HTTP/1.1 vs HTTP/2 vs HTTP/3](#127-http11-vs-http2-vs-http3)
+- [4. What is the difference between HTTP and HTTPS?](#4-what-is-the-difference-between-http-and-https)
+- [5. What is CORS, and how do you handle it in a web application?](#5-what-is-cors-and-how-do-you-handle-it-in-a-web-application)
+- [6. How does HTTP work?](#6-how-does-http-work)
+- [7. HTTP/1.1 vs HTTP/2 vs HTTP/3](#7-http11-vs-http2-vs-http3)
 
 ### 🟢 Node.js / Backend
 
-- [7. Explain event loop in Node.js.](#7-explain-event-loop-in-nodejs)
-- [8. Explain the meaning of multithreading?](#8-explain-the-meaning-of-multithreading)
-- [9. How Node.js Handles Concurrency (Without Multithreading)](#9-how-nodejs-handles-concurrency-without-multithreading)
-- [10. Event Loop vs Multithreading](#10-event-loop-vs-multithreading)
-- [11. What is callback function.](#11-what-is-callback-function)
-- [12. What is Promise and explain its states?](#12-what-is-promise-and-explain-its-states)
-- [13. What is Async/Await?](#13-what-is-asyncawait)
-- [14. Explain the Restful API](#14-explain-the-restful-api)
-- [15. HTTP Methods](#15-http-methods)
-- [16. What is Authentication and Authorization?](#16-what-is-authentication-and-authorization)
-- [22. What is the purpose of package.json in a Node.js project?](#22-what-is-the-purpose-of-packagejson-in-a-nodejs-project)
-- [23. Describe the concept of MVC architecture](#23-describe-the-concept-of-mvc-architecture)
-- [24. WebSockets and HTTP](#24-websockets-and-http)
-- [25. Short Polling & Long Polling & WebSockets](#25-short-polling-long-polling-websockets)
-- [26. What is SSE?](#26-what-is-sse)
-- [27. What is web hooks](#27-what-is-web-hooks)
-- [28. Explain the crypto module in Node.js](#28-explain-the-crypto-module-in-nodejs)
-- [29. What is .body-parser in Node.js?](#29-what-is-body-parser-in-nodejs)
-- [30. What is Middleware in Express?](#30-what-is-middleware-in-express)
-- [31. req.params  vs  req.query  vs  req.body](#31-reqparams-vs-reqquery-vs-reqbody)
+- [8. Explain event loop in Node.js.](#8-explain-event-loop-in-nodejs)
+- [9. Explain the meaning of multithreading?](#9-explain-the-meaning-of-multithreading)
+- [10. How Node.js Handles Concurrency (Without Multithreading)](#10-how-nodejs-handles-concurrency-without-multithreading)
+- [11. Event Loop vs Multithreading](#11-event-loop-vs-multithreading)
+- [12. What is callback function.](#12-what-is-callback-function)
+- [13. What is Promise and explain its states?](#13-what-is-promise-and-explain-its-states)
+- [14. What is Async/Await?](#14-what-is-asyncawait)
+- [15. Explain the Restful API](#15-explain-the-restful-api)
+- [16. HTTP Methods](#16-http-methods)
+- [17. What is Authentication and Authorization?](#17-what-is-authentication-and-authorization)
+- [18. What is the purpose of package.json in a Node.js project?](#18-what-is-the-purpose-of-packagejson-in-a-nodejs-project)
+- [19. Describe the concept of MVC architecture](#19-describe-the-concept-of-mvc-architecture)
+- [20. WebSockets and HTTP](#20-websockets-and-http)
+- [21. Short Polling & Long Polling & WebSockets](#21-short-polling-long-polling-websockets)
+- [22. What is SSE?](#22-what-is-sse)
+- [23. What is web hooks](#23-what-is-web-hooks)
+- [24. Explain the crypto module in Node.js](#24-explain-the-crypto-module-in-nodejs)
+- [25. What is .body-parser in Node.js?](#25-what-is-body-parser-in-nodejs)
+- [26. What is Middleware in Express?](#26-what-is-middleware-in-express)
+- [27. req.params  vs  req.query  vs  req.body](#27-reqparams-vs-reqquery-vs-reqbody)
 
 ### 🗄️ Database (SQL, NoSQL, ACID, Indexing)
 
-- [17. What is normalization and denormalization.](#17-what-is-normalization-and-denormalization)
-- [18. Normal Forms (1NF, 2NF, 3NF)](#18-normal-forms-1nf-2nf-3nf)
-- [19. What is Indexing in Database?](#19-what-is-indexing-in-database)
-- [20. What are ACID Properties?](#20-what-are-acid-properties)
-- [21. SQL vs NoSQL](#21-sql-vs-nosql)
+- [28. What is normalization and denormalization.](#28-what-is-normalization-and-denormalization)
+- [29. Normal Forms (1NF, 2NF, 3NF)](#29-normal-forms-1nf-2nf-3nf)
+- [30. What is Indexing in Database?](#30-what-is-indexing-in-database)
+- [31. What are ACID Properties?](#31-what-are-acid-properties)
+- [32. SQL vs NoSQL](#32-sql-vs-nosql)
 
 ### 🐳 DevOps (Docker, CI/CD, Nginx)
 
-- [32. Packages manager in your Node.js](#32-packages-manager-in-your-nodejs)
-- [33. Explain the role of Docker in development and deployment](#33-explain-the-role-of-docker-in-development-and-deployment)
-- [34. What is Docker Compose?](#34-what-is-docker-compose)
-- [35. What is multi stage docker file ?](#35-what-is-multi-stage-docker-file)
-- [36. What is CI/CD ?](#36-what-is-cicd)
+- [33. Packages manager in your Node.js](#33-packages-manager-in-your-nodejs)
+- [34. Explain the role of Docker in development and deployment](#34-explain-the-role-of-docker-in-development-and-deployment)
+- [35. What is Docker Compose?](#35-what-is-docker-compose)
+- [36. What is multi stage docker file ?](#36-what-is-multi-stage-docker-file)
+- [37. What is CI/CD ?](#37-what-is-cicd)
 
 ### 🔐 Security (JWT, Encryption, Hashing)
 
-- [37. Encryption, Decryption and Hashing](#37-encryption-decryption-and-hashing)
-- [38. What is Plaintext and Ciphertext?](#38-what-is-plaintext-and-ciphertext)
-- [39. What is a Key in Encryption?](#39-what-is-a-key-in-encryption)
-- [40. What is Symmetric Encryption?](#40-what-is-symmetric-encryption)
-- [41. What is Asymmetric Encryption?](#41-what-is-asymmetric-encryption)
-- [42. Examples of encryption algorithms (AES, RSA)?](#42-examples-of-encryption-algorithms-aes-rsa)
-- [43. Examples of hashing algorithms (MD5, SHA)?](#43-examples-of-hashing-algorithms-md5-sha)
-- [44. Why is Hashing Used for Passwords?](#44-why-is-hashing-used-for-passwords)
-- [45. What is Salting in Hashing?](#45-what-is-salting-in-hashing)
-- [46. What is a Hash Collision?](#46-what-is-a-hash-collision)
-- [47. What is a Brute Force Attack?](#47-what-is-a-brute-force-attack)
-- [48. What is a Rainbow Table Attack?](#48-what-is-a-rainbow-table-attack)
-- [49. How Salting Prevents Rainbow Table Attacks?](#49-how-salting-prevents-rainbow-table-attacks)
-- [50. What is Public Key and Private Key?](#50-what-is-public-key-and-private-key)
-- [51. What is SSL / TLS ?](#51-what-is-ssl-tls)
-- [52. What is End-to-End Encryption (E2EE) ?](#52-what-is-end-to-end-encryption-e2ee)
-- [53. What is Key Exchange (Diffie-Hellman)?](#53-what-is-key-exchange-diffie-hellman)
-- [54. How do you store passwords securely in a database?](#54-how-do-you-store-passwords-securely-in-a-database)
-- [55. How to implement password hashing in Node.js?](#55-how-to-implement-password-hashing-in-nodejs)
-- [56. How does JWT signing work?](#56-how-does-jwt-signing-work)
-- [57. How do you secure API data?](#57-how-do-you-secure-api-data)
-- [128. What is OAuth?](#128-what-is-oauth)
-- [129. What is XSS and how to prevent it?](#129-what-is-xss-and-how-to-prevent-it)
-- [130. What is CSRF?](#130-what-is-csrf)
-- [131.  How does Content Security Policy (CSP) work?](#131-how-does-content-security-policy-csp-work)
-- [132. What is Clickjacking?](#132-what-is-clickjacking)
-- [133. What are common frontend attack vectors?](#133-what-are-common-frontend-attack-vectors)
+- [38. Encryption, Decryption and Hashing](#38-encryption-decryption-and-hashing)
+- [39. What is Plaintext and Ciphertext?](#39-what-is-plaintext-and-ciphertext)
+- [40. What is a Key in Encryption?](#40-what-is-a-key-in-encryption)
+- [41. What is Symmetric Encryption?](#41-what-is-symmetric-encryption)
+- [42. What is Asymmetric Encryption?](#42-what-is-asymmetric-encryption)
+- [43. Examples of encryption algorithms (AES, RSA)?](#43-examples-of-encryption-algorithms-aes-rsa)
+- [44. Examples of hashing algorithms (MD5, SHA)?](#44-examples-of-hashing-algorithms-md5-sha)
+- [45. Why is Hashing Used for Passwords?](#45-why-is-hashing-used-for-passwords)
+- [46. What is Salting in Hashing?](#46-what-is-salting-in-hashing)
+- [47. What is a Hash Collision?](#47-what-is-a-hash-collision)
+- [48. What is a Brute Force Attack?](#48-what-is-a-brute-force-attack)
+- [49. What is a Rainbow Table Attack?](#49-what-is-a-rainbow-table-attack)
+- [50. How Salting Prevents Rainbow Table Attacks?](#50-how-salting-prevents-rainbow-table-attacks)
+- [51. What is Public Key and Private Key?](#51-what-is-public-key-and-private-key)
+- [52. What is SSL / TLS ?](#52-what-is-ssl-tls)
+- [53. What is End-to-End Encryption (E2EE) ?](#53-what-is-end-to-end-encryption-e2ee)
+- [54. What is Key Exchange (Diffie-Hellman)?](#54-what-is-key-exchange-diffie-hellman)
+- [55. How do you store passwords securely in a database?](#55-how-do-you-store-passwords-securely-in-a-database)
+- [56. How to implement password hashing in Node.js?](#56-how-to-implement-password-hashing-in-nodejs)
+- [57. How does JWT signing work?](#57-how-does-jwt-signing-work)
+- [58. How do you secure API data?](#58-how-do-you-secure-api-data)
+- [59. What is OAuth?](#59-what-is-oauth)
+- [60. What is XSS and how to prevent it?](#60-what-is-xss-and-how-to-prevent-it)
+- [61. What is CSRF?](#61-what-is-csrf)
+- [62.  How does Content Security Policy (CSP) work?](#62-how-does-content-security-policy-csp-work)
+- [63. What is Clickjacking?](#63-what-is-clickjacking)
+- [64. What are common frontend attack vectors?](#64-what-are-common-frontend-attack-vectors)
 
 ### 🏗️ System Design (Caching, CDN, Scaling)
 
-- [58. What is redis ?](#58-what-is-redis)
-- [59. Use case of redis](#59-use-case-of-redis)
-- [60. Explain caching strategies](#60-explain-caching-strategies)
-- [61. What is Nginx ?](#61-what-is-nginx)
+- [65. What is redis ?](#65-what-is-redis)
+- [66. Use case of redis](#66-use-case-of-redis)
+- [67. Explain caching strategies](#67-explain-caching-strategies)
+- [68. What is Nginx ?](#68-what-is-nginx)
 
 ### 📡 API & Communication
 
-- [62. What is GraphQL](#62-what-is-graphql)
-- [63. What is Server-Sent Events (SSE)?](#63-what-is-server-sent-events-sse)
-- [64. SSE vs WebSocket](#64-sse-vs-websocket)
+- [69. What is GraphQL](#69-what-is-graphql)
+- [70. What is Server-Sent Events (SSE)?](#70-what-is-server-sent-events-sse)
+- [71. SSE vs WebSocket](#71-sse-vs-websocket)
 
 ### 🖥️ Browser / DOM / HTML / CSS
 
-- [65. What is DOM?](#65-what-is-dom)
-- [66. What is Virtual DOM?](#66-what-is-virtual-dom)
-- [67. What is HTML?](#67-what-is-html)
-- [68. What is CSS?](#68-what-is-css)
+- [72. What is DOM?](#72-what-is-dom)
+- [73. What is Virtual DOM?](#73-what-is-virtual-dom)
+- [74. What is HTML?](#74-what-is-html)
+- [75. What is CSS?](#75-what-is-css)
 
 ### ⚛️ React
 
-- [69. What is react ?](#69-what-is-react)
-- [70. What are props ?](#70-what-are-props)
-- [71. What is state in React ?](#71-what-is-state-in-react)
-- [72. What are fragments in React?](#72-what-are-fragments-in-react)
-- [73. What is controlled and uncontrolled components?](#73-what-is-controlled-and-uncontrolled-components)
-- [74. What is react life cycle ?](#74-what-is-react-life-cycle)
-- [75. What are Hooks in React ?](#75-what-are-hooks-in-react)
-- [76. React Hooks](#76-react-hooks)
-- [78. Explain useMemo and useCallback](#78-explain-usememo-and-usecallback)
-- [79. What is State Management in React and what is the difference between Local and Global State?](#79-what-is-state-management-in-react-and-what-is-the-difference-between-local-and-global-state)
-- [80. What are some popular state management solutions in React/Next.js?](#80-what-are-some-popular-state-management-solutions-in-reactnextjs)
-- [81. When should you use Redux over Context API?](#81-when-should-you-use-redux-over-context-api)
-- [82.  Explain the Context API and useReducer in React.](#82-explain-the-context-api-and-usereducer-in-react)
-- [83. What is the difference between Client State and Server State?](#83-what-is-the-difference-between-client-state-and-server-state)
-- [84. HTTP Caching Basics](#84-http-caching-basics)
-- [85. Cache-Control Headers](#85-cache-control-headers)
-- [86. ETag & Last-Modified (Cache Validation)](#86-etag-last-modified-cache-validation)
-- [87. What is CDN and CDN cache](#87-what-is-cdn-and-cdn-cache)
-- [88. Cache Invalidation Strategies](#88-cache-invalidation-strategies)
-- [89. LocalStorage vs SessionStorage vs Cookies](#89-localstorage-vs-sessionstorage-vs-cookies)
-- [90. What is IndexedDB?](#90-what-is-indexeddb)
-- [91. How do you handle asynchronous state updates in React?](#91-how-do-you-handle-asynchronous-state-updates-in-react)
-- [92. what is React.memo ?  How does React.memo help improve performance?](#92-what-is-reactmemo-how-does-reactmemo-help-improve-performance)
-- [93. If I ask you to optimize a slow React application, what techniques would you use?](#93-if-i-ask-you-to-optimize-a-slow-react-application-what-techniques-would-you-use)
-- [94. What is the difference between React.PureComponent and React.Component?](#94-what-is-the-difference-between-reactpurecomponent-and-reactcomponent)
-- [95. What is prop drilling?](#95-what-is-prop-drilling)
-- [96. What is Throttling?](#96-what-is-throttling)
-- [97. What is Debouncing ?](#97-what-is-debouncing)
-- [98. Why is the key prop important in React lists?](#98-why-is-the-key-prop-important-in-react-lists)
-- [99. What happens if we use the array index as a key in React?](#99-what-happens-if-we-use-the-array-index-as-a-key-in-react)
-- [100. What is React Router and why is it used?](#100-what-is-react-router-and-why-is-it-used)
-- [101. What is the difference between client-side routing and server-side routing?](#101-what-is-the-difference-between-client-side-routing-and-server-side-routing)
-- [102. What is Sever Side Rendering and Client Side Rendering](#102-what-is-sever-side-rendering-and-client-side-rendering)
-- [121. What are React Server Components?](#121-what-are-react-server-components)
+- [76. What is react ?](#76-what-is-react)
+- [77. What are props ?](#77-what-are-props)
+- [78. What is state in React ?](#78-what-is-state-in-react)
+- [79. What are fragments in React?](#79-what-are-fragments-in-react)
+- [80. What is controlled and uncontrolled components?](#80-what-is-controlled-and-uncontrolled-components)
+- [81. What is react life cycle ?](#81-what-is-react-life-cycle)
+- [82. What are Hooks in React ?](#82-what-are-hooks-in-react)
+- [83. React Hooks](#83-react-hooks)
+- [84. Explain useMemo and useCallback](#84-explain-usememo-and-usecallback)
+- [85. What is State Management in React and what is the difference between Local and Global State?](#85-what-is-state-management-in-react-and-what-is-the-difference-between-local-and-global-state)
+- [86. What are some popular state management solutions in React/Next.js?](#86-what-are-some-popular-state-management-solutions-in-reactnextjs)
+- [87. When should you use Redux over Context API?](#87-when-should-you-use-redux-over-context-api)
+- [88.  Explain the Context API and useReducer in React.](#88-explain-the-context-api-and-usereducer-in-react)
+- [89. What is the difference between Client State and Server State?](#89-what-is-the-difference-between-client-state-and-server-state)
+- [90. HTTP Caching Basics](#90-http-caching-basics)
+- [91. Cache-Control Headers](#91-cache-control-headers)
+- [92. ETag & Last-Modified (Cache Validation)](#92-etag-last-modified-cache-validation)
+- [93. What is CDN and CDN cache](#93-what-is-cdn-and-cdn-cache)
+- [94. Cache Invalidation Strategies](#94-cache-invalidation-strategies)
+- [95. LocalStorage vs SessionStorage vs Cookies](#95-localstorage-vs-sessionstorage-vs-cookies)
+- [96. What is IndexedDB?](#96-what-is-indexeddb)
+- [97. How do you handle asynchronous state updates in React?](#97-how-do-you-handle-asynchronous-state-updates-in-react)
+- [98. what is React.memo ?  How does React.memo help improve performance?](#98-what-is-reactmemo-how-does-reactmemo-help-improve-performance)
+- [99. If I ask you to optimize a slow React application, what techniques would you use?](#99-if-i-ask-you-to-optimize-a-slow-react-application-what-techniques-would-you-use)
+- [100. What is the difference between React.PureComponent and React.Component?](#100-what-is-the-difference-between-reactpurecomponent-and-reactcomponent)
+- [101. What is prop drilling?](#101-what-is-prop-drilling)
+- [102. What is Throttling?](#102-what-is-throttling)
+- [103. What is Debouncing ?](#103-what-is-debouncing)
+- [104. Why is the key prop important in React lists?](#104-why-is-the-key-prop-important-in-react-lists)
+- [105. What happens if we use the array index as a key in React?](#105-what-happens-if-we-use-the-array-index-as-a-key-in-react)
+- [106. What is React Router and why is it used?](#106-what-is-react-router-and-why-is-it-used)
+- [107. What is the difference between client-side routing and server-side routing?](#107-what-is-the-difference-between-client-side-routing-and-server-side-routing)
+- [108. What is Sever Side Rendering and Client Side Rendering](#108-what-is-sever-side-rendering-and-client-side-rendering)
+- [109. What are React Server Components?](#109-what-are-react-server-components)
 
 ### 🔄 Rendering & Routing
 
-- [103. Static Site Generation (SSG)](#103-static-site-generation-ssg)
-- [104. What is Hydration?](#104-what-is-hydration)
+- [110. Static Site Generation (SSG)](#110-static-site-generation-ssg)
+- [111. What is Hydration?](#111-what-is-hydration)
 
 ### 🖥️ HTML / CSS / Browser
 
-- [105. Why is semantic HTML important beyond SEO?](#105-why-is-semantic-html-important-beyond-seo)
-- [106. What are reflow and repaint?](#106-what-are-reflow-and-repaint)
-- [107. preload vs prefetch vs preconnect](#107-preload-vs-prefetch-vs-preconnect)
-- [108. How does HTML structure affect performance?](#108-how-does-html-structure-affect-performance)
-- [109. Button vs Anchor](#109-button-vs-anchor)
-- [110. What is ARIA? What problems does ARIA solve?](#110-what-is-aria-what-problems-does-aria-solve)
-- [111. How does HTML impact screen readers?](#111-how-does-html-impact-screen-readers)
-- [112. Flexbox and Grid](#112-flexbox-and-grid)
+- [112. Why is semantic HTML important beyond SEO?](#112-why-is-semantic-html-important-beyond-seo)
+- [113. What are reflow and repaint?](#113-what-are-reflow-and-repaint)
+- [114. preload vs prefetch vs preconnect](#114-preload-vs-prefetch-vs-preconnect)
+- [115. How does HTML structure affect performance?](#115-how-does-html-structure-affect-performance)
+- [116. Button vs Anchor](#116-button-vs-anchor)
+- [117. What is ARIA? What problems does ARIA solve?](#117-what-is-aria-what-problems-does-aria-solve)
+- [118. How does HTML impact screen readers?](#118-how-does-html-impact-screen-readers)
+- [119. Flexbox and Grid](#119-flexbox-and-grid)
 
 ### 💛 JavaScript Core
 
-- [113. How hoisting works?](#113-how-hoisting-works)
-- [114. Microtasks vs Macrotasks](#114-microtasks-vs-macrotasks)
-- [115. How garbage collection works?](#115-how-garbage-collection-works)
-- [116. What causes memory leaks?](#116-what-causes-memory-leaks)
-- [117. How ‘this’ behaves?](#117-how-this-behaves)
-- [118. What are closures?](#118-what-are-closures)
+- [120. How hoisting works?](#120-how-hoisting-works)
+- [121. Microtasks vs Macrotasks](#121-microtasks-vs-macrotasks)
+- [122. How garbage collection works?](#122-how-garbage-collection-works)
+- [123. What causes memory leaks?](#123-what-causes-memory-leaks)
+- [124. How ‘this’ behaves?](#124-how-this-behaves)
+- [125. What are closures?](#125-what-are-closures)
 
 ### 🔷 TypeScript
 
-- [119. What are generics types?](#119-what-are-generics-types)
-- [120. Interface vs Type](#120-interface-vs-type)
+- [126. What are generics types?](#126-what-are-generics-types)
+- [127. Interface vs Type](#127-interface-vs-type)
 
 ### ⚡ Performance & Web Vitals
 
-- [122. What are Web Vitals (LCP, CLS, INP)?](#122-what-are-web-vitals-lcp-cls-inp)
-- [123. How do you reduce Time To Interactive (TTI)?](#123-how-do-you-reduce-time-to-interactive-tti)
-- [124. Code Splitting (Lazy Loading)](#124-code-splitting-lazy-loading)
-- [125. How do images impact performance? How do images impact performance?](#125-how-do-images-impact-performance-how-do-images-impact-performance)
+- [128. What are Web Vitals (LCP, CLS, INP)?](#128-what-are-web-vitals-lcp-cls-inp)
+- [129. How do you reduce Time To Interactive (TTI)?](#129-how-do-you-reduce-time-to-interactive-tti)
+- [130. Code Splitting (Lazy Loading)](#130-code-splitting-lazy-loading)
+- [131. How do images impact performance? How do images impact performance?](#131-how-do-images-impact-performance-how-do-images-impact-performance)
 
 ### ♿ Accessibility
 
-- [134. What is WCAG?](#134-what-is-wcag)
+- [132. What is WCAG?](#132-what-is-wcag)
 
 ### 🔧 Build Tools & Bundlers
 
-- [135. How do bundlers work?](#135-how-do-bundlers-work)
-- [136. Vite vs Webpack vs Rollup](#136-vite-vs-webpack-vs-rollup)
-- [137. What does Babel do?](#137-what-does-babel-do)
-- [138. How does Hot Module Replacement (HMR) work?](#138-how-does-hot-module-replacement-hmr-work)
-- [139. What is a Monorepo?](#139-what-is-a-monorepo)
+- [133. How do bundlers work?](#133-how-do-bundlers-work)
+- [134. Vite vs Webpack vs Rollup](#134-vite-vs-webpack-vs-rollup)
+- [135. What does Babel do?](#135-what-does-babel-do)
+- [136. How does Hot Module Replacement (HMR) work?](#136-how-does-hot-module-replacement-hmr-work)
+- [137. What is a Monorepo?](#137-what-is-a-monorepo)
 
 ### 🧪 Testing
 
-- [140. What is the Test Pyramid?](#140-what-is-the-test-pyramid)
-- [141. Unit vs Integration vs E2E](#141-unit-vs-integration-vs-e2e)
-- [142. What is mock in testing ?](#142-what-is-mock-in-testing)
-- [143. What should NOT be tested?](#143-what-should-not-be-tested)
+- [138. What is the Test Pyramid?](#138-what-is-the-test-pyramid)
+- [139. Unit vs Integration vs E2E](#139-unit-vs-integration-vs-e2e)
+- [140. What is mock in testing ?](#140-what-is-mock-in-testing)
+- [141. What should NOT be tested?](#141-what-should-not-be-tested)
 
 ### 📐 Architecture & Design Patterns
 
-- [144. What is Component-Driven Development (CDD)?](#144-what-is-component-driven-development-cdd)
-- [145. What is Atomic Design?](#145-what-is-atomic-design)
-- [146. What are Micro-frontends?](#146-what-are-micro-frontends)
-- [147. What is Semantic versioning (SemVer) ?](#147-what-is-semantic-versioning-semver)
+- [142. What is Component-Driven Development (CDD)?](#142-what-is-component-driven-development-cdd)
+- [143. What is Atomic Design?](#143-what-is-atomic-design)
+- [144. What are Micro-frontends?](#144-what-are-micro-frontends)
+- [145. What is Semantic versioning (SemVer) ?](#145-what-is-semantic-versioning-semver)
 
 ---
 
@@ -259,6 +259,7 @@ Key Characteristics:
 ## **2. What is DNS?**
 
 DNS is a **hierarchical and distributed naming system** that translates domain names into IP addresses. When you type a domain name like  into your browser, DNS ensures that the request reaches the correct server by resolving the domain to its corresponding .
+
 Without DNS, we’d have to remember the numerical IP address of every website we want to visit, which is highly impractical. DNS simplifies the process by allowing us to use user-friendly names while still maintaining the performance and scalability required for modern internet operations.
 
 
@@ -271,19 +272,25 @@ Without DNS, we’d have to remember the numerical IP address of every website w
 
 ![image](./images/image19.png)
 
-- **User Input**: You enter a website address (for example, www.geeksforgeeks.org) into your web browser.
-- **Local Cache Check**: Your browser first checks its local cache to see if it has recently looked up the domain. If it finds the corresponding IP address, it uses that directly without querying external servers.
-- **DNS Resolver Query**: If the IP address isn’t in the local cache, your computer sends a request to a DNS resolver. The resolver is typically provided by your Internet Service Provider (ISP) or your network settings.
-- **Root DNS Server**: The resolver sends the request to a root . The root server doesn’t know the exact IP address for www.geeksforgeeks.org but knows which Top-Level Domain (TLD) server to query based on the domain’s extension (e.g., .org).
-- **TLD Server**: The TLD server for .org directs the resolver to the authoritative DNS server for geeksforgeeks.org.
-- **Authoritative DNS Server**: This server holds the actual DNS records for geeksforgeeks.org, including the IP address of the website’s server. It sends this IP address back to the resolver.
-- **Final Response**: The DNS resolver sends the IP address to your computer, allowing it to connect to the website’s server and load the page.
+1. **User Input**: You enter a website address (for example, www.geeksforgeeks.org) into your web browser.
+
+2. **Local Cache Check**: Your browser first checks its local cache to see if it has recently looked up the domain. If it finds the corresponding IP address, it uses that directly without querying external servers.
+
+3. **DNS Resolver Query**: If the IP address isn’t in the local cache, your computer sends a request to a DNS resolver. The resolver is typically provided by your Internet Service Provider (ISP) or your network settings.
+
+4. **Root DNS Server**: The resolver sends the request to a root . The root server doesn’t know the exact IP address for www.geeksforgeeks.org but knows which Top-Level Domain (TLD) server to query based on the domain’s extension (e.g., .org).
+
+5. **TLD Server**: The TLD server for .org directs the resolver to the authoritative DNS server for geeksforgeeks.org.
+
+6. **Authoritative DNS Server**: This server holds the actual DNS records for geeksforgeeks.org, including the IP address of the website’s server. It sends this IP address back to the resolver.
+
+7. **Final Response**: The DNS resolver sends the IP address to your computer, allowing it to connect to the website’s server and load the page.
 
 
 ---
 
 
-## **5. What is the difference between HTTP and HTTPS?**
+## **4. What is the difference between HTTP and HTTPS?**
 
 
 | HTTP | HTTPS |
@@ -300,17 +307,18 @@ Without DNS, we’d have to remember the numerical IP address of every website w
 ---
 
 
-## **6. What is CORS, and how do you handle it in a web application?**
+## **5. What is CORS, and how do you handle it in a web application?**
 
 **CORS** (Cross-Origin Resource Sharing) controls access to resources from a different origin (domain, protocol, or port).
-**Handling CORS**:
+
+**Handling CORS**:  
 **Backend**: Set headers to allow specific origins.
 
 
 ---
 
 
-## **126. How does HTTP work?**
+## **6. How does HTTP work?**
 
 HTTP is a request-response protocol where the client sends a request to the server, and the server responds with data.
 
@@ -323,18 +331,19 @@ HTTP is a request-response protocol where the client sends a request to the serv
 ---
 
 
-## **127. HTTP/1.1 vs HTTP/2 vs HTTP/3**
+## **7. HTTP/1.1 vs HTTP/2 vs HTTP/3**
 
 
-**HTTP/1.1**
+**HTTP/1.1**  
+
 One request at a time per connection (mostly)
 
 Request → Response → Request → Response
 
-**🔴 Problem: Head-of-Line Blocking**
-Request 1 (slow)
-Request 2 (waiting…)
-Request 3 (waiting…)
+**🔴 Problem: Head-of-Line Blocking**  
+Request 1 (slow)  
+Request 2 (waiting…)  
+Request 3 (waiting…)  
 👉 Everything waits ❌
 
 **🔧 Workaround (used in old days)**
@@ -346,13 +355,14 @@ Request 3 (waiting…)
 - Too many connections 
 - Inefficient 
 
-**HTTP/2**
+**HTTP/2**  
+
 Multiple requests over **one connection**
 
-[Req1 Req2 Req3]
-             ↓
-Shared connection (TCP)
-             ↓
+[Req1 Req2 Req3]  
+             ↓  
+Shared connection (TCP)  
+             ↓  
 If one packet lost → ALL wait ❌
 
 **✅ Benefits**
@@ -360,29 +370,31 @@ If one packet lost → ALL wait ❌
 - No need for multiple connections 
 - Efficient 
 
-**🔥 Other Features**
-**🔹 1. Binary Protocol**
+**🔥 Other Features**  
+
+**🔹 1. Binary Protocol**  
 👉 More efficient than text-based HTTP/1.1
 
-**🔹 2. Header Compression (HPACK)**
+**🔹 2. Header Compression (HPACK)**  
 👉 Reduces repeated headers
 
-**🔹 3. Server Push (less used now)**
+**🔹 3. Server Push (less used now)**  
 👉 Server can send resources before request
 
 
 
 
-**⚠️ Still has a problem**
-👉 Uses **TCP**
+**⚠️ Still has a problem**  
+👉 Uses **TCP**  
 👉 TCP still has **Head-of-Line blocking at transport level**
 
-**HTTP/3**
-HTTP/3 allows each request to travel independently, so one slow request doesn’t block others.
+**HTTP/3**  
+
+HTTP/3 allows each request to travel independently, so one slow request doesn’t block others.     
 **Uses QUIC (UDP)**  👉 No TCP → no transport-level blocking
 
-[Req1] → independent stream
-[Req2] → independent stream
+[Req1] → independent stream  
+[Req2] → independent stream  
 [Req3] → independent stream
 
 If Req2 fails:
@@ -390,17 +402,20 @@ If Req2 fails:
 
 **✅ Benefits**
 
-**🔹 1. No Head-of-Line Blocking**
-👉 One slow request ≠ affects others
-**🔹 2. Faster Connection Setup**
-👉 0-RTT (zero round-trip time)
-**🔹 3. Better for Mobile Networks**
-👉 Handles packet loss better 📶
-**🔹 4. Built-in Encryption**
-👉 Always HTTPS 🔒
-**🧠 Think of this like a food delivery system 🍔**
+**🔹 1. No Head-of-Line Blocking**  
+👉 One slow request ≠ affects others  
 
-**🐢 HTTP/1.1 (Single Delivery Guy)**
+**🔹 2. Faster Connection Setup**  
+👉 0-RTT (zero round-trip time)
+
+**🔹 3. Better for Mobile Networks**  
+👉 Handles packet loss better 📶
+
+**🔹 4. Built-in Encryption**  
+👉 Always HTTPS 🔒
+**🧠 Think of this like a food delivery system 🍔**  
+<br></br>
+**🐢 HTTP/1.1 (Single Delivery Guy)**  
 You order 3 items:
 
 🍔 Burger
@@ -409,16 +424,17 @@ You order 3 items:
 
 Delivery flow:
 
-Order Burger → wait → delivered
-Order Fries → wait → delivered
-Order Drink → wait → delivered
+Order Burger → wait → delivered  
+Order Fries → wait → delivered  
+Order Drink → wait → delivered  
 👉 Only **one order at a time**
 
-**❌ Problem**
-Burger is late → EVERYTHING is delayed 😤
+**❌ Problem**  
+Burger is late → EVERYTHING is delayed 😤  
 👉 This is **Head-of-Line Blocking**
 
-**⚡ HTTP/2 (One Delivery Guy, Multiple Bags)**
+<br></br>
+**⚡ HTTP/2 (One Delivery Guy, Multiple Bags)**  
 You order 3 items:
 
 🍔 Burger
@@ -429,14 +445,15 @@ Delivery flow:
 
 All packed together → same trip → arrive together
 
-**🧠 Better**
+**🧠 Better**   
 👉 Multiple items handled **in parallel**
 
-**⚠️ Still a problem**
-If road is blocked 🚧 → whole delivery is delayed
+**⚠️ Still a problem**  
+If road is blocked 🚧 → whole delivery is delayed  
 👉 Because still using **TCP (single path)**
 
-**🚀 HTTP/3 (Multiple Delivery Bikes)**
+<br></br>
+**🚀 HTTP/3 (Multiple Delivery Bikes)**  
 You order 3 items:
 
 🍔 Burger → Bike 1
@@ -444,18 +461,14 @@ You order 3 items:
 🥤 Drink → Bike 3
 
 **🎯 Delivery flow**
-Bike 1 → arrives
-Bike 2 → stuck in traffic 🚧
-Bike 3 → arrives
-👉 You still get:
-Burger ✅
-Drink ✅
-Fries later
-
-
-
-
-
+Bike 1 → arrives  
+Bike 2 → stuck in traffic 🚧  
+Bike 3 → arrives  
+👉 You still get:  
+Burger ✅  
+Drink ✅  
+Fries later  
+<br></br>
 
 | Feature | HTTP/1.1 | HTTP/2 | HTTP/3 |
 | --- | --- | --- | --- |
@@ -465,7 +478,7 @@ Fries later
 | Speed | Slow | Fast ⚡ | Faster ⚡⚡ |
 | Encryption | Optional | Optional | Mandatory 🔒 |
 
-
+<br></br>
 
 
 ---
@@ -474,7 +487,7 @@ Fries later
 # 🟢 Node.js / Backend
 
 
-## **7. Explain event loop in Node.js.**
+## **8. Explain event loop in Node.js.**
 
 **Short Answer (Best for interviews)**
 Node.js uses a single-threaded, non-blocking architecture. The event loop is what allows Node.js to handle multiple operations asynchronously without creating multiple threads.
