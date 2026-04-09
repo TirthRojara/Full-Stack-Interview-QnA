@@ -464,6 +464,7 @@ You order 3 items:
 Bike 1 → arrives  
 Bike 2 → stuck in traffic 🚧  
 Bike 3 → arrives  
+
 👉 You still get:  
 Burger ✅  
 Drink ✅  
@@ -489,32 +490,40 @@ Fries later
 
 ## **8. Explain event loop in Node.js.**
 
-**Short Answer (Best for interviews)**
-Node.js uses a single-threaded, non-blocking architecture. The event loop is what allows Node.js to handle multiple operations asynchronously without creating multiple threads.
+**Short Answer (Best for interviews)**  
+Node.js uses a single-threaded, non-blocking architecture. The event loop is what allows Node.js to handle multiple operations asynchronously without creating multiple threads.  
+
 It continuously checks the call stack and callback queue. If the call stack is empty, it takes tasks from the queue and executes them.
+
 JavaScript is single-threaded, but asynchronous behavior is handled using the event loop, callbacks, and Promises.
+
 **Event loop is the core mechanism that makes Node.js non-blocking and scalable.**
 
-**Slightly Detailed Answer (Impress interviewer)**
+**Slightly Detailed Answer (Impress interviewer)**  
 Node.js runs on a single thread, so it can execute only one task at a time. But it doesn’t block execution for I/O operations like file reading, API calls, or database queries.
-Instead, it uses the event loop. When an async operation is triggered, Node.js sends it to the system (like Web APIs or libuv thread pool). Once the operation is complete, its callback is placed in a queue.
+
+Instead, it uses the event loop. When an async operation is triggered, Node.js sends it to the system (like Web APIs or libuv thread pool). Once the operation is complete, its callback is placed in a queue.  
+
 The event loop keeps checking:
 - If the call stack is empty 
 - Then it pushes tasks from the queue to the stack 
-This is how Node.js handles thousands of concurrent requests efficiently.
-**Simple Example (Always good to add)**
-console.log("Start");
 
-setTimeout(() => {
-  console.log("Timeout");
-}, 0);
+This is how Node.js handles thousands of concurrent requests efficiently.
+
+**Simple Example (Always good to add)**
+
+console.log("Start");  
+
+setTimeout(() => {  
+  console.log("Timeout");  
+}, 0);  
 
 console.log("End");
 
-**Output:**
-Start
-End
-Timeout
+**Output:**  
+Start  
+End  
+Timeout  
 
 ![image](./images/image9.png)
 
@@ -523,10 +532,12 @@ Timeout
 ---
 
 
-## **8. Explain the meaning of multithreading?**
+## **9. Explain the meaning of multithreading?**
 
 Multithreading is a concept where multiple threads execute tasks simultaneously within a single process, allowing better performance and efficient use of CPU.
+
 Multithreading allows concurrent execution of tasks, improving performance and responsiveness of applications.
+
 Ex- Like a restaurant kitchen where multiple chefs (threads) work on different dishes at the same time instead of one chef doing everything.
 
 
@@ -534,16 +545,17 @@ Ex- Like a restaurant kitchen where multiple chefs (threads) work on different d
 ---
 
 
-## **9. How Node.js Handles Concurrency (Without Multithreading)**
+## **10. How Node.js Handles Concurrency (Without Multithreading)**
 
 Node.js is single-threaded, but it handles concurrency using the event loop and background workers (libuv).
+
 Node.js achieves concurrency using the event loop and non-blocking I/O operations instead of creating multiple threads for each request.
 
 
 ---
 
 
-## **10. Event Loop vs Multithreading**
+## **11. Event Loop vs Multithreading**
 
 Multithreading runs tasks in parallel using multiple threads, while the event loop handles concurrency in a single thread using non-blocking operations.
 
@@ -551,31 +563,33 @@ Multithreading runs tasks in parallel using multiple threads, while the event lo
 ---
 
 
-## **11. What is callback function.**
+## **12. What is callback function.**
 
 A callback function is a function that is passed as an argument to another function.
+
 In real applications, we often use two callbacks — one for success and one for error.
 
+```javascript
 function sayBye() {
-  console.log("Goodbye!");
+  console.log("Goodbye!");
 }
+
 function greet(name, callback) {
-  console.log("Hello " + name);
-  callback(); // calling the callback function
+  console.log("Hello " + name);
+  callback(); // calling the callback function
 }
 
 greet("Tirth", sayBye);
+```
 
-**Output**
-Hello Tirth
+**Output**  
+Hello Tirth  
 Goodbye!
 
-**Callback hell is a situation where multiple callbacks are nested inside each other, making the code hard to read, maintain, and debug.**
+**Callback hell is a situation where multiple callbacks are nested inside each other, making the code hard to read, maintain, and debug.**  
 
 
-
-
-
+```javascript
 function successCb(message, data) {
     console.log("✅ SUCCESS:", message);
     if (data) console.log("Data:", data);
@@ -594,23 +608,23 @@ function fetchProjects(onSuccess, onError) {
 }
 
 fetchProjects(successCb, errorCb);
-
+```
 
 
 ---
 
 
-## **12. What is Promise and explain its states?**
+## **13. What is Promise and explain its states?**
 
 A Promise in JavaScript is an object that represents the result of an asynchronous operation
 - **Pending:** In its initial state, neither fulfilled nor rejected.
 - **Fulfilled:** Indicating that the operation was successful.
-- **Rejected:** Indicating that the operation failed.
-doTask1()
-.then(() => doTask2())
-.then(() => doTask3())
-.then(() => console.log("Done"))
-.catch((err) => console.log(err));
+- **Rejected:** Indicating that the operation failed.  
+doTask1()  
+.then(() => doTask2())  
+.then(() => doTask3())  
+.then(() => console.log("Done"))  
+.catch((err) => console.log(err));  
 
 ```js
 const myPromise = new Promise((resolve, reject) => {
@@ -637,95 +651,98 @@ myPromise
 ---
 
 
-## **13. What is Async/Await?**
+## **14. What is Async/Await?**
 
-Async/await is built on top of Promises and helps write cleaner, more readable asynchronous code.
-We can only use await inside an async function.
-async → makes a function return a Promise 
+Async/await is built on top of Promises and helps write cleaner, more readable asynchronous code.  
+We can only use await inside an async function.  
+async → makes a function return a Promise  
 await → pauses the execution until the Promise is resolved
 
 
 ---
 
 
-## **14. Explain the Restful API**
+## **15. Explain the Restful API**
 
-REST API stands for REpresentational State Transfer API
-API (Application Programming Interface)
+REST API stands for REpresentational State Transfer API  
+API (Application Programming Interface)  
 
-It is a type of API that allows communication between different systems over the internet.
-REST APIs work by sending requests and receiving responses, typically in JSON format, between the client and server.
-REST APIs use **HTTP methods** (such as GET, POST, PUT, DELETE) to define actions that can be performed on resources.
-These methods align with **CRUD** operations, which are used to manipulate resources over the web.
-
-
----
-
-
-## **15. HTTP Methods**
-
-  GET → Read 
-  POST → Create 
-  PUT → Update (full) 
-  PATCH → Update (partial) 
-  DELETE → Remove
-
-  HEAD → Same as GET but returns only headers, no body.
-  OPTIONS → Tells which HTTP methods are allowed on a resource. Used in **CORS**
-  CONNECT → Used to establish a tunnel (mainly for HTTPS).
-  TRACE → Used for debugging — returns the request back.
+It is a type of API that allows communication between different systems over the internet.  
+REST APIs work by sending requests and receiving responses, typically in JSON format, between the client and server.  
+REST APIs use **HTTP methods** (such as GET, POST, PUT, DELETE) to define actions that can be performed on resources.  
+These methods align with **CRUD** operations, which are used to manipulate resources over the web.  
 
 
 ---
 
 
-## **16. What is Authentication and Authorization?**
+## **16. HTTP Methods**
 
-Authentication is the process of verifying who the user is (verifying user identity)
-Authorization is the process of determining what the user is allowed to do.
-Authentication: Who are you?
-Authorization: What are you allowed to do?
+  GET → Read   
+  POST → Create   
+  PUT → Update (full)   
+  PATCH → Update (partial)   
+  DELETE → Remove  
+
+  HEAD → Same as GET but returns only headers, no body.  
+  OPTIONS → Tells which HTTP methods are allowed on a resource. Used in **CORS**  
+  CONNECT → Used to establish a tunnel (mainly for HTTPS).  
+  TRACE → Used for debugging — returns the request back.  
 
 
 ---
 
 
-## **22. What is the purpose of package.json in a Node.js project?**
+## **17. What is Authentication and Authorization?**
+
+**Authentication** is the process of verifying who the user is (verifying user identity)  
+**Authorization** is the process of determining what the user is allowed to do.  
+**Authentication**: Who are you?  
+**Authorization**: What are you allowed to do?  
 
 
-It has multiple uses.
-It defines the project's metadata, like its name, version, and description.
-It also lists the dependencies and devDependencies required to run or develop the application
+---
+
+
+## **18. What is the purpose of package.json in a Node.js project?**
+
+
+It has multiple uses.  
+It defines the project's metadata, like its name, version, and description.  
+It also lists the dependencies and devDependencies required to run or develop the application  
 as well as scripts for tasks like building, testing, or running the app
 
 
 ---
 
 
-## **23. Describe the concept of MVC architecture**
+## **19. Describe the concept of MVC architecture**
 
-🔹 Model (Data Layer)
-👉 “Handles data and business logic.”
-- Interacts with database 
-- Manages data 
+🔹 **Model (Data Layer)**  
+👉 “Handles data and business logic.”  
+- Interacts with database   
+- Manages data   
+
 Example: User schema, DB queries
 
-🔹 View (UI Layer)
-👉 “Responsible for displaying data to the user.”
-- UI / frontend 
-- Shows data 
+🔹 **View (UI Layer)**  
+👉 “Responsible for displaying data to the user.”  
+- UI / frontend   
+- Shows data   
+
 Example: HTML, React UI
 
-🔹 Controller (Logic Layer)
-👉 “Acts as a bridge between Model and View.”
-- Handles requests 
-- Processes data 
-- Sends response
-🎯 Key Benefits
-- Clean code structure 
-- Easy to maintain 
-- Scalable 
-- Separation of concerns
+🔹 **Controller (Logic Layer)**  
+👉 “Acts as a bridge between Model and View.”  
+- Handles requests   
+- Processes data   
+- Sends response  
+
+🎯 Key Benefits  
+- Clean code structure   
+- Easy to maintain   
+- Scalable   
+- Separation of concerns  
 
 In modern apps like MERN, React handles the View, Node/Express acts as Controller, and MongoDB is the Model layer.
 
@@ -735,17 +752,17 @@ Flow –  User →  View → Controller → Model → Controller → View → Us
 ---
 
 
-## **24. WebSockets and HTTP**
+## **20. WebSockets and HTTP**
 
 
-**🔹 HTTP**
+**🔹 HTTP**  
 HTTP is a request-response protocol where the client requests data and the server responds
 
 - Request → Response cycle 
 - Connection closes after response 
 - Client must request again for new data
 
-**🔹WebSocket**
+**🔹WebSocket**  
 WebSocket is a full-duplex protocol that allows real-time, two-way communication between client and server.
 
 - One-time connection setup 
@@ -755,34 +772,34 @@ WebSocket is a full-duplex protocol that allows real-time, two-way communication
 ---
 
 
-## **25. Short Polling & Long Polling & WebSockets**
+## **21. Short Polling & Long Polling & WebSockets**
 
-Polling and WebSockets are techniques used for client-server communication.
-Polling repeatedly asks the server for updates
-WebSockets maintain a persistent connection for real-time communication.
+Polling and WebSockets are techniques used for client-server communication.  
+Polling repeatedly asks the server for updates  
+WebSockets maintain a persistent connection for real-time communication.  
 
-🔹 **Short Polling**
-In short polling, the client continuously sends requests to the server at regular intervals to check for updates.
+🔹 **Short Polling**  
+In short polling, the client continuously sends requests to the server at regular intervals to check for updates.  
 
-**💡** How it works
-- Client → request every few seconds 
-- Server → responds (with or without new data)
+**💡** How it works  
+- Client → request every few seconds   
+- Server → responds (with or without new data)  
 
-**📌** Example:  Checking notifications every 5 seconds
+**📌** Example:  Checking notifications every 5 seconds  
 
-**⚠️** Problem
-- Too many unnecessary requests 
-- Wastes bandwidth 
+**⚠️** Problem  
+- Too many unnecessary requests   
+- Wastes bandwidth   
 
-🔹 **Long Polling**
-In long polling, the client sends a request and the server holds it until new data is available, then responds.
+🔹 **Long Polling**  
+In long polling, the client sends a request and the server holds it until new data is available, then responds.  
 
-📌 Example
+📌 Example  
 👉 Chat apps (before WebSockets)
 
-💡 How it works
-- Client sends request 
-- Server waits (does NOT respond immediately) 
+💡 How it works  
+- Client sends request   
+- Server waits (does NOT respond immediately)   
 - When data is ready → sends response 
 - Client sends new request again 
 
@@ -790,28 +807,29 @@ In long polling, the client sends a request and the server holds it until new da
 - Still creates repeated connections 
 - Higher latency than WebSockets
 
-🔹**WebSocket**
+🔹**WebSocket**     
 WebSocket creates a persistent connection where both client and server can send data anytime.
 
-💡 How it works
-- One-time connection 
-- Continuous 2-way communication 
+💡 How it works  
+- One-time connection   
+- Continuous 2-way communication   
 
-📌 Example
+📌 Example  
 👉 WhatsApp, live trading apps
 
 
 ---
 
 
-## **26. What is SSE?**
+## **22. What is SSE?**
 
 SSE (Server-Sent Events) allows the server to send data to the client continuously over a single HTTP connection.
 
-SSE is like an improved version of long polling
+SSE is like an improved version of long polling  
 👉 SSE = **Server → Client only**
 - Server can push updates 
-- Client cannot send data back through same connection 
+- Client cannot send data back through same connection   
+
 **⚙️ How it works**
 - Client makes HTTP request 
 - Server keeps connection open 
@@ -821,7 +839,7 @@ SSE is like an improved version of long polling
 ---
 
 
-## **27. What is web hooks**
+## **23. What is web hooks**
 
 A webhook is a way for one application to send real-time data to another application automatically when a specific event occurs.
 
@@ -843,30 +861,33 @@ Webhooks should be secured using signatures or secret keys to verify that the re
 ---
 
 
-## **28. Explain the crypto module in Node.js**
+## **24. Explain the crypto module in Node.js**
 
 The crypto module is used for encrypting, decrypting, or hashing any type of data.
+
 The main use case of the crypto module is to convert the plain readable text to an encrypted format and decrypt it when required.
 
 
 ---
 
 
-## **29. What is .body-parser in Node.js?**
+## **25. What is .body-parser in Node.js?**
 
 body-parser is a middleware in Node.js (Express) used to parse incoming request bodies so we can access data sent by the client in req.body.
 
-By default → Express **cannot read it directly** ❌
+By default → Express **cannot read it directly** ❌  
 body-parser → converts it into usable format ✅
 
 
 ---
 
 
-## **30. What is Middleware in Express?**
+## **26. What is Middleware in Express?**
 
 Middleware is a function that runs between the request and the response cycle, and it can modify the request, response, or end the request.
+
 👉 Flow: **Request → Middleware → Route Handler → Response**
+
 Middleware functions process requests before they reach the route handler and can modify request/response or control the flow.
 
 Middleware can:
@@ -881,31 +902,42 @@ Middleware can:
 ---
 
 
-## **31. req.params  vs  req.query  vs  req.body**
+## **27. req.params  vs  req.query  vs  req.body**
 
 
-**🔹 req.params**
-👉 Used to get data from **URL path** variables
-**📌** Example
+#### **🔹 req.params** 
+
+👉 Used to get data from **URL path** variables  
+**📌** Example  
+```js
      app.get("/user/:id", (req, res) => {
          console.log(req.params.id);
      });
+```
 👉 URL:  /user/101              👉 Output:  101
 
-**🔹 req.query**
-👉 Used to get data from **query string** (URL after ?).
-**📌** Example
+
+#### **🔹 req.query**  
+
+👉 Used to get data from **query string** (URL after ?).  
+**📌** Example  
+```js
      app.get("/search", (req, res) => {
          console.log(req.query.name);
      });
+```
 👉 URL:  /search?name=tirth          👉 Output:  tirth
 
-**🔹 req.body**
-👉 Used to get data sent in **request body** (POST/PUT/PATCH).
-📌 Example
+
+#### **🔹 req.body**  
+
+👉 Used to get data sent in **request body** (POST/PUT/PATCH).  
+**📌** Example  
+```js
      app.post("/user", (req, res) => {
          console.log(req.body.name);
      });
+```
 👉 Body:  { "name": "Tirth" }        👉 Output:  Tirth
 
 
