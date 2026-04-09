@@ -48,44 +48,45 @@
 - [30. What is Indexing in Database?](#30-what-is-indexing-in-database)
 - [31. What are ACID Properties?](#31-what-are-acid-properties)
 - [32. SQL vs NoSQL](#32-sql-vs-nosql)
+- [33. Replication and Sharding](#33-replication-and-sharding)
 
 ### 🐳 DevOps (Docker, CI/CD, Nginx)
 
-- [33. Packages manager in your Node.js](#33-packages-manager-in-your-nodejs)
-- [34. Explain the role of Docker in development and deployment](#34-explain-the-role-of-docker-in-development-and-deployment)
-- [35. What is Docker Compose?](#35-what-is-docker-compose)
-- [36. What is multi stage docker file ?](#36-what-is-multi-stage-docker-file)
-- [37. What is CI/CD ?](#37-what-is-cicd)
+- [34. Packages manager in your Node.js](#34-packages-manager-in-your-nodejs)
+- [35. Explain the role of Docker in development and deployment](#35-explain-the-role-of-docker-in-development-and-deployment)
+- [36. What is Docker Compose?](#36-what-is-docker-compose)
+- [37. What is multi stage docker file ?](#37-what-is-multi-stage-docker-file)
+- [38. What is CI/CD ?](#38-what-is-cicd)
 
 ### 🔐 Security (JWT, Encryption, Hashing)
 
-- [38. Encryption, Decryption and Hashing](#38-encryption-decryption-and-hashing)
-- [39. What is Plaintext and Ciphertext?](#39-what-is-plaintext-and-ciphertext)
-- [40. What is a Key in Encryption?](#40-what-is-a-key-in-encryption)
-- [41. What is Symmetric Encryption?](#41-what-is-symmetric-encryption)
-- [42. What is Asymmetric Encryption?](#42-what-is-asymmetric-encryption)
-- [43. Examples of encryption algorithms (AES, RSA)?](#43-examples-of-encryption-algorithms-aes-rsa)
-- [44. Examples of hashing algorithms (MD5, SHA)?](#44-examples-of-hashing-algorithms-md5-sha)
-- [45. Why is Hashing Used for Passwords?](#45-why-is-hashing-used-for-passwords)
-- [46. What is Salting in Hashing?](#46-what-is-salting-in-hashing)
-- [47. What is a Hash Collision?](#47-what-is-a-hash-collision)
-- [48. What is a Brute Force Attack?](#48-what-is-a-brute-force-attack)
-- [49. What is a Rainbow Table Attack?](#49-what-is-a-rainbow-table-attack)
-- [50. How Salting Prevents Rainbow Table Attacks?](#50-how-salting-prevents-rainbow-table-attacks)
-- [51. What is Public Key and Private Key?](#51-what-is-public-key-and-private-key)
-- [52. What is SSL / TLS ?](#52-what-is-ssl-tls)
-- [53. What is End-to-End Encryption (E2EE) ?](#53-what-is-end-to-end-encryption-e2ee)
-- [54. What is Key Exchange (Diffie-Hellman)?](#54-what-is-key-exchange-diffie-hellman)
-- [55. How do you store passwords securely in a database?](#55-how-do-you-store-passwords-securely-in-a-database)
-- [56. How to implement password hashing in Node.js?](#56-how-to-implement-password-hashing-in-nodejs)
-- [57. How does JWT signing work?](#57-how-does-jwt-signing-work)
-- [58. How do you secure API data?](#58-how-do-you-secure-api-data)
-- [59. What is OAuth?](#59-what-is-oauth)
-- [60. What is XSS and how to prevent it?](#60-what-is-xss-and-how-to-prevent-it)
-- [61. What is CSRF?](#61-what-is-csrf)
-- [62.  How does Content Security Policy (CSP) work?](#62-how-does-content-security-policy-csp-work)
-- [63. What is Clickjacking?](#63-what-is-clickjacking)
-- [64. What are common frontend attack vectors?](#64-what-are-common-frontend-attack-vectors)
+- [39. Encryption, Decryption and Hashing](#39-encryption-decryption-and-hashing)
+- [40. What is Plaintext and Ciphertext?](#40-what-is-plaintext-and-ciphertext)
+- [41. What is a Key in Encryption?](#41-what-is-a-key-in-encryption)
+- [42. What is Symmetric Encryption?](#42-what-is-symmetric-encryption)
+- [43. What is Asymmetric Encryption?](#43-what-is-asymmetric-encryption)
+- [44. Examples of encryption algorithms (AES, RSA)?](#44-examples-of-encryption-algorithms-aes-rsa)
+- [45. Examples of hashing algorithms (MD5, SHA)?](#45-examples-of-hashing-algorithms-md5-sha)
+- [46. Why is Hashing Used for Passwords?](#46-why-is-hashing-used-for-passwords)
+- [47. What is Salting in Hashing?](#47-what-is-salting-in-hashing)
+- [48. What is a Hash Collision?](#48-what-is-a-hash-collision)
+- [49. What is a Brute Force Attack?](#49-what-is-a-brute-force-attack)
+- [50. What is a Rainbow Table Attack?](#50-what-is-a-rainbow-table-attack)
+- [51. How Salting Prevents Rainbow Table Attacks?](#51-how-salting-prevents-rainbow-table-attacks)
+- [52. What is Public Key and Private Key?](#52-what-is-public-key-and-private-key)
+- [53. What is SSL / TLS ?](#53-what-is-ssl-tls)
+- [54. What is End-to-End Encryption (E2EE) ?](#54-what-is-end-to-end-encryption-e2ee)
+- [55. What is Key Exchange (Diffie-Hellman)?](#55-what-is-key-exchange-diffie-hellman)
+- [56. How do you store passwords securely in a database?](#56-how-do-you-store-passwords-securely-in-a-database)
+- [57. How to implement password hashing in Node.js?](#57-how-to-implement-password-hashing-in-nodejs)
+- [58. How does JWT signing work?](#58-how-does-jwt-signing-work)
+- [59. How do you secure API data?](#59-how-do-you-secure-api-data)
+- [60. What is OAuth?](#60-what-is-oauth)
+- [61. What is XSS and how to prevent it?](#61-what-is-xss-and-how-to-prevent-it)
+- [62. What is CSRF?](#62-what-is-csrf)
+- [63.  How does Content Security Policy (CSP) work?](#63-how-does-content-security-policy-csp-work)
+- [64. What is Clickjacking?](#64-what-is-clickjacking)
+- [65. What are common frontend attack vectors?](#65-what-are-common-frontend-attack-vectors)
 
 ### 🏗️ System Design (Caching, CDN, Scaling)
 
@@ -1148,7 +1149,7 @@ Once a transaction is committed, it will NOT be lost — even if the system cras
 ---
 
 
-## **21. SQL vs NoSQL**
+## **32. SQL vs NoSQL**
 
 
 | Feature | SQL | NoSQL |
@@ -1193,7 +1194,7 @@ Once a transaction is committed, it will NOT be lost — even if the system cras
       Instead of joining tables: You store related data together   
 
 
-## **22. Replication and Sharding**
+## **33. Replication and Sharding**
 
 **Replication (Copying Database)**  
 Replication = making copies of your database  
@@ -1243,36 +1244,40 @@ Shard 3 → Users 2001–3000
 # 🐳 DevOps (Docker, CI/CD, Nginx)
 <br>
 
-## **32. Packages manager in your Node.js**
+## **34. Packages manager in your Node.js**
 
 A package manager in a Node.js project is a tool used to install, manage, and maintain project dependencies.
-Package managers help manage dependencies, versions, and scripts in a Node.js project.
+
+Package managers help manage dependencies, versions, and scripts in a Node.js project.  
+
 Ex –  npm, Yarn, pnpm 
 
-**Dependencies** are required to run the app in production
+**Dependencies** are required to run the app in production  
 **DevDependencies** are only needed during development.
 
 
 ---
 
 
-## **33. Explain the role of Docker in development and deployment**
+## **35. Explain the role of Docker in development and deployment**
 
 Docker is a containerization tool that allows developers to package an application along with its dependencies into a container, ensuring it runs consistently across different environments.
 
 👉 **Docker solves the ‘it works on my machine’ problem.**
 - Same code 
 - Same dependencies 
-- Same environment 
+- Same environment   
+
 👉 Runs the same everywhere ✅
 
-**✅ Role in Development**
+**✅ Role in Development**  
+
 **🔹 1. Consistent Environment**
 - Same Node version, same DB 
 - No setup issues 
 
 
-**🔹 2. Easy Setup**
+**🔹 2. Easy Setup**  
 👉 Run app with one command:  **docker-compose up**
 
 **🔹 3. Isolation**
@@ -1283,8 +1288,9 @@ Docker is a containerization tool that allows developers to package an applicati
 - Everyone uses same environment 
 - No “works on my machine” issue
 
-**✅ Role in Deployment**
-**🔹 1. Easy Deployment**
+**✅ Role in Deployment**  
+
+**🔹 1. Easy Deployment**  
 👉 Build once, run anywhere
 
 **🔹 2. Scalability**
@@ -1297,29 +1303,27 @@ Docker is a containerization tool that allows developers to package an applicati
 **🔹 4. Cloud Friendly**
 - Works with AWS, Azure, etc.
 
-
-
 ---
 
-
-## **34. What is Docker Compose?**
+## **36. What is Docker Compose?**
 
 Docker Compose is a tool used to define and run multiple containers together using a single configuration file.
 
-👉 Instead of running containers one by one:
+👉 Instead of running containers one by one:  
 ❌ Backend    ❌ Database    ❌ Redis
 
-👉 You define everything in one file:
+👉 You define everything in one file:  
 ✅ Run all with **one command** :   **docker-compose up**
 
-**✅ Why We Use Docker Compose**
+**✅ Why We Use Docker Compose**    
+
 **🔹 1. Manage Multiple Services**
 - Backend (Node.js) 
 - Database (PostgreSQL / MongoDB) 
 - Redis 
 
-**🔹 2. Easy Setup**
-**docker-compose.yml**    => This file defines all services
+**🔹 2. Easy Setup**  
+**docker-compose.yml**    => This file defines all services  
 👉 One command:  **docker-compose up**
 
 **🔹 3. Networking Built-in**
@@ -1332,23 +1336,29 @@ Docker Compose is a tool used to define and run multiple containers together usi
 ---
 
 
-## **35. What is multi stage docker file ?**
+## **37. What is multi stage docker file ?**
 
 A multi-stage Dockerfile is a Dockerfile that uses multiple build stages to create a smaller and optimized final image by separating build and runtime environments.
+
 Multi-stage Dockerfiles help reduce image size and improve security by separating build and runtime environments.
 
 👉 Instead of putting everything in one image:
 - Stage 1 → Build app (install dev dependencies, compile) 
-- Stage 2 → Run app (only required files) 
+- Stage 2 → Run app (only required files)   
+
 👉 Final image = **clean + lightweight** ✅
 
 **✅ Why We Use Multi-Stage Dockerfile**
+
 **🔹 1. Smaller Image Size**
 - Removes unnecessary files (node_modules dev, build tools) 
+
 **🔹 2. Better Security**
 - No dev tools in production image 
+
 **🔹 3. Faster Deployment**
 - Smaller image → faster pull & run 
+
 **🔹 4. Clean Separation**
 - Build stage ≠ Runtime stage
 
@@ -1393,10 +1403,6 @@ CMD ["node", "dist/index.js"]
 ```
 
 
-
-
-
-
 **✅ Simple Dockerfile (Without Multi-Stage)**
 
 
@@ -1433,28 +1439,32 @@ CMD ["node", "dist/index.js"]
 ---
 
 
-## **36. What is CI/CD ?**
+## **38. What is CI/CD ?**
 
 CI/CD stands for Continuous Integration and Continuous Deployment/Delivery.
+
 It is a process that automates building, testing, and deploying applications.
+
 CI/CD automates the process of integrating, testing, and deploying code, making development faster and more reliable.
+
 CI/CD pipelines improve software quality and reduce manual work by automating the entire development lifecycle.
 
-Developer → Push code to GitHub
-→ GitHub Actions runs (build + test Docker image)
-→ Push image to Docker Hub / ECR
-→ SSH into EC2
-→ Pull latest image
+Developer → Push code to GitHub  
+→ GitHub Actions runs (build + test Docker image)  
+→ Push image to Docker Hub / ECR  
+→ SSH into EC2  
+→ Pull latest image  
 → Run container (deploy)
 
 
+<br><br>
 ---
 
 
 # 🔐 Security (JWT, Encryption, Hashing)
+<br><br>
 
-
-## **37. Encryption, Decryption and Hashing**
+## **39. Encryption, Decryption and Hashing**
 
 **Encryption** is the process of converting readable data (plain text) into unreadable data (cipher text) using a key to protect it.
 - Data becomes unreadable 
