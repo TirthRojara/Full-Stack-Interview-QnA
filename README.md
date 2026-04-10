@@ -39,7 +39,7 @@
 - [24. Explain the crypto module in Node.js](#24-explain-the-crypto-module-in-nodejs)
 - [25. What is .body-parser in Node.js?](#25-what-is-body-parser-in-nodejs)
 - [26. What is Middleware in Express?](#26-what-is-middleware-in-express)
-- [27. req.params  vs  req.query  vs  req.body](#27-reqparams-vs-reqquery-vs-reqbody)
+- [27. req.params vs req.query vs req.body](#27-reqparams-vs-reqquery-vs-reqbody)
 
 ### 🗄️ Database (SQL, NoSQL, ACID, Indexing)
 
@@ -207,7 +207,7 @@
 - [147. What is Component-Driven Development (CDD)?](#147-what-is-component-driven-development-cdd)
 - [148. What is Atomic Design?](#148-what-is-atomic-design)
 - [149. What are Micro-frontends?](#149-what-are-micro-frontends)
-- [150. What is Semantic versioning (SemVer) ?](#150-what-is-semantic-versioning-semver)
+- [150. What is Semantic versioning (SemVer)?](#150-what-is-semantic-versioning-semver)
 
 <br><br>
 ---
@@ -903,7 +903,7 @@ Middleware can:
 ---
 
 
-## **27. req.params  vs  req.query  vs  req.body**
+## **27. req.params vs req.query vs req.body**
 
 
 #### **🔹 req.params** 
@@ -4165,7 +4165,7 @@ In micro frontends, we usually have separate React applications (like auth, dash
 ---
 
 
-## **150. What is Semantic versioning (SemVer) ?**
+## **150. What is Semantic versioning (SemVer)?**
 
 MAJOR.MINOR.PATCH
 
