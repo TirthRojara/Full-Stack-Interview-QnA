@@ -90,23 +90,23 @@
 
 ### 🏗️ System Design (Caching, CDN, Scaling)
 
-- [65. What is redis ?](#65-what-is-redis)
-- [66. Use case of redis](#66-use-case-of-redis)
-- [67. Explain caching strategies](#67-explain-caching-strategies)
-- [68. What is Nginx ?](#68-what-is-nginx)
+- [66. What is redis ?](#66-what-is-redis)
+- [67. Use case of redis](#67-use-case-of-redis)
+- [68. Explain caching strategies](#68-explain-caching-strategies)
+- [69. What is Nginx ?](#69-what-is-nginx)
 
 ### 📡 API & Communication
 
-- [69. What is GraphQL](#69-what-is-graphql)
-- [70. What is Server-Sent Events (SSE)?](#70-what-is-server-sent-events-sse)
-- [71. SSE vs WebSocket](#71-sse-vs-websocket)
+- [70. What is GraphQL](#70-what-is-graphql)
+- [71. What is Server-Sent Events (SSE)?](#71-what-is-server-sent-events-sse)
+- [72. SSE vs WebSocket](#72-sse-vs-websocket)
 
 ### 🖥️ Browser / DOM / HTML / CSS
 
-- [72. What is DOM?](#72-what-is-dom)
-- [73. What is Virtual DOM?](#73-what-is-virtual-dom)
-- [74. What is HTML?](#74-what-is-html)
-- [75. What is CSS?](#75-what-is-css)
+- [73. What is DOM?](#73-what-is-dom)
+- [74. What is Virtual DOM?](#74-what-is-virtual-dom)
+- [75. What is HTML?](#75-what-is-html)
+- [76. What is CSS?](#76-what-is-css)
 
 ### ⚛️ React
 
@@ -1468,34 +1468,37 @@ Developer → Push code to GitHub
 
 **Encryption** is the process of converting readable data (plain text) into unreadable data (cipher text) using a key to protect it.
 - Data becomes unreadable 
-- Requires a **key** to access 
+- Requires a **key** to access  
+
 👉 Example: HTTPS, secure messages
 
 **Decryption** is the process of converting encrypted data back into its original readable form using a key.
 - Reverse of encryption 
 - Needs correct key 
+
 👉 Example: Reading secured data
 
 
 **Hashing** is the process of converting data into a fixed-length string using a hash function, and it cannot be reversed.
 - One-way process 
 - Cannot get original data back 
+
 👉 Example: Password storage
 
 
 ---
 
 
-## **38. What is Plaintext and Ciphertext?**
+## **40. What is Plaintext and Ciphertext?**
 
-Plaintext is readable data 
+Plaintext is readable data  
 Ciphertext is the encrypted unreadable form.
 
 
 ---
 
 
-## **39. What is a Key in Encryption?**
+## **41. What is a Key in Encryption?**
 
 A key is a secret value used in encryption and decryption to convert plaintext into ciphertext and vice versa.
 
@@ -1503,87 +1506,88 @@ A key is a secret value used in encryption and decryption to convert plaintext i
 ---
 
 
-## **40. What is Symmetric Encryption?**
+## **42. What is Symmetric Encryption?**
 
-Symmetric encryption uses the same key for both encryption and decryption.
-Encrypt → Key A 
-Decrypt → Key A
-
-
----
-
-
-## **41. What is Asymmetric Encryption?**
-
-Asymmetric encryption uses two keys: a public key and a private key
-Public key → encrypt 
-Private key → decrypt
-
-
-
+Symmetric encryption uses the same key for both encryption and decryption.   
+Encrypt → Key A   
+Decrypt → Key A  
 
 
 ---
 
 
-## **42. Examples of encryption algorithms (AES, RSA)?**
+## **43. What is Asymmetric Encryption?**
 
-🔹 AES (Advanced Encryption Standard)
-👉 Symmetric encryption
-👉 Fast → used for encrypting large data
-👉 AES is used to encrypt actual data.
+Asymmetric encryption uses two keys: a public key and a private key  
+Public key → encrypt   
+Private key → decrypt  
 
-🔹 RSA
-👉 Asymmetric encryption
-👉 Uses public & private keys
-👉 Slower → used for securely sharing keys
-👉 RSA is used to exchange keys
+
+
 
 
 ---
 
 
-## **43. Examples of hashing algorithms (MD5, SHA)?**
+## **44. Examples of encryption algorithms (AES, RSA)?**
 
-**🔹** MD5
-👉 Older hashing algorithm
-👉 Not secure now 
-👉 High collision risk
-👉 Hackers can generate two different inputs with same hash
-👉 Easy for attackers to brute-force passwords
-👉 Makes it easier to crack using rainbow tables
+🔹 AES (Advanced Encryption Standard)  
+- Symmetric encryption  
+- Fast → used for encrypting large data  
+- AES is used to encrypt actual data.  
+
+🔹 RSA  
+- Asymmetric encryption  
+- Uses public & private keys  
+- Slower → used for securely sharing keys  
+- RSA is used to exchange keys
+
+
+---
+
+
+## **45. Examples of hashing algorithms (MD5, SHA)?**
+
+**🔹** MD5  
+- Older hashing algorithm  
+- Not secure now   
+- High collision risk  
+- Hackers can generate two different inputs with same hash  
+- Easy for attackers to brute-force passwords  
+- Makes it easier to crack using rainbow tables
 
 **🔹** SHA (Secure Hash Algorithm)
-👉 More secure (e.g., SHA-256)
-👉 Widely used
-👉 Very low collision risk
+- More secure (e.g., SHA-256)
+- Widely used
+- Very low collision risk
 
 
 ---
 
 
-## **44. Why is Hashing Used for Passwords?**
+## **46. Why is Hashing Used for Passwords?**
 
-Hashing is used to securely store passwords so that even if the database is compromised, the original passwords cannot be retrieved
+Hashing is used to securely store passwords so that even if the database is compromised, the original passwords cannot be retrieved  
+
 Hashing protects user passwords by storing them in a non-reversible format.
 
 
 ---
 
 
-## **45. What is Salting in Hashing?**
+## **47. What is Salting in Hashing?**
 
 Salting is the process of **adding a random value to a password** before hashing to make it more secure.
 
-Password: 123456 
-Salt: xyz 
-Result → hash("123456xyz")
+Password: 123456  
+Salt: xyz   
+Result → hash("123456xyz")   
 
 
 ---
 
 
-## **46. What is a Hash Collision?**
+## **48. What is a Hash Collision?**
 
 A hash collision occurs when two different inputs produce the same hash output.
 
@@ -1591,7 +1595,7 @@ A hash collision occurs when two different inputs produce the same hash output.
 ---
 
 
-## **47. What is a Brute Force Attack?**
+## **49. What is a Brute Force Attack?**
 
 A brute force attack is when an attacker tries all possible combinations to guess a password.
 
@@ -1599,50 +1603,53 @@ A brute force attack is when an attacker tries all possible combinations to gues
 ---
 
 
-## **48. What is a Rainbow Table Attack?**
+## **50. What is a Rainbow Table Attack?**
 
 
 A rainbow table attack uses precomputed hash values to quickly find the original password.
 
-Attacker already has list:      123456 → hash1  
-                                                  password → hash2  
-                                                  admin → hash3  
+Attacker already has list:  123456 → hash1  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; password → hash2  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; admin → hash3  
 
 
 ---
 
 
-## **49. How Salting Prevents Rainbow Table Attacks?**
+## **51. How Salting Prevents Rainbow Table Attacks?**
 
-Salting makes each password hash unique, so precomputed rainbow tables become useless.
-123456 + xyz → hash1 
-123456 + abc → hash2
+Salting makes each password hash unique, so precomputed rainbow tables become useless.  
+
+123456 + xyz → hash1   
+123456 + abc → hash2  
 
 
 ---
 
 
-## **50. What is Public Key and Private Key?**
+## **52. What is Public Key and Private Key?**
 
 A public key is shared openly and used for encryption, while a private key is kept secret and used for decryption.
-Public key → lock 🔒 
-Private key → key 🔑
+
+Public key → lock 🔒    
+Private key → key 🔑    
 
 
 ---
 
 
-## **51. What is SSL / TLS ?**
+## **53. What is SSL / TLS ?**
 
-SSL/TLS are cryptographic protocols that provide secure communication over the internet.
-SSL : Secure Sockets Layer
-TLS : Transport Layer Security
+SSL/TLS are cryptographic protocols that provide secure communication over the internet.  
+
+SSL : Secure Sockets Layer  
+TLS : Transport Layer Security  
 
 
 ---
 
 
-## **52. What is End-to-End Encryption (E2EE) ?**
+## **54. What is End-to-End Encryption (E2EE) ?**
 
 End-to-end encryption ensures that only the sender and receiver can read the data, and even the server cannot access it.
 
@@ -1650,46 +1657,51 @@ End-to-end encryption ensures that only the sender and receiver can read the dat
 ---
 
 
-## **53. What is Key Exchange (Diffie-Hellman)?**
+## **55. What is Key Exchange (Diffie-Hellman)?**
 
 Diffie-Hellman is a method that allows two parties to securely generate a shared secret key over an insecure network.
+
 - No need to send secret key directly 
 - Both generate same key independently 
+
 Diffie-Hellman allows secure key exchange without transmitting the actual key.
 
 ---
 
 
-## **54. How do you store passwords securely in a database?**
+## **56. How do you store passwords securely in a database?**
 
-Passwords should be stored using hashing with a strong algorithm like **bcrypt** or **Argon2**, along with** salting**.
+Passwords should be stored using hashing with a strong algorithm like **bcrypt** or **Argon2**, along with **salting**.
 
 
 ---
 
 
-## **55. How to implement password hashing in Node.js?**
+## **57. How to implement password hashing in Node.js?**
 
 const hashedPassword = await **bcrypt.hash**("123456", 10);
+
 const isMatch = await **bcrypt.compare**("123456", hashedPassword);
 
 
 ---
 
 
-## **56. How does JWT signing work?**
+## **58. How does JWT signing work?**
 
 JWT is signed, not encrypted.
+
 - Uses signature (HMAC or RSA) 
 - Ensures data integrity 
 - Payload is readable
+
 JWT uses signing to verify data integrity, not encryption to hide data.
 
 
 ---
 
 
-## **57. How do you secure API data?**
+## **59. How do you secure API data?**
 
 - HTTPS (encryption) 
 - JWT authentication 
@@ -1701,7 +1713,7 @@ JWT uses signing to verify data integrity, not encryption to hide data.
 ---
 
 
-## **128. What is OAuth?**
+## **60. What is OAuth?**
 
 OAuth is an authorization framework that allows a user to grant a third-party application access to their data without sharing their password.
 
@@ -1709,12 +1721,14 @@ OAuth is an authorization framework that allows a user to grant a third-party ap
 ---
 
 
-## **129. What is XSS and how to prevent it?**
+## **61. What is XSS and how to prevent it?**
 
 XSS (Cross-Site Scripting) is an attack where malicious JavaScript is injected into a webpage and executed in the user’s browser.
+
 XSS is prevented by **validating inputs** and avoiding unsafe HTML rendering.
 
 **✅ Prevention**
+
 - Escape/sanitize user input 
 - Use frameworks like React (auto-escape) 
 - Avoid dangerouslySetInnerHTML 
@@ -1724,16 +1738,18 @@ XSS is prevented by **validating inputs** and avoiding unsafe HTML rendering.
 ---
 
 
-## **130. What is CSRF?**
+## **62. What is CSRF?**
 
 Malicious website uses your logged-in identity to perform actions you've never requested
 **Cross-Site Request Forgery**
+
 **💡 Example**
 - User login to his back account
 - With this back tab there is another website tab is also open
 - This other website use your logged-in identity to preform action
 
 **✅ Prevention**
+
 - CSRF tokens 
 - SameSite cookies 
 - Use POST instead of GET for sensitive actions
@@ -1742,25 +1758,28 @@ Malicious website uses your logged-in identity to perform actions you've never r
 ---
 
 
-## **131.  How does Content Security Policy (CSP) work?**
+## **63.  How does Content Security Policy (CSP) work?**
 
 Content Security Policy is a security feature that restricts which resources (scripts, styles) can be loaded on a webpage.
 
-**🔥 Example**
+**🔥 Example**  
 Content-Security-Policy: default-src 'self'; script-src 'self' https://trusted.com;
 
-**🧠 Meaning**
+**🧠 Meaning**  
 - Only load scripts from: 
   - your domain 
   - trusted.com 
+
 👉 Block everything else ❌
 
 **🧠 Why CSP is powerful**
 - Prevents XSS 
 - Controls external scripts 
 - Adds extra security layer 
-setTimeout("console.log('hi')", 500)
-try to run this code in github it will block by CSP and work on google home page
+
+setTimeout("console.log('hi')", 500)  
+
+Try to run this code in github it will block by CSP and work on google home page
 
 
 | Concept | Meaning | Prevention |
@@ -1775,11 +1794,11 @@ try to run this code in github it will block by CSP and work on google home page
 ---
 
 
-## **132. What is Clickjacking?**
+## **64. What is Clickjacking?**
 
 Clickjacking is an attack where a user is tricked into clicking something different from what they see.
 
-**💡 Example**
+**💡 Example**  
 👉 Invisible button overlay
 
 **✅ Prevention**
@@ -1790,7 +1809,7 @@ Clickjacking is an attack where a user is tricked into clicking something differ
 ---
 
 
-## **133. What are common frontend attack vectors?**
+## **65. What are common frontend attack vectors?**
 
 - XSS 
 - CSRF 
@@ -1798,14 +1817,14 @@ Clickjacking is an attack where a user is tricked into clicking something differ
 - Token theft 
 - Dependency vulnerabilities
 
-
+<br><br>
 ---
 
 
 # 🏗️ System Design (Caching, CDN, Scaling)
+<br><br>
 
-
-## **58. What is redis ?**
+## **66. What is redis ?**
 
 Redis is an in-memory key-value database used for caching, fast data access, and real-time applications.
 
