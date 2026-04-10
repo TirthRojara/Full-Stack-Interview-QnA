@@ -88,7 +88,7 @@
 - [64. What is Clickjacking?](#64-what-is-clickjacking)
 - [65. What are common frontend attack vectors?](#65-what-are-common-frontend-attack-vectors)
 
-### 🏗️ System Design (Caching, CDN, Scaling)
+### 🏗️ Redis & Nginx
 
 - [66. What is redis ?](#66-what-is-redis)
 - [67. Use case of redis](#67-use-case-of-redis)
