@@ -112,48 +112,48 @@
 ### ⚛️ React
 
 - [78. What is react ?](#78-what-is-react)
-- [79. What are props ?](#79-what-are-props)
-- [80. What is state in React ?](#80-what-is-state-in-react)
-- [81. What are fragments in React?](#81-what-are-fragments-in-react)
-- [82. What is controlled and uncontrolled components?](#82-what-is-controlled-and-uncontrolled-components)
-- [83. What is react life cycle ?](#83-what-is-react-life-cycle)
-- [84. What are Hooks in React ?](#84-what-are-hooks-in-react)
-- [85. React Hooks](#85-react-hooks)
-- [86. Explain useMemo and useCallback](#86-explain-usememo-and-usecallback)
-- [87. What is State Management in React and what is the difference between Local and Global State?](#87-what-is-state-management-in-react-and-what-is-the-difference-between-local-and-global-state)
-- [88. What are some popular state management solutions in React/Next.js?](#88-what-are-some-popular-state-management-solutions-in-reactnextjs)
-- [89. When should you use Redux over Context API?](#89-when-should-you-use-redux-over-context-api)
-- [90.  Explain the Context API and useReducer in React.](#90-explain-the-context-api-and-usereducer-in-react)
-- [91. What is the difference between Client State and Server State?](#91-what-is-the-difference-between-client-state-and-server-state)
-- [92. HTTP Caching Basics](#92-http-caching-basics)
-- [93. Cache-Control Headers](#93-cache-control-headers)
-- [94. ETag & Last-Modified (Cache Validation)](#94-etag-last-modified-cache-validation)
-- [95. What is CDN and CDN cache](#95-what-is-cdn-and-cdn-cache)
-- [96. Cache Invalidation Strategies](#96-cache-invalidation-strategies)
-- [97. LocalStorage vs SessionStorage vs Cookies](#97-localstorage-vs-sessionstorage-vs-cookies)
-- [98. What is IndexedDB?](#98-what-is-indexeddb)
-- [99. How do you handle asynchronous state updates in React?](#99-how-do-you-handle-asynchronous-state-updates-in-react)
-- [100. what is React.memo ?  How does React.memo help improve performance?](#100-what-is-reactmemo-how-does-reactmemo-help-improve-performance)
-- [101. If I ask you to optimize a slow React application, what techniques would you use?](#101-if-i-ask-you-to-optimize-a-slow-react-application-what-techniques-would-you-use)
-- [102. What is the difference between React.PureComponent and React.Component?](#102-what-is-the-difference-between-reactpurecomponent-and-reactcomponent)
-- [103. What is prop drilling?](#103-what-is-prop-drilling)
-- [104. What is Throttling?](#104-what-is-throttling)
-- [105. What is Debouncing ?](#105-what-is-debouncing)
-- [106. Why is the key prop important in React lists?](#106-why-is-the-key-prop-important-in-react-lists)
-- [107. What happens if we use the array index as a key in React?](#107-what-happens-if-we-use-the-array-index-as-a-key-in-react)
-- [108. What is React Router and why is it used?](#108-what-is-react-router-and-why-is-it-used)
-- [109. What is the difference between client-side routing and server-side routing?](#109-what-is-the-difference-between-client-side-routing-and-server-side-routing)
-- [110. What is Sever Side Rendering and Client Side Rendering](#110-what-is-sever-side-rendering-and-client-side-rendering)
-- [111. What are React Server Components?](#111-what-are-react-server-components)
-
-### 🔄 Rendering & Routing
-
-- [110. Static Site Generation (SSG)](#110-static-site-generation-ssg)
-- [111. What is Hydration?](#111-what-is-hydration)
+- [79. How does React.js work?](#79-how-does-reactjs-work)
+- [80. What is JSX?](#80-what-is-jsx)
+- [81. What is a React component?](#81-what-is-a-react-component)
+- [82. What are props ?](#82-what-are-props)
+- [83. What is state in React ?](#83-what-is-state-in-react)
+- [84. What are fragments in React?](#84-what-are-fragments-in-react)
+- [85. What is controlled and uncontrolled components?](#85-what-is-controlled-and-uncontrolled-components)
+- [86. What is react life cycle ?](#86-what-is-react-life-cycle)
+- [87. What are Hooks in React ?](#87-what-are-hooks-in-react)
+- [88. React Hooks](#88-react-hooks)
+- [89. Explain useMemo and useCallback](#89-explain-usememo-and-usecallback)
+- [90. What is State Management in React and what is the difference between Local and Global State?](#90-what-is-state-management-in-react-and-what-is-the-difference-between-local-and-global-state)
+- [91. What are some popular state management solutions in React/Next.js?](#91-what-are-some-popular-state-management-solutions-in-reactnextjs)
+- [92. When should you use Redux over Context API?](#92-when-should-you-use-redux-over-context-api)
+- [93.  Explain the Context API and useReducer in React.](#93-explain-the-context-api-and-usereducer-in-react)
+- [94. What is the difference between Client State and Server State?](#94-what-is-the-difference-between-client-state-and-server-state)
+- [95. HTTP Caching Basics](#95-http-caching-basics)
+- [96. Cache-Control Headers](#96-cache-control-headers)
+- [97. ETag & Last-Modified (Cache Validation)](#97-etag-last-modified-cache-validation)
+- [98. What is CDN and CDN cache](#98-what-is-cdn-and-cdn-cache)
+- [99. Cache Invalidation Strategies](#99-cache-invalidation-strategies)
+- [100. LocalStorage vs SessionStorage vs Cookies](#100-localstorage-vs-sessionstorage-vs-cookies)
+- [101. What is IndexedDB?](#101-what-is-indexeddb)
+- [102. How do you handle asynchronous state updates in React?](#102-how-do-you-handle-asynchronous-state-updates-in-react)
+- [103. what is React.memo ?  How does React.memo help improve performance?](#103-what-is-reactmemo-how-does-reactmemo-help-improve-performance)
+- [104. If I ask you to optimize a slow React application, what techniques would you use?](#104-if-i-ask-you-to-optimize-a-slow-react-application-what-techniques-would-you-use)
+- [105. What is the difference between React.PureComponent and React.Component?](#105-what-is-the-difference-between-reactpurecomponent-and-reactcomponent)
+- [106. What is prop drilling?](#106-what-is-prop-drilling)
+- [107. What is Throttling?](#107-what-is-throttling)
+- [108. What is Debouncing ?](#108-what-is-debouncing)
+- [109. Why is the key prop important in React lists?](#109-why-is-the-key-prop-important-in-react-lists)
+- [110. What happens if we use the array index as a key in React?](#110-what-happens-if-we-use-the-array-index-as-a-key-in-react)
+- [111. What is React Router and why is it used?](#111-what-is-react-router-and-why-is-it-used)
+- [112. What is the difference between client-side routing and server-side routing?](#112-what-is-the-difference-between-client-side-routing-and-server-side-routing)
+- [113. What is Sever Side Rendering and Client Side Rendering](#113-what-is-sever-side-rendering-and-client-side-rendering)
+- [114. What are React Server Components?](#114-what-are-react-server-components)
+- [115. Static Site Generation (SSG)](#115-static-site-generation-ssg)
+- [116. What is Hydration?](#116-what-is-hydration)
 
 ### 🖥️ HTML / CSS / Browser
 
-- [112. Why is semantic HTML important beyond SEO?](#112-why-is-semantic-html-important-beyond-seo)
+- [117. Why is semantic HTML important beyond SEO?](#117-why-is-semantic-html-important-beyond-seo)
 - [113. What are reflow and repaint?](#113-what-are-reflow-and-repaint)
 - [114. preload vs prefetch vs preconnect](#114-preload-vs-prefetch-vs-preconnect)
 - [115. How does HTML structure affect performance?](#115-how-does-html-structure-affect-performance)
@@ -2161,81 +2161,95 @@ CSS = design of a website
 ## **78. What is react ?**
 
 ReactJS is a component-based JavaScript library used to build dynamic and interactive user interfaces.
+
 It simplifies the creation of single-page applications (SPAs) with a focus on performance and maintainability.
 - Reusable components
 - Fast performance 
 - Easy to manage UI updates
 
-**67. How does React.js work?**
+## **79. How does React.js work?**
 React is a JavaScript library for building UI using components, and it works by updating the UI efficiently using a Virtual DOM and state-based re-rendering.
-1️⃣ Component-Based Architecture
-2️⃣ Virtual DOM
-3️⃣ State & Re-rendering
+
+1️⃣ Component-Based Architecture      
+2️⃣ Virtual DOM   
+3️⃣ State & Re-rendering  
 
 👉 **flow:**
-- User interacts (click, input) 
-- State changes 
-- Virtual DOM updates 
-- Diffing happens 
-- Real DOM updates efficiently
+1. User interacts (click, input) 
+2. State changes 
+3. Virtual DOM updates 
+4. Diffing happens 
+5. Real DOM updates efficiently
 
-- Components: UI is broken into reusable, independent pieces.
-- JSX: Allows writing HTML-like code inside JavaScript for easier UI development..
-- Virtual DOM: A lightweight copy of the real DOM that tracks changes.
-- Reconciliation: Compares old and new Virtual DOM and updates only the changed parts in the real DOM.
-- One-way Data Flow: Ensures predictable UI updates by passing data from parent to child via props.
-- State Management: React automatically re-renders components when their state changes.
+<br>
 
-**68. What is JSX?**
+- **Components**: UI is broken into reusable, independent pieces.
+- **JSX**: Allows writing HTML-like code inside JavaScript for easier UI development..
+- **Virtual DOM**: A lightweight copy of the real DOM that tracks changes.
+- **Reconciliation**: Compares old and new Virtual DOM and updates only the changed parts in the real DOM.
+- **One-way Data Flow**: Ensures predictable UI updates by passing data from parent to child via props.
+- **State Management**: React automatically re-renders components when their state changes.
+
+## **80. What is JSX?**
 JSX ( JavaScript XML ) Syntax extension for JavaScript, mainly used with React.
+
 Allows writing HTML-like code inside JavaScript for easier readability and maintenance.
 
-**69. What is a React component?**
+## **81. What is a React component?**
 A React component is a reusable, independent piece of UI in a React application. It is basically a JavaScript function or class that returns JSX, which describes how the UI should look.
+
 Components help us break the UI into smaller parts, making the code more modular, maintainable, and reusable.
 
 
 ---
 
 
-## **70. What are props ?**
+## **82. What are props ?**
 
 Props (properties) are used to pass data from a parent component to a child component. They are read-only and help make components dynamic and reusable.
-**props** are used to **pass data**, and** default props **ensure a** fallback value** if no prop is provided.
+
+**props** are used to **pass data**, and **default props** ensure a **fallback value** if no prop is provided.
 
 
 
 ---
 
 
-## **71. What is state in React ?**
+## **83. What is state in React ?**
 
 State is a built-in object in React that is used to store data that can change over time and affect how a component renders.
+
 When the state changes, React automatically re-renders the component to reflect the updated data in the UI.
+
 In functional components, we use the **useState** hook to manage state.
 
-const [isOn, setIsOn] = useState(false);
+```js
+const [isOn, setIsOn] = useState(false);  
 setIsOn(prev => !prev)
 
-const [count, setCount] = useState(0);
+const [count, setCount] = useState(0);  
 setCount(prev => prev + 1);
-
+```
 
 ---
 
 
-## **72. What are fragments in React?**
+## **84. What are fragments in React?**
 
 Fragments in React are used to group multiple elements without adding an extra DOM node.
-They help avoid unnecessary wrapper elements like <div>, which keeps the DOM clean.
+
+They help avoid unnecessary wrapper elements like \<div>, which keeps the DOM clean.
+
 In React, you must return a **single parent element**
 
+```js
 return (
     <>
         <h1>Hello</h1>
         <p>World</p>
     </>
 );
+```
 
 - Fragments avoid extra DOM nodes.
 - Short syntax: <> </> (cannot use attributes).
@@ -2247,10 +2261,12 @@ return (
 ---
 
 
-## **73. What is controlled and uncontrolled components?**
+## **85. What is controlled and uncontrolled components?**
 
 Controlled components are form elements whose data is managed by React state, while uncontrolled components store their own state in the DOM.
+
 **Controlled components:** React manages the input’s value through state. The UI is always in sync with React state, and updates happen on every change via onChange.
+
 **Uncontrolled components:** The DOM manages the input’s value, and React only accesses it when needed using refs. Useful for simple forms where you don’t need to track every change.
 
 **1. Controlled Components** 
@@ -2302,6 +2318,8 @@ function Form() {
 - No React state 
 - Less control 
 
+<br>
+
 | Feature | Controlled Component | Uncontrolled Component |
 | --- | --- | --- |
 | Data Source | React state | DOM |
@@ -2318,7 +2336,7 @@ function Form() {
 ---
 
 
-## **74. What is react life cycle ?**
+## **86. What is react life cycle ?**
 
 React lifecycle includes mounting, updating, and unmounting phases, and in functional components, it is handled using useEffect.
 
@@ -2345,16 +2363,16 @@ function App() {
 ---
 
 
-## **75. What are Hooks in React ?**
+## **87. What are Hooks in React ?**
 
 Hooks are functions in React that allow functional components to use state and lifecycle features.
+
 **Why Hooks are Used**
 
-| Manage state 
-Handle lifecycle | Reuse logic 
-Write cleaner code |
-| --- | --- |
-
+- Manage state 
+- Handle lifecycle 
+- Reuse logic 
+- Write cleaner code 
 
 **✅ Rules of Hooks**  
 - Only call hooks at **top level** 
@@ -2364,34 +2382,33 @@ Write cleaner code |
 ---
 
 
-## **76. React Hooks**
+## **88. React Hooks**
 
 
 **useState :** Used to manage state in functional components.
-**useEffect :** Used to handle side effects like API calls, timers, or                                                                                  subscriptions.
+
+**useEffect :** Used to handle side effects like API calls, timers, or subscriptions.
+
 **useContext :** Used to access global data without passing props.
+
 **useRef :** Used to access DOM elements or store values without re-rendering.
+
 **useMemo :** Used to optimize performance by memoizing expensive calculations. (remember value)
+
 **useCallback :** Used to memoize functions to prevent unnecessary re-renders. (remember function)
 
 
 ---
 
 
-## **78. Explain useMemo and useCallback**
+## **89. Explain useMemo and useCallback**
 
 
-**🔹 useMemo (Memoize a VALUE)** 
-Every time a component re-renders:
-Expensive calculations run again ❗ 
+### **🔹 useMemo (Memoize a VALUE)** 
+
+Every time a component re-renders:  
+Expensive calculations run again ❗     
 It **caches a computed value** so it doesn’t recalculate unnecessarily
-
-
-
-
-
-
-
 
 
 
@@ -2431,9 +2448,9 @@ function ExpensiveComponent() {
 
 
 
-**🔹 useCallback (Memoize a FUNCTION)**
-Every time a component re-renders:
-Functions are recreated ❗
+### **🔹 useCallback (Memoize a FUNCTION)**
+Every time a component re-renders:  
+Functions are recreated ❗  
 It **caches a function** so it doesn’t get recreated on every render
 
 
@@ -2471,51 +2488,55 @@ With useCallback:
 - Parent re-render → creates new function ❗ 
 - New function → new reference ❗ 
 - Memoized child sees change → re-render ❗ 
+
 👉 useCallback fixes the **reference problem**
 
 
 ---
 
 
-## **79. What is State Management in React and what is the difference between Local and Global State?**
+## **90. What is State Management in React and what is the difference between Local and Global State?**
 
 State management in React is the process of managing and controlling data (state) within an application so that the UI updates correctly when the data changes.
 
 - State = data that changes over time 
 - When state changes → UI re-renders
 
-**Local State:** Local state is managed inside a single component and is not shared with others.
+**Local State:** Local state is managed inside a single component and is not shared with others.  
+
 Ex: useState
 - Cannot easily share with other components
 - To share it we have to use props.
 
-**Global State:** Global state is shared across multiple components in the application.
+**Global State:** Global state is shared across multiple components in the application.   
 **💡 Tools:** Context API, Redux, Zustand
 
 
 ---
 
 
-## **80. What are some popular state management solutions in React/Next.js?**
+## **91. What are some popular state management solutions in React/Next.js?**
 
-- React built-in hooks:useState, useReducer, useContext – for local or small-scale state management.
-- Context API: Ideal for small to medium global state needs.
-- Redux / Redux Toolkit: Widely used for large-scale applications with complex state logic.
-- Zustand: Lightweight state management library for simplicity and performance.
-- Recoil / Jotai / MobX: Alternative libraries offering fine-grained state control.
-- Server-side state (Next.js): useSWR, React Query, or Server Actions for fetching and caching server data efficiently.
+- **React built-in hooks**: useState, useReducer, useContext – for local or small-scale state management.
+- **Context API**: Ideal for small to medium global state needs.
+- **Redux / Redux Toolkit**: Widely used for large-scale applications with complex state logic.
+- **Zustand**: Lightweight state management library for simplicity and performance.
+- **Recoil / Jotai / MobX**: Alternative libraries offering fine-grained state control.
+- **Server-side state (Next.js)**: useSWR, React Query, or Server Actions for fetching and caching server data efficiently.
 
 
 ---
 
 
-## **81. When should you use Redux over Context API?**
+## **92. When should you use Redux over Context API?**
 
 Choosing between Redux and Context API depends on the **size** and **complexity** of your application:
-Use Redux when:
+
+Use Redux when:     
 - The application is **large** and **complex**.
 - You need predictable state management with **debugging tools** (e.g., Redux DevTools).
 - There are frequent state updates and many shared states across components.
+
 Use Context API when:
 - The application is **small** or **medium-sized**.
 - You only need to share simple state, such as theme, language, or user info.
@@ -2524,9 +2545,9 @@ Use Context API when:
 ---
 
 
-## **82.  Explain the Context API and useReducer in React.**
+## **93.  Explain the Context API and useReducer in React.**
 
-The Context API in React is used to share data globally across components without prop drilling.
+**Context API** in React is used to share data globally across components without prop drilling.
 
 - Avoids prop drilling.
 - Data available directly to any component 
@@ -2534,7 +2555,8 @@ The Context API in React is used to share data globally across components with
 - Best for global values like theme, auth, language.
 - Often combined with useState/useReducer for updates.
 
-**useReducer** is a React hook used to manage complex state logic using a reducer function.
+**useReducer** is a React hook used to manage complex state logic using a reducer function. 
+
 **When to Use useReducer**
 - Complex state logic 
 - Multiple related state values 
@@ -2544,10 +2566,13 @@ The Context API in React is used to share data globally across components with
 ---
 
 
-## **83. What is the difference between Client State and Server State?**
+## **94. What is the difference between Client State and Server State?**
 
 **Client state** is data that lives in the browser and is controlled by the frontend.
+
 **Server state** is data that comes from a server and needs to be fetched, cached, and synced.
+
+<br>
 
 | Feature | Client State | Server State |
 | --- | --- | --- |
@@ -2563,31 +2588,34 @@ The Context API in React is used to share data globally across components with
 ---
 
 
-## **84. HTTP Caching Basics**
+## **95. HTTP Caching Basics**
 
 In HTTP caching we stored the responses so future requests can be served faster without hitting the server again.
 HTTP caching stores responses to **reduce server calls** and **improve performance**.
 
 **📦 Where caching happens?**
+
 **1. Browser Cache**
-- Stored in user’s browser 
+- Stored in user’s browser  
 - First place checked before making request 
+
 **2. Proxy / CDN Cache (like Cloudflare)**
 - Stored between client and server 
 - Shared across multiple users 
 
-**🔄 Flow Example**
-1st Request:
+**🔄 Flow Example**  
+
+1st Request:    
 Client → Server → Response (stored in cache)
 
-2nd Request:
+2nd Request:    
 Client → Browser Cache → Response (no server hit)
 
 
 ---
 
 
-## **85. Cache-Control Headers**
+## **96. Cache-Control Headers**
 
 Cache-Control headers define how and for how long a response should be cached.
 
@@ -2597,11 +2625,11 @@ Cache-Control headers define how and for how long a response should be cached.
 - **no-store** → don’t store in cache at all 
 - **public** → can be cached by browser and CDN 
 - **private** → cache only in browser, not CDN 
-- must-revalidate → must check with server after expiry 
-- proxy-revalidate → same as above but for proxies/CDNs 
-- immutable → content won’t change, no revalidation needed 
-- stale-while-revalidate=60 → serve stale content while fetching new one 
-- stale-if-error=60 → serve stale content if server fails
+- **must-revalidate** → must check with server after expiry 
+- **proxy-revalidate** → same as above but for proxies/CDNs 
+- **immutable** → content won’t change, no revalidation needed 
+- **stale-while-revalidate=60** → serve stale content while fetching new one 
+- **stale-if-error=60** → serve stale content if server fails
 
 
 
@@ -2611,48 +2639,52 @@ Cache-Control headers define how and for how long a response should be cached.
 ---
 
 
-## **86. ETag & Last-Modified (Cache Validation)**
+## **97. ETag & Last-Modified (Cache Validation)**
 
 **🎯 Problem they solve :** 👉 What if cache exists but might be outdated?
+
 **🧠 Solution:** Use validation instead of full re-download
 ETag and Last-Modified help validate cached data and avoid unnecessary re-fetching.
 
-**🔹 ETag**
-A unique identifier (hash/version) for a resource
-📌 Example -  ETag : "abc123"
+**🔹 ETag**     
+A unique identifier (hash/version) for a resource   
+📌 Example -  ETag : "abc123"  
 
-**🔄 Flow**
-1st Request:
+**🔄 Flow**     
+
+1st Request:    
 Client → Server → Response + ETag
 
-2nd Request:
+2nd Request:    
 Client → Server: If-None-Match: "abc123"
 
-Server:
-- If same → 304 Not Modified ✅
-- If changed → 200 + new data ❗
+Server:   
+\- If same → 304 Not Modified ✅   
+\- If changed → 200 + new data ❗   
 
-**🔹 Last-Modified**
-Timestamp of last update
+**🔹 Last-Modified**    
+Timestamp of last update     
 📌 Example - Last-Modified: Wed, 01 Apr 2026 10:00:00 GMT
 
 **🔄 Flow**
-Client → Server: If-Modified-Since: timestamp
-Server:
-- Not changed → 304 ✅
-- Changed → 200 + new data ❗
+
+Client → Server: If-Modified-Since: timestamp   
+Server:   
+\- Not changed → 304 ✅   
+\- Changed → 200 + new data ❗   
 
 ---
 
 
-## **87. What is CDN and CDN cache**
+## **98. What is CDN and CDN cache**
 
 A CDN (Content Delivery Network) is a network of distributed servers that deliver content to users from the nearest location to improve speed and performance. (instead of the origin server)
 
 **✅ Simple Explanation**
 👉 Instead of loading data from one central server:
 - CDN stores copies of content in multiple locations (edge servers) 
-- User gets data from **nearest server** 
+- User gets data from **nearest server**   
+
 👉 Result = faster loading 🚀
 
 **✅ How CDN Works**
@@ -2662,7 +2694,7 @@ A CDN (Content Delivery Network) is a network of distributed servers that delive
 - If not cached → CDN fetches from origin server ❗
 - CDN stores it and serves user
 
-**📦 What content is cached in CDN?**
+**📦 What content is cached in CDN?**   
 Images, Videos, CSS / JS files, Fonts, Static HTML
 
 **⚠️ Can also cache (with rules):**
@@ -2675,7 +2707,7 @@ Cloudflare, AWS CloudFront, Akamai
 ---
 
 
-## **88. Cache Invalidation Strategies**
+## **99. Cache Invalidation Strategies**
 
 Cache invalidation is the process of removing or updating cached data when it becomes outdated, so users always get fresh data.
 
@@ -2688,10 +2720,10 @@ Cache invalidation is the process of removing or updating cached data when it be
 ---
 
 
-## **89. LocalStorage vs SessionStorage vs Cookies**
+## **100. LocalStorage vs SessionStorage vs Cookies**
 
 
-**🔹 LocalStorage**
+### **🔹 LocalStorage**
 LocalStorage is a browser storage that **stores data permanently (no expiry)** until **manually cleared.**
 
 **🧠 Key Characteristics**
@@ -2705,12 +2737,12 @@ LocalStorage is a browser storage that **stores data permanently (no expiry)** u
 - Caching non-sensitive data 
 - Saving UI state
 
-**⚠️ Warning**
+**⚠️ Warning**  
 👉 Don’t store:
 - Passwords 
 - Tokens (unsafe ❗ vulnerable to XSS)
 
-🔹 **SessionStorage**
+### **🔹 SessionStorage**
 SessionStorage stores data only for the current **browser tab/session**
 
 **🧠 Key Characteristics**
@@ -2724,10 +2756,8 @@ SessionStorage stores data only for the current **browser tab/session**
 - Temporary UI state 
 - Per-tab session data
 
-🔹 **Cookies**
+### **🔹 Cookies**
 **Cookies** are small pieces of data stored in the browser that are **automatically sent to the server with every HTTP request**
-
-
 
 
 **🧠 Key Characteristics**
@@ -2746,6 +2776,9 @@ SessionStorage stores data only for the current **browser tab/session**
 - Secure → only HTTPS 
 - SameSite → prevents CSRF
 
+<br>
+<br>
+
 | Feature | LocalStorage | SessionStorage | Cookies |
 | --- | --- | --- | --- |
 | Expiry | No expiry | Tab close | Set manually |
@@ -2762,7 +2795,7 @@ SessionStorage stores data only for the current **browser tab/session**
 ---
 
 
-## **90. What is IndexedDB?**
+## **101. What is IndexedDB?**
 
 IndexedDB is a browser-based NoSQL database used to store large amounts of structured data on the client side.
 
@@ -2784,11 +2817,12 @@ LocalStorage has limitations:
 - Offline app data 
 - Complex structured data
 
-**🔥 Use Cases (Very Important)**
-**✅ Offline apps**
+**🔥 Use Cases**  
+
+**✅ Offline apps**  
 - Store data when no internet 
 
-**✅ Large data storage**
+**✅ Large data storage**  
 - Notes app 
 - Chat messages 
 - Caching API data 
@@ -2801,46 +2835,66 @@ LocalStorage has limitations:
 ---
 
 
-## **91. How do you handle asynchronous state updates in React?**
+## **102. How do you handle asynchronous state updates in React?**
 
 React state updates are asynchronous, so we should use functional updates or useEffect to handle updated state correctly.
+
 Since React state updates are asynchronous, we use functional updates or useEffect to ensure we work with the latest state.
 
-**✅ Why State Updates are Asynchronous**
-👉 React batches updates for performance
+**✅ Why State Updates are Asynchronous**  
+👉 React batches updates for performance   
+
+```js
 setCount(count + 1);
 console.log(count);  // old value ❌
+```
+
 👉 State doesn’t update immediately
 
 **✅ Ways to Handle Async State Updates**
 
-**🔹 1. Functional Updates ⭐ (MOST IMPORTANT)**
-👉 **“Use previous state to get correct value.”**
+**🔹 1. Functional Updates**   
+👉 **“Use previous state to get correct value.”** 
+
+```js
 setCount((prev) => prev + 1);
+```
 
 **💡 Why?**
 - Always gets latest state 
 - Avoids stale values 
 
-**🔹 2. useEffect (After State Update)**
-👉 **“Run code after state has updated.”**
+**🔹 2. useEffect (After State Update)**   
+👉 **“Run code after state has updated.”**  
+
+```js
 useEffect(() => {
   console.log(count); // updated value ✅
 }, [count]);
+```
 
-**🔹 3. Multiple Updates Handling**
-❌ Wrong:
+**🔹 3. Multiple Updates Handling**   
+
+```js
+// ❌ Wrong:  
 setCount(count + 1);
 setCount(count + 1);
-👉 Result: only +1
 
-✅ Correct:
+//👉 Result: only +1
+```
+
+
+```js
+// ✅ Correct:
 setCount((prev) => prev + 1);
 setCount((prev) => prev + 1);
-👉 Result: +2 ✅
 
-**🔹 4. Avoid Direct State Dependency**
-👉 Don’t rely on old state directly
+// 👉 Result: +2 ✅
+```
+
+**🔹 4. Avoid Direct State Dependency**   
+👉 Don’t rely on old state directly   
+
 Always prefer functional update when:
 - Multiple updates 
 - Async operations 
@@ -2849,24 +2903,26 @@ Always prefer functional update when:
 ---
 
 
-## **92. what is React.memo ?  How does React.memo help improve performance?**
+## **103. what is React.memo ?  How does React.memo help improve performance?**
 
 React.memo is a higher-order component that prevents a component from re-rendering if its props have not changed.
 
-**✅ Simple Explanation**
-👉 Normally:
+**✅ Simple Explanation** 
+
+👉 Normally:  
 - Parent re-renders → child also re-renders ❌ 
-👉 With React.memo:
+
+👉 With React.memo:  
 - Child re-renders **only if props change** ✅
 
-If component is small → comparison cost > benefit ❌
+If component is small → comparison cost > benefit ❌   
 Don’t optimize blindly — optimize when needed.
 
 
 ---
 
 
-## **93. If I ask you to optimize a slow React application, what techniques would you use?**
+## **104. If I ask you to optimize a slow React application, what techniques would you use?**
 
 
 - Use React.memo, useMemo, and useCallback to avoid unnecessary re-renders.
@@ -2882,28 +2938,31 @@ Don’t optimize blindly — optimize when needed.
 ---
 
 
-## **94. What is the difference between React.PureComponent and React.Component?**
+## **105. What is the difference between React.PureComponent and React.Component?**
 
 Both Component and PureComponent are used to create **class components**, but they handle re-rendering differently:
 - **React.Component**: Always re-renders when setState is called, regardless of whether the state or props have changed.
+
 - **React.PureComponent**: Implements a shallow comparison of props and state; it only re-renders if something has actually changed.
 
 
 ---
 
 
-## **95. What is prop drilling?**
+## **106. What is prop drilling?**
 
 Prop drilling is the process of passing data from a parent component to deeply nested child components through multiple intermediate components.
+
 Data has to pass through components that don’t even need it ❌
 
 
 ---
 
 
-## **96. What is Throttling?**
+## **107. What is Throttling?**
 
 **Throttle** ensures a function runs **at most once in a given time interval**, no matter how many times the event fires.
+
 👉 Run this function every 1 second, even if event fires 100 times
 
 **Problem:** Fires **hundreds of times per second** ❌
@@ -2947,7 +3006,7 @@ const handleClick = throttle(() => {
 }, 2000);
 ```
 
-👉 Even if user clicks 10 times
+👉 Even if user clicks 10 times  
 👉 Runs once every 2 seconds ✅
 
 
@@ -2957,11 +3016,12 @@ const handleClick = throttle(() => {
 ---
 
 
-## **97. What is Debouncing ?**
+## **108. What is Debouncing ?**
 
 Debounce delays the execution of a function until the user stops triggering the event for a specified time.
 
-**💡 Example**
+**💡 Example**  
+
 👉 Search input:
 - User types: a → ap → app → appl → apple
 - API call happens **only after user stops typing**
@@ -3034,37 +3094,37 @@ export default function App() {
 ---
 
 
-## **98. Why is the key prop important in React lists?**
+## **109. Why is the key prop important in React lists?**
 
 The key prop in React lists helps React identify which items have changed, been added, or removed, so it can efficiently update the UI.
 
-**🔹 1. Efficient Re-rendering ⭐**
-👉 React compares old vs new list
-👉 Updates only changed items
+**🔹 1. Efficient Re-rendering**  
+👉 React compares old vs new list  
+👉 Updates only changed items  
 
-**🔹 2. Prevents Bugs**
-👉 Without key → wrong DOM updates
+**🔹 2. Prevents Bugs**  
+👉 Without key → wrong DOM updates  
 
-**🔹 3. Improves Performance**
+**🔹 3. Improves Performance**  
 👉 Avoids unnecessary re-renders
 
 
 ---
 
 
-## **99. What happens if we use the array index as a key in React?**
+## **110. What happens if we use the array index as a key in React?**
 
 Using array index as a key can cause incorrect UI updates and bugs when the list changes, because indexes are not stable.
 
-- Can cause issues when list items are reordered.
-- May lead to incorrect updates if items are added or removed.
+- Can cause issues when list items are reordered.  
+- May lead to incorrect updates if items are added or removed.  
 - Safe only for static lists that never change.
 
 
 ---
 
 
-## **100. What is React Router and why is it used?**
+## **111. What is React Router and why is it used?**
 
 React Router is a library used for handling navigation and routing in React applications without reloading the page.
 
@@ -3073,10 +3133,12 @@ React Router is a library used for handling navigation and routing in React appl
 ---
 
 
-## **101. What is the difference between client-side routing and server-side routing?**
+## **112. What is the difference between client-side routing and server-side routing?**
 
 **Client-side** routing happens in the browser without reloading the page
+
 **server-side** routing happens on the server and returns a new page for each request.
+
 Client-side routing improves performance and user experience by avoiding page reloads, while server-side routing reloads the page for each request.
 
 **Client-Side Routing:** Routing is handled in the browser using JavaScript (React Router).
@@ -3109,12 +3171,13 @@ Client-side routing improves performance and user experience by avoiding page re
 ---
 
 
-## **102. What is Sever Side Rendering and Client Side Rendering**
+## **113. What is Sever Side Rendering and Client Side Rendering**
 
 Client-Side Rendering (CSR) renders the UI in the browser using JavaScript
+
 Server-Side Rendering (SSR) renders the HTML on the server before sending it to the client.
 
-**Client-Side Rendering (CSR)**
+### **Client-Side Rendering (CSR)**  
 Rendering happens in the browser using JavaScript.
 
 **💡 How it works**
@@ -3122,7 +3185,7 @@ Rendering happens in the browser using JavaScript.
 - JS loads 
 - React builds UI 
 
-**📌 Example**
+**📌 Example** 
 👉 React 
 
 **✅ Advantages**
@@ -3132,7 +3195,7 @@ Rendering happens in the browser using JavaScript.
 - Slow initial load 
 - Bad for SEO
 
-**Server-Side Rendering (SSR)**
+### **Server-Side Rendering (SSR)**
 Rendering happens on the server and a fully built HTML page is sent to the client
 
 **💡 How it works**
@@ -3152,7 +3215,8 @@ Rendering happens on the server and a fully built HTML page is sent to the clien
 - Slower navigation
 
 
-
+<br>
+<br>
 
 | Feature | CSR | SSR |
 | --- | --- | --- |
@@ -3161,7 +3225,7 @@ Rendering happens on the server and a fully built HTML page is sent to the clien
 | SEO | Poor | Good |
 | Performance | Better after load | Better initial |
 
-
+<br>
 
 | Concept | Meaning |
 | --- | --- |
@@ -3176,13 +3240,13 @@ Rendering happens on the server and a fully built HTML page is sent to the clien
 ---
 
 
-## **121. What are React Server Components?**
+## **114. What are React Server Components?**
 
 React Server Components are components that run on the server and send rendered content to the client without including their JavaScript.
 
 
 
-**💡 Simple Explanation**
+**💡 Simple Explanation**  
 **👉 Instead of sending JS to browser:**
 - Component runs on server 
 - Sends HTML only 
@@ -3208,15 +3272,18 @@ export default async function Page() {
 - No event handlers
 
 
+
+
 ---
 
 
-# 🔄 Rendering & Routing
 
 
-## **103. Static Site Generation (SSG)**
+## **115. Static Site Generation (SSG)**
 
 HTML is generated at build time and served as static files.
+
+<br>
 
 | Feature | CSR | SSR | SSG |
 | --- | --- | --- | --- |
@@ -3225,10 +3292,11 @@ HTML is generated at build time and served as static files.
 | SEO | Poor | Good | Best |
 | Use Case | Dashboards | Dynamic pages | Blogs, landing pages |
 
+<br>
 
 
-SSG is preferred for static content,
-SSR for dynamic data
+SSG is preferred for static content,  
+SSR for dynamic data  
 CSR for highly interactive apps.
 
 
@@ -3236,7 +3304,7 @@ CSR for highly interactive apps.
 ---
 
 
-## **104. What is Hydration?**
+## **116. What is Hydration?**
 
 Hydration is the process where React attaches event listeners and makes server-rendered HTML interactive on the client side.
 
@@ -3252,18 +3320,22 @@ Hydration is the process where React attaches event listeners and makes server-r
 4. React "hydrates" the HTML
 5. Now UI becomes interactive
 
-**🧠 Why Hydration is needed**
-👉 Server can only send **HTML (structure)**
+**🧠 Why Hydration is needed**  
+👉 Server can only send **HTML (structure)**  
 👉 Browser needs **JavaScript for interactivity**
 
+
+<br>
+<br>
 
 ---
 
 
 # 🖥️ HTML / CSS / Browser
+<br>
+<br>
 
-
-## **105. Why is semantic HTML important beyond SEO?**
+## **117. Why is semantic HTML important beyond SEO?**
 
 Semantic HTML improves accessibility, readability, and maintainability.
 - Helps screen readers understand structure 
