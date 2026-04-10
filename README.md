@@ -98,52 +98,53 @@
 ### 📡 API & Communication
 
 - [70. What is GraphQL](#70-what-is-graphql)
-- [71. What is Server-Sent Events (SSE)?](#71-what-is-server-sent-events-sse)
-- [72. SSE vs WebSocket](#72-sse-vs-websocket)
+- [71. HTTP status codes](#71-http-status-codes)
+- [72. What is Server-Sent Events (SSE)?](#72-what-is-server-sent-events-sse)
+- [73. SSE vs WebSocket](#73-sse-vs-websocket)
 
 ### 🖥️ Browser / DOM / HTML / CSS
 
-- [73. What is DOM?](#73-what-is-dom)
-- [74. What is Virtual DOM?](#74-what-is-virtual-dom)
-- [75. What is HTML?](#75-what-is-html)
-- [76. What is CSS?](#76-what-is-css)
+- [74. What is DOM?](#74-what-is-dom)
+- [75. What is Virtual DOM?](#75-what-is-virtual-dom)
+- [76. What is HTML?](#76-what-is-html)
+- [77. What is CSS?](#77-what-is-css)
 
 ### ⚛️ React
 
-- [76. What is react ?](#76-what-is-react)
-- [77. What are props ?](#77-what-are-props)
-- [78. What is state in React ?](#78-what-is-state-in-react)
-- [79. What are fragments in React?](#79-what-are-fragments-in-react)
-- [80. What is controlled and uncontrolled components?](#80-what-is-controlled-and-uncontrolled-components)
-- [81. What is react life cycle ?](#81-what-is-react-life-cycle)
-- [82. What are Hooks in React ?](#82-what-are-hooks-in-react)
-- [83. React Hooks](#83-react-hooks)
-- [84. Explain useMemo and useCallback](#84-explain-usememo-and-usecallback)
-- [85. What is State Management in React and what is the difference between Local and Global State?](#85-what-is-state-management-in-react-and-what-is-the-difference-between-local-and-global-state)
-- [86. What are some popular state management solutions in React/Next.js?](#86-what-are-some-popular-state-management-solutions-in-reactnextjs)
-- [87. When should you use Redux over Context API?](#87-when-should-you-use-redux-over-context-api)
-- [88.  Explain the Context API and useReducer in React.](#88-explain-the-context-api-and-usereducer-in-react)
-- [89. What is the difference between Client State and Server State?](#89-what-is-the-difference-between-client-state-and-server-state)
-- [90. HTTP Caching Basics](#90-http-caching-basics)
-- [91. Cache-Control Headers](#91-cache-control-headers)
-- [92. ETag & Last-Modified (Cache Validation)](#92-etag-last-modified-cache-validation)
-- [93. What is CDN and CDN cache](#93-what-is-cdn-and-cdn-cache)
-- [94. Cache Invalidation Strategies](#94-cache-invalidation-strategies)
-- [95. LocalStorage vs SessionStorage vs Cookies](#95-localstorage-vs-sessionstorage-vs-cookies)
-- [96. What is IndexedDB?](#96-what-is-indexeddb)
-- [97. How do you handle asynchronous state updates in React?](#97-how-do-you-handle-asynchronous-state-updates-in-react)
-- [98. what is React.memo ?  How does React.memo help improve performance?](#98-what-is-reactmemo-how-does-reactmemo-help-improve-performance)
-- [99. If I ask you to optimize a slow React application, what techniques would you use?](#99-if-i-ask-you-to-optimize-a-slow-react-application-what-techniques-would-you-use)
-- [100. What is the difference between React.PureComponent and React.Component?](#100-what-is-the-difference-between-reactpurecomponent-and-reactcomponent)
-- [101. What is prop drilling?](#101-what-is-prop-drilling)
-- [102. What is Throttling?](#102-what-is-throttling)
-- [103. What is Debouncing ?](#103-what-is-debouncing)
-- [104. Why is the key prop important in React lists?](#104-why-is-the-key-prop-important-in-react-lists)
-- [105. What happens if we use the array index as a key in React?](#105-what-happens-if-we-use-the-array-index-as-a-key-in-react)
-- [106. What is React Router and why is it used?](#106-what-is-react-router-and-why-is-it-used)
-- [107. What is the difference between client-side routing and server-side routing?](#107-what-is-the-difference-between-client-side-routing-and-server-side-routing)
-- [108. What is Sever Side Rendering and Client Side Rendering](#108-what-is-sever-side-rendering-and-client-side-rendering)
-- [109. What are React Server Components?](#109-what-are-react-server-components)
+- [78. What is react ?](#78-what-is-react)
+- [79. What are props ?](#79-what-are-props)
+- [80. What is state in React ?](#80-what-is-state-in-react)
+- [81. What are fragments in React?](#81-what-are-fragments-in-react)
+- [82. What is controlled and uncontrolled components?](#82-what-is-controlled-and-uncontrolled-components)
+- [83. What is react life cycle ?](#83-what-is-react-life-cycle)
+- [84. What are Hooks in React ?](#84-what-are-hooks-in-react)
+- [85. React Hooks](#85-react-hooks)
+- [86. Explain useMemo and useCallback](#86-explain-usememo-and-usecallback)
+- [87. What is State Management in React and what is the difference between Local and Global State?](#87-what-is-state-management-in-react-and-what-is-the-difference-between-local-and-global-state)
+- [88. What are some popular state management solutions in React/Next.js?](#88-what-are-some-popular-state-management-solutions-in-reactnextjs)
+- [89. When should you use Redux over Context API?](#89-when-should-you-use-redux-over-context-api)
+- [90.  Explain the Context API and useReducer in React.](#90-explain-the-context-api-and-usereducer-in-react)
+- [91. What is the difference between Client State and Server State?](#91-what-is-the-difference-between-client-state-and-server-state)
+- [92. HTTP Caching Basics](#92-http-caching-basics)
+- [93. Cache-Control Headers](#93-cache-control-headers)
+- [94. ETag & Last-Modified (Cache Validation)](#94-etag-last-modified-cache-validation)
+- [95. What is CDN and CDN cache](#95-what-is-cdn-and-cdn-cache)
+- [96. Cache Invalidation Strategies](#96-cache-invalidation-strategies)
+- [97. LocalStorage vs SessionStorage vs Cookies](#97-localstorage-vs-sessionstorage-vs-cookies)
+- [98. What is IndexedDB?](#98-what-is-indexeddb)
+- [99. How do you handle asynchronous state updates in React?](#99-how-do-you-handle-asynchronous-state-updates-in-react)
+- [100. what is React.memo ?  How does React.memo help improve performance?](#100-what-is-reactmemo-how-does-reactmemo-help-improve-performance)
+- [101. If I ask you to optimize a slow React application, what techniques would you use?](#101-if-i-ask-you-to-optimize-a-slow-react-application-what-techniques-would-you-use)
+- [102. What is the difference between React.PureComponent and React.Component?](#102-what-is-the-difference-between-reactpurecomponent-and-reactcomponent)
+- [103. What is prop drilling?](#103-what-is-prop-drilling)
+- [104. What is Throttling?](#104-what-is-throttling)
+- [105. What is Debouncing ?](#105-what-is-debouncing)
+- [106. Why is the key prop important in React lists?](#106-why-is-the-key-prop-important-in-react-lists)
+- [107. What happens if we use the array index as a key in React?](#107-what-happens-if-we-use-the-array-index-as-a-key-in-react)
+- [108. What is React Router and why is it used?](#108-what-is-react-router-and-why-is-it-used)
+- [109. What is the difference between client-side routing and server-side routing?](#109-what-is-the-difference-between-client-side-routing-and-server-side-routing)
+- [110. What is Sever Side Rendering and Client Side Rendering](#110-what-is-sever-side-rendering-and-client-side-rendering)
+- [111. What are React Server Components?](#111-what-are-react-server-components)
 
 ### 🔄 Rendering & Routing
 
@@ -1837,7 +1838,7 @@ Redis is an in-memory key-value database used for caching, fast data access, and
 ---
 
 
-## **59. Use case of redis**
+## **67. Use case of redis**
 
 - Caching
 - Session Management
@@ -1850,39 +1851,50 @@ Redis is an in-memory key-value database used for caching, fast data access, and
 ---
 
 
-## **60. Explain caching strategies**
+## **68. Explain caching strategies**
 
 
-- **Cache-Aside**
-In cache-aside, the application first checks the cache. If data is not found, it fetches from the database and stores it in cache.
-          Cache-aside loads data into cache only when needed.
+### 1. **Cache-Aside** 
+
+In cache-aside, the application first checks the cache. If data is not found, it fetches from the database and stores it in cache.  
+
+Cache-aside loads data into cache only when needed.  
+
 **💡 Flow**
+
 - Request comes 
 - Check Redis 
 - ❌ Not found → fetch from DB 
 - Store in Redis 
 - Return data 
 
-- **Write-Through**
+### 2. **Write-Through**
+
 In write-through, data is written to both the cache and the database at the same time.
 
 **💡 Flow**
+
 - User updates data 
 - Write to DB 
 - Write to Redis
 
-- **Write-Back (Write-Behind)**
+### 3. **Write-Back (Write-Behind)**
+
 Data is written to cache first and later asynchronously written to database.
 
 **💡 Flow**
+
 - Write → cache 
 - Later → DB 
 
-       Benefit **:**  Very fast writes 
-       Drawback** :**  Risk of data loss
+Benefit :  Very fast writes   
+Drawback :  Risk of data loss
 
-- **Read-Through**
-           Cache itself fetches data from database if not found.
+### 4. **Read-Through**
+
+Cache itself fetches data from database if not found.
+
+**💡 Flow**
 
 - App → asks cache 
 - Cache → ❌ data not found 
@@ -1890,19 +1902,22 @@ Data is written to cache first and later asynchronously written to database.
 - Cache → stores data 
 - Cache → returns data to app
 
-- **Write-Around**
+### 5. **Write-Around**  
+
 Data is written directly to database, not cache.
 
 **💡 Flow**
+
 - Write → DB only 
 - Cache updated only when read
 
-Benefit **:**  Avoids unnecessary caching 
-Drawback **:**  Cache miss on next read
+Benefit :  Avoids unnecessary caching   
+Drawback :  Cache miss on next read
 
 
 
-- **Cache Invalidation**
+### 6. **Cache Invalidation**
+
 Removing or updating cache when data changes.
 
 **💡** Types
@@ -1910,72 +1925,84 @@ Removing or updating cache when data changes.
 - Manual invalidation 
 - Event-based 
 
-**🎯** Example
+**🎯** Example  
 👉 Update user → delete cache
 
-- **TTL (Time-To-Live)**
+### 7. **TTL (Time-To-Live)**
+
 Cache expires automatically after a certain time.
 
 
 ---
 
 
-## **61. What is Nginx ?**
+## **69. What is Nginx ?**
 
-Nginx is a high-performance web server that can also act as a reverse proxy, load balancer, and API gateway.
+Nginx is a high-performance web server that can also act as a reverse proxy, load balancer, and API gateway.  
+
 Nginx sits in front of your backend server and handles incoming requests efficiently.
+
 Nginx is commonly used as a reverse proxy and load balancer to improve performance, scalability, and security.
+
 In production, Nginx is often used in front of Node.js to handle traffic, SSL, and load balancing.
 
-**✅ What Nginx Does**
-**🔹 1. Web Server**
-👉 Serves static files
-- HTML, CSS, images 
+**✅ What Nginx Does**  
+
+**🔹 1. Web Server**  
+
+👉 Serves static files -> HTML, CSS, images 
 
 
+**🔹 2. Reverse Proxy** 
 
-**🔹 2. Reverse Proxy (MOST IMPORTANT ⭐)**
 👉 Nginx forwards client requests to backend servers (like Node.js).
-**📌 Example**
-User → Nginx → Node.js server ( ex: port 5000 )
+
+**📌 Example**  
+User → Nginx → Node.js server ( ex: port 5000 )  
+
 Nginx connects the domain to a backend server running on a specific port by acting as a reverse proxy.
 
-**🔹 3. Load Balancer**
-👉 Distributes traffic across multiple servers
+**🔹 3. Load Balancer**  
+
+👉 Distributes traffic across multiple servers  
 - Prevents overload 
 - Improves scalability 
 
-**🔹 4. SSL/TLS Termination**
+**🔹 4. SSL/TLS Termination**  
+
 👉 Handles HTTPS
 - Encrypts traffic 
 - Improves security 
 
 **🔹 5. Caching**
+
 👉 Stores responses to serve faster
 
-
+<br><br>
 ---
 
 
 # 📡 API & Communication
+<br><br>
 
-
-## **62. What is GraphQL**
+## **70. What is GraphQL**
 
 GraphQL is a query language for APIs that allows clients to request only the data they need.
 
 - REST → /users, /posts, /comments 
 - GraphQL → **single endpoint** 
+
 👉 Client decides **what data to fetch** ✅
 
-**🔹 1. Avoid Over-fetching**
-👉 Get only required data
-**🔹 2. Avoid Under-fetching**
+**🔹 1. Avoid Over-fetching**  
+👉 Get only required data  
+
+**🔹 2. Avoid Under-fetching**  
 👉 No need for multiple API calls
 
 GraphQL is especially useful in frontend-heavy applications where minimizing API calls is important.
 
-**62. HTTP status codes**
+## **71. HTTP status codes**
 
 - Informational responses (100 – 199)
 - Successful responses (200 – 299)
@@ -1983,39 +2010,40 @@ GraphQL is especially useful in frontend-heavy applications where minimizing API
 - Client error responses (400 – 499)
 - Server error responses (500 – 599)
 
-| 100 Continue	                  
+100 Continue	                  
 
-200 OK
-201 Created
+200 OK  
+201 Created  
 
-304 Not Modified
-307 Temporary Redirect
-308 Permanent Redirect | 400 Bad Request
-401 Unauthorized
-403 Forbidden
-404 Not Found
-409 Conflict
-429 Too Many Requests
+304 Not Modified  
+307 Temporary Redirect  
+308 Permanent Redirect  
 
-500 Internal Server Error |
-| --- | --- |
+400 Bad Request  
+401 Unauthorized  
+403 Forbidden  
+404 Not Found  
+409 Conflict  
+429 Too Many Requests  
 
-
+500 Internal Server Error 
 
 
 ---
 
 
-## **63. What is Server-Sent Events (SSE)?**
+## **72. What is Server-Sent Events (SSE)?**
 
 Server-Sent Events (SSE) is a technology that allows the server to push real-time updates to the client over a single HTTP connection.
 
 👉 Client opens a connection → server keeps sending updates
+
 - One-way communication (server → client) 
 - Uses normal HTTP 
 - Connection stays open
 
 **📌 Example Use Cases**
+
 - Live notifications 
 - News feeds 
 - Stock price updates
@@ -2025,9 +2053,9 @@ Server-Sent Events (SSE) is a technology that allows the server to push real-tim
 ---
 
 
-## **64. SSE vs WebSocket**
+## **73. SSE vs WebSocket**
 
-SSE is one-way (server to client)
+SSE is one-way (server to client)  
 WebSocket is two-way (bidirectional).
 
 | Feature | SSE | WebSocket |
@@ -2039,37 +2067,50 @@ WebSocket is two-way (bidirectional).
 
 
 
-
+<br><br>
 ---
 
 
 # 🖥️ Browser / DOM / HTML / CSS
+<br><br>
 
+## **74. What is DOM?**
 
-## **65. What is DOM?**
+DOM (Document Object Model) is a programming interface for HTML.  
 
-DOM (Document Object Model) is a programming interface for HTML.
 👉 It represents your web page as a tree structure of objects (nodes).
 
-Example HTML:                                        👉 DOM Tree:
-<body>                                                                 		body
-  <h1>Hello</h1>                                                   	     |
-  <p>World</p>                                                  	        ───────────             
-</body>                                                                       /                        \
-                                                                       h1 ("Hello")                 p ("World")
- 
+```js
+HTML:                   
+
+<body>                                    
+  <h1>Hello<h1>                             
+  <p>World</p>                          
+</body>                                 
+ ```
+
+```js
+ DOM Tree:
+
+           body
+            | 
+        ───────────               
+       /           \                                                                                                   h1("Hello")    p("World")                     
+
+```
+
 **Key idea:**
 - Browser converts HTML → DOM 
 - JavaScript can **read, modify, delete, or add elements**
 
-document.querySelector("h1").textContent = "Hi";
+document.querySelector("h1").textContent = "Hi";  
 ➡️ This directly updates the real UI.
 
 
 ---
 
 
-## **66. What is Virtual DOM?**
+## **75. What is Virtual DOM?**
 
 Virtual DOM is a lightweight copy of the real DOM in memory.
 
@@ -2081,6 +2122,7 @@ Virtual DOM is a lightweight copy of the real DOM in memory.
 
 **Without Virtual DOM:**
 - Browser updates full DOM node 
+
 **With Virtual DOM:**
 - Compare old vs new 
 - Only update text → efficient
@@ -2094,28 +2136,29 @@ DOM updates everything directly, while Virtual DOM updates only the changed part
 ---
 
 
-## **67. What is HTML?**
+## **76. What is HTML?**
 
-HTML (HyperText Markup Language) is used to create the structure of a web page.
+HTML (HyperText Markup Language) is used to create the structure of a web page.  
 HTML = skeleton of a website
 
 
 ---
 
 
-## **68. What is CSS?**
+## **77. What is CSS?**
 
-CSS (Cascading Style Sheets) is used to style the HTML elements.
-=>  Colors, layout, spacing, fonts, responsiveness
+CSS (Cascading Style Sheets) is used to style the HTML elements.  
+Colors, layout, spacing, fonts, responsiveness  
 CSS = design of a website 
 
+<br><br>
 ---
 
 
 # ⚛️ React
+<br><br>
 
-
-## **69. What is react ?**
+## **78. What is react ?**
 
 ReactJS is a component-based JavaScript library used to build dynamic and interactive user interfaces.
 It simplifies the creation of single-page applications (SPAs) with a focus on performance and maintainability.
