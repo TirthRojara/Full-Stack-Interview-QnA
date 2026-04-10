@@ -154,60 +154,60 @@
 ### 🖥️ HTML / CSS / Browser
 
 - [117. Why is semantic HTML important beyond SEO?](#117-why-is-semantic-html-important-beyond-seo)
-- [113. What are reflow and repaint?](#113-what-are-reflow-and-repaint)
-- [114. preload vs prefetch vs preconnect](#114-preload-vs-prefetch-vs-preconnect)
-- [115. How does HTML structure affect performance?](#115-how-does-html-structure-affect-performance)
-- [116. Button vs Anchor](#116-button-vs-anchor)
-- [117. What is ARIA? What problems does ARIA solve?](#117-what-is-aria-what-problems-does-aria-solve)
-- [118. How does HTML impact screen readers?](#118-how-does-html-impact-screen-readers)
-- [119. Flexbox and Grid](#119-flexbox-and-grid)
+- [118. What are reflow and repaint?](#113-what-are-reflow-and-repaint)
+- [119. preload vs prefetch vs preconnect](#114-preload-vs-prefetch-vs-preconnect)
+- [120. How does HTML structure affect performance?](#120-how-does-html-structure-affect-performance)
+- [121. Button vs Anchor](#121-button-vs-anchor)
+- [122. What is ARIA? What problems does ARIA solve?](#122-what-is-aria-what-problems-does-aria-solve)
+- [123. How does HTML impact screen readers?](#123-how-does-html-impact-screen-readers)
+- [124. Flexbox and Grid](#124-flexbox-and-grid)
 
 ### 💛 JavaScript Core
 
-- [120. How hoisting works?](#120-how-hoisting-works)
-- [121. Microtasks vs Macrotasks](#121-microtasks-vs-macrotasks)
-- [122. How garbage collection works?](#122-how-garbage-collection-works)
-- [123. What causes memory leaks?](#123-what-causes-memory-leaks)
-- [124. How ‘this’ behaves?](#124-how-this-behaves)
-- [125. What are closures?](#125-what-are-closures)
+- [125. How hoisting works?](#125-how-hoisting-works)
+- [126. Microtasks vs Macrotasks](#126-microtasks-vs-macrotasks)
+- [127. How garbage collection works?](#127-how-garbage-collection-works)
+- [128. What causes memory leaks?](#128-what-causes-memory-leaks)
+- [129. How ‘this’ behaves?](#129-how-this-behaves)
+- [130. What are closures?](#130-what-are-closures)
 
 ### 🔷 TypeScript
 
-- [126. What are generics types?](#126-what-are-generics-types)
-- [127. Interface vs Type](#127-interface-vs-type)
+- [131. What are generics types?](#131-what-are-generics-types)
+- [132. Interface vs Type](#132-interface-vs-type)
 
 ### ⚡ Performance & Web Vitals
 
-- [128. What are Web Vitals (LCP, CLS, INP)?](#128-what-are-web-vitals-lcp-cls-inp)
-- [129. How do you reduce Time To Interactive (TTI)?](#129-how-do-you-reduce-time-to-interactive-tti)
-- [130. Code Splitting (Lazy Loading)](#130-code-splitting-lazy-loading)
-- [131. How do images impact performance? How do images impact performance?](#131-how-do-images-impact-performance-how-do-images-impact-performance)
+- [133. What are Web Vitals (LCP, CLS, INP)?](#133-what-are-web-vitals-lcp-cls-inp)
+- [134. How do you reduce Time To Interactive (TTI)?](#134-how-do-you-reduce-time-to-interactive-tti)
+- [135. Code Splitting (Lazy Loading)](#135-code-splitting-lazy-loading)
+- [136. How do images impact performance? How do images impact performance?](#136-how-do-images-impact-performance-how-do-images-impact-performance)
 
 ### ♿ Accessibility
 
-- [132. What is WCAG?](#132-what-is-wcag)
+- [137. What is WCAG?](#137-what-is-wcag)
 
 ### 🔧 Build Tools & Bundlers
 
-- [133. How do bundlers work?](#133-how-do-bundlers-work)
-- [134. Vite vs Webpack vs Rollup](#134-vite-vs-webpack-vs-rollup)
-- [135. What does Babel do?](#135-what-does-babel-do)
-- [136. How does Hot Module Replacement (HMR) work?](#136-how-does-hot-module-replacement-hmr-work)
-- [137. What is a Monorepo?](#137-what-is-a-monorepo)
+- [138. How do bundlers work?](#138-how-do-bundlers-work)
+- [139. Vite vs Webpack vs Rollup](#139-vite-vs-webpack-vs-rollup)
+- [140. What does Babel do?](#140-what-does-babel-do)
+- [141. How does Hot Module Replacement (HMR) work?](#141-how-does-hot-module-replacement-hmr-work)
+- [142. What is a Monorepo?](#142-what-is-a-monorepo)
 
 ### 🧪 Testing
 
-- [138. What is the Test Pyramid?](#138-what-is-the-test-pyramid)
-- [139. Unit vs Integration vs E2E](#139-unit-vs-integration-vs-e2e)
-- [140. What is mock in testing ?](#140-what-is-mock-in-testing)
-- [141. What should NOT be tested?](#141-what-should-not-be-tested)
+- [143. What is the Test Pyramid?](#143-what-is-the-test-pyramid)
+- [144. Unit vs Integration vs E2E](#144-unit-vs-integration-vs-e2e)
+- [145. What is mock in testing ?](#145-what-is-mock-in-testing)
+- [146. What should NOT be tested?](#146-what-should-not-be-tested)
 
 ### 📐 Architecture & Design Patterns
 
-- [142. What is Component-Driven Development (CDD)?](#142-what-is-component-driven-development-cdd)
-- [143. What is Atomic Design?](#143-what-is-atomic-design)
-- [144. What are Micro-frontends?](#144-what-are-micro-frontends)
-- [145. What is Semantic versioning (SemVer) ?](#145-what-is-semantic-versioning-semver)
+- [147. What is Component-Driven Development (CDD)?](#147-what-is-component-driven-development-cdd)
+- [148. What is Atomic Design?](#148-what-is-atomic-design)
+- [149. What are Micro-frontends?](#149-what-are-micro-frontends)
+- [150. What is Semantic versioning (SemVer) ?](#150-what-is-semantic-versioning-semver)
 
 <br><br>
 ---
@@ -3347,27 +3347,30 @@ Semantic HTML improves accessibility, readability, and maintainability.
 ---
 
 
-## **106. What are reflow and repaint?**
+## **118. What are reflow and repaint?**
 
 👉 **Reflow (Layout):**
 - Recalculates layout 
-- Triggered by size/position changes 
+- Triggered by size/position changes
+
 👉 **Repaint:**
 - Updates visual styles (color, visibility) 
 
-Reflow = expensive ❌ 
+Reflow = expensive ❌   
 Repaint = cheaper ✅
 
 
 ---
 
 
-## **107. preload vs prefetch vs preconnect**
+## **119. preload vs prefetch vs preconnect**
 
 **👉 preload :**  preload is for current page
 - Load resource immediately (critical) 
+
 **👉 prefetch :**  prefetch for future
 - Load for future use 
+
 **👉 preconnect :**  preconnect for faster connections
 - Establish connection early (DNS, TCP)
 
@@ -3375,7 +3378,7 @@ Repaint = cheaper ✅
 ---
 
 
-## **108. How does HTML structure affect performance?**
+## **120. How does HTML structure affect performance?**
 
 Poor structure increases DOM size and slows rendering.
 - Deep nesting → slow 
@@ -3388,20 +3391,22 @@ Poor structure increases DOM size and slows rendering.
 ---
 
 
-## **109. Button vs Anchor**
+## **121. Button vs Anchor**
 
-👉 **Use <button>**
+👉 **Use \<button>**
 - Actions (submit, click, toggle) 
-👉 **Use <a>**
+
+👉 **Use \<a>**
 - Navigation (go to another page)
 
 
 ---
 
 
-## **110. What is ARIA? What problems does ARIA solve?**
+## **122. What is ARIA? What problems does ARIA solve?**
 
 ARIA adds accessibility to elements when semantic HTML is not enough.
+
 ARIA (Accessible Rich Internet Applications) is a set of HTML attributes that improve accessibility for users who use screen readers or assistive technologies.
 
 👉 ARIA helps:
@@ -3411,7 +3416,7 @@ ARIA (Accessible Rich Internet Applications) is a set of HTML attributes that im
 - Adds meaning to UI
 👉 Understand your UI better
 
-**🔥 Why ARIA is needed?**
+**🔥 Why ARIA is needed?**  
 HTML alone is sometimes not enough
 Example:
 
@@ -3419,7 +3424,7 @@ Example:
 <div onclick="openMenu()">Menu</div>
 ```
 
-👉 For you → it’s a button
+👉 For you → it’s a button  
 👉 For screen reader → just a div ❌
 
 ✅ **Fix with ARIA**
@@ -3432,26 +3437,42 @@ Example:
 
 **🔑 Important ARIA Attributes**
 
-🔹 **1. role**
-Defines what element is
-<div role="button">Click</div>
+🔹 **1. role**   
+Defines what element is  
 
-🔹 **2. aria-label**
-Gives label to element
+```js
+<div role="button">Click</div>
+```
+
+🔹 **2. aria-label**  
+Gives label to element  
+
+```js
 <button aria-label="Close menu">X</button>
+```
+
 Screen reader says: *“Close menu”*
 
-🔹 **3. aria-hidden**
-Hide from screen readers
+🔹 **3. aria-hidden**  
+Hide from screen readers  
+
+```js
 <span aria-hidden="true">🔥</span>
+```
 
-🔹 **4. aria-expanded**
-Used for dropdowns
+🔹 **4. aria-expanded**  
+Used for dropdowns  
+
+```js
 <button aria-expanded="true">Menu</button>
+```
 
 
-🔹 **5. aria-disabled**
+🔹 **5. aria-disabled**  
+
+```js
 <button aria-disabled="true">Submit</button>
+```
 
 **Example**
 
@@ -3477,10 +3498,10 @@ Used for dropdowns
 </button>
 ```
 
-Accessible ✅
+Accessible ✅   
 **Use semantic HTML first, ARIA only when needed**
 
-**🧠	 When to use ARIA?**
+**🧠 When to use ARIA?**
 **Use ARIA when:**
 - Custom components (dropdown, modal) 
 - Non-semantic elements (div, span) 
@@ -3495,7 +3516,7 @@ Accessible ✅
 ---
 
 
-## **111. How does HTML impact screen readers?**
+## **123. How does HTML impact screen readers?**
 
 Screen readers rely on semantic HTML to understand content structure.
 
@@ -3503,19 +3524,24 @@ Screen readers rely on semantic HTML to understand content structure.
 ---
 
 
-## **112. Flexbox and Grid**
+## **124. Flexbox and Grid**
 
 **Flexbox** is a **one-dimensional** layout system used for arranging items **in a row or column.**
+
 **Grid** is a **two-dimensional** system used for layouts **with rows and columns.**
 
+
+<br>
+<br>
 
 ---
 
 
 # 💛 JavaScript Core
+<br>
+<br>
 
-
-## **113. How hoisting works?**
+## **125. How hoisting works?**
 
 **Hoisting** is JavaScript’s behavior of **moving variable and function declarations to the top of their scope.**
 
@@ -3557,7 +3583,7 @@ var sayHi = function () {
 ---
 
 
-## **114. Microtasks vs Macrotasks**
+## **126. Microtasks vs Macrotasks**
 
 Microtasks run before macrotasks in the event loop.
 
@@ -3576,27 +3602,31 @@ Microtasks run before macrotasks in the event loop.
 ---
 
 
-## **115. How garbage collection works?**
+## **127. How garbage collection works?**
 
 JavaScript uses automatic garbage collection to free memory that is no longer referenced
+
 **💡 Method:**
-- Mark-and-sweep algorithm 
+- Mark-and-sweep algorithm   
+
 👉 If object not reachable → removed
 
-let user = { name: "Tirth" };
+let user = { name: "Tirth" };  
 👉 Reachable from global → ✅ kept
 
 user = null;  
+
 👉 Now:
 - No reference ❌ 
-- Not reachable 
+- Not reachable   
+
 👉 Garbage collector removes it 🧹
 
 
 ---
 
 
-## **116. What causes memory leaks?**
+## **128. What causes memory leaks?**
 
 Memory leaks occur when unused memory is not released.
 
@@ -3609,15 +3639,15 @@ Memory leaks occur when unused memory is not released.
 
 🔹 **1. Unused Global Variables**
 
-data = { name: "Tirth" }; // no var/let/const ❌
+data = { name: "Tirth" }; // no var/let/const ❌  
 👉 This becomes a **global variable**
 
 **🧠 Problem**
 - Global variables are always reachable 
 - Never garbage collected ❌
 
-**✅ Fix**
-let data = { name: "Tirth" };
+**✅ Fix**  
+let data = { name: "Tirth" };  
 data = null;
 
 🔹 **2. Closures Holding References**
@@ -3634,11 +3664,12 @@ function outer() {
 const fn = outer();
 ```
 
-**🧠 Problem**
+**🧠 Problem**  
 Even though inner doesn’t use largeData: Closures keep access to **entire outer scope**
 - Closure keeps reference ❗ 
 - largeData stays in memory ❌
-✅ **Fix**
+
+✅ **Fix**  
 
 ```js
 function outer() {
@@ -3681,15 +3712,19 @@ clearInterval(id);
 ---
 
 
-## **117. How ‘this’ behaves?**
+## **129. How ‘this’ behaves?**
 
 The value of ‘this’ in JavaScript depends on how a function is called. 
+
 In regular functions it refers to the caller, 
+
 while arrow functions inherit ‘this’ from their surrounding scope.
 
 - ‘this’ is dynamic 
 - Arrow functions don’t have their own ‘this’ 
 - Call-site matters more than definition
+
+<br>
 
 | Situation | this refers to |
 | --- | --- |
@@ -3706,10 +3741,12 @@ while arrow functions inherit ‘this’ from their surrounding scope.
 ---
 
 
-## **118. What are closures?**
+## **130. What are closures?**
 
 A closure is a function that remembers variables from its outer scope even after the outer function has finished.
+
 Without closure, variables are recreated on every function call, so the value resets each time. 
+
 Closures allow variables to persist across calls, enabling stateful behavior like counters.
 
 **✅ Use Cases**
@@ -3748,14 +3785,17 @@ counter(); // 1
 ```
 
 
+<br>
+<br>
 
 ---
 
 
 # 🔷 TypeScript
+<br>
+<br>
 
-
-## **119. What are generics types?**
+## **131. What are generics types?**
 
 Generics allow writing reusable, type-safe code by passing types as parameters.
 
@@ -3763,22 +3803,31 @@ Generics allow writing reusable, type-safe code by passing types as parameters.
 ---
 
 
-## **120. Interface vs Type**
+## **132. Interface vs Type**
 
+| Feature | Interface | Type |
+| :--- | :--- | :--- |
+| **Extend** | `extends` | `&` (intersection) |
+| **Use case** | Objects | Anything |
+| **Declaration** | Can merge | Cannot merge |
 
+<br>
+<br>
 
 ---
 
 
 # ⚡ Performance & Web Vitals
+<br>
+<br>
 
-
-## **122. What are Web Vitals (LCP, CLS, INP)?**
+## **133. What are Web Vitals (LCP, CLS, INP)?**
 
 Web Vitals are performance metrics that measure user experience on a website, focusing on loading speed, interactivity, and visual stability.
 
 
-**🔹 1. LCP (Largest Contentful Paint)**
+### **🔹 1. LCP (Largest Contentful Paint)**
+
 LCP measures how long it takes for the largest visible element (like an image or heading) to load. **( Loading speed )**
 
 **💡 Example**
@@ -3792,7 +3841,8 @@ LCP measures how long it takes for the largest visible element (like an image or
 - Slow server 
 - Blocking CSS/JS 
 
-**🔹 2. CLS (Cumulative Layout Shift)**
+### **🔹 2. CLS (Cumulative Layout Shift)**
+
 CLS measures how much the layout shifts unexpectedly while loading.
 **( Visual stability )**
 
@@ -3807,7 +3857,7 @@ CLS measures how much the layout shifts unexpectedly while loading.
 - Missing width/height for images 
 - Ads loading late 
 
-**🔹 3. INP (Interaction to Next Paint)** 
+### **🔹 3. INP (Interaction to Next Paint)** 
 INP measures how quickly the page responds to user interactions like clicks or typing.
 **( Interactivity )**
 
@@ -3825,7 +3875,7 @@ INP measures how quickly the page responds to user interactions like clicks or t
 ---
 
 
-## **123. How do you reduce Time To Interactive (TTI)?**
+## **134. How do you reduce Time To Interactive (TTI)?**
 
 To reduce TTI, we minimize JavaScript execution, split code, optimize resource loading, and reduce main thread blocking to make the page interactive as quickly as possible.
 
@@ -3833,70 +3883,78 @@ To reduce TTI, we minimize JavaScript execution, split code, optimize resource l
 ---
 
 
-## **124. Code Splitting (Lazy Loading)**
+## **135. Code Splitting (Lazy Loading)**
 
 **Code Splitting** is a technique where your app’s JavaScript is split into smaller chunks and loaded only when needed.
+
 **Lazy loading** is using code splitting to load components on demand
 
 ---
 
 
-## **125. How do images impact performance? How do images impact performance?**
+## **136. How do images impact performance? How do images impact performance?**
 
 Images impact performance by increasing page load time, bandwidth usage, and rendering time, especially if they are large or not optimized.
 
 **✅ How Images Affect Performance**
 
-**🔹 1. Large File Size (Biggest Issue)** 
-👉 Large images = more data to download
-❌ Slow loading
+**🔹 1. Large File Size (Biggest Issue)**   
+👉 Large images = more data to download  
+❌ Slow loading  
 ❌ High bandwidth usage
 
-**🔹 2. Slower Initial Page Load**
-👉 Images block rendering if not optimized
-- Increases **Largest Contentful Paint (LCP)** 
+**🔹 2. Slower Initial Page Load**  
+👉 Images block rendering if not optimized  
+\- Increases **Largest Contentful Paint (LCP)** 
 
-**🔹 3. More HTTP Requests**
-👉 Many images = more requests
+**🔹 3. More HTTP Requests**  
+👉 Many images = more requests  
 ❌ Slows down page
 
-**🔹 4. Layout Shift (CLS Issue)**
-👉 If image size not defined:
-- Page jumps while loading ❌ 
+**🔹 4. Layout Shift (CLS Issue)**  
+👉 If image size not defined:  
+\- Page jumps while loading ❌ 
 
-**🔹 5. Memory Usage**
-👉 Large images consume more RAM
+**🔹 5. Memory Usage**  
+👉 Large images consume more RAM  
 
 **✅ How to Optimize Images 🚀**
 
-**🔹 1. Use Modern Formats**
+**🔹 1. Use Modern Formats**  
 👉 WebP / AVIF (smaller size)
 
-**🔹 2. Compress Images**
-👉 Reduce file size without losing quality
+**🔹 2. Compress Images**  
+👉 Reduce file size without losing quality  
 
-**🔹 3. Lazy Loading ⭐**
-<img src="image.jpg" loading="lazy" />
-👉 Load only when visible
+**🔹 3. Lazy Loading**  
+```js
+<img src="image.jpg" loading="lazy" />  
+```
+👉 Load only when visible  
 
-**🔹 4. Responsive Images**
-<img src="small.jpg" srcset="large.jpg 1024w" />
+**🔹 4. Responsive Images**  
+```js
+<img src="small.jpg" srcset="large.jpg 1024w" />  
+```
 👉 Different sizes for devices
 
-**🔹 5. Set Width & Height**
+**🔹 5. Set Width & Height**   
 👉 Prevent layout shift
 
-**🔹 6. Use CDN**
+**🔹 6. Use CDN**    
 👉 Faster delivery
 
+<br>
+<br>
 
 ---
 
 
 # ♿ Accessibility
+<br>
+<br>
 
-
-## **134. What is WCAG?**
+## **137. What is WCAG?**
 
 WCAG (Web Content Accessibility Guidelines) is a set of standards to make web content accessible to all users, including people with disabilities.
 
@@ -3905,14 +3963,17 @@ WCAG (Web Content Accessibility Guidelines) is a set of standards to make web co
 - **Understandable** → easy to use 
 - **Robust** → works with assistive tech
 
+<br>
+<br>
 
 ---
 
 
 # 🔧 Build Tools & Bundlers
+<br>
+<br>
 
-
-## **135. How do bundlers work?**
+## **138. How do bundlers work?**
 
 Bundlers take multiple files (JS, CSS, images) and combine them into optimized bundles for the browser.
 
@@ -3920,7 +3981,7 @@ Bundlers take multiple files (JS, CSS, images) and combine them into optimized b
 ---
 
 
-## **136. Vite vs Webpack vs Rollup**
+## **139. Vite vs Webpack vs Rollup**
 
 All three are **build tools / bundlers** used in frontend apps.
 
@@ -3938,11 +3999,11 @@ All three are **build tools / bundlers** used in frontend apps.
 ---
 
 
-## **137. What does Babel do?**
+## **140. What does Babel do?**
 
 Babel converts modern JavaScript into older versions for browser compatibility.
 
-
+```js
 // modern
 const add = (a, b) => a + b;
 
@@ -3950,12 +4011,12 @@ const add = (a, b) => a + b;
 function add(a, b) {
 return a + b;
 }
-
+```
 
 ---
 
 
-## **138. How does Hot Module Replacement (HMR) work?**
+## **141. How does Hot Module Replacement (HMR) work?**
 
 HMR updates only the changed module in the browser without reloading the entire page.
 
@@ -3963,7 +4024,7 @@ HMR updates only the changed module in the browser without reloading the entire 
 ---
 
 
-## **139. What is a Monorepo?**
+## **142. What is a Monorepo?**
 
 A monorepo is a single repository that contains multiple projects or packages.
 
@@ -3976,14 +4037,17 @@ One repo → everything together, easier sharing
 
 **🧰 Popular Monorepo Tools :** Turborepo, Nx, Lerna
 
+<br>
+<br>
 
 ---
 
 
 # 🧪 Testing
+<br>
+<br>
 
-
-## **140. What is the Test Pyramid?**
+## **143. What is the Test Pyramid?**
 
 The test pyramid is a testing strategy that suggests having more unit tests, fewer integration tests, and very few end-to-end tests.”
 
@@ -3996,7 +4060,7 @@ The test pyramid is a testing strategy that suggests having more unit tests, few
 ---
 
 
-## **141. Unit vs Integration vs E2E**
+## **144. Unit vs Integration vs E2E**
 
 
 | Type | What it tests | Example |
@@ -4011,7 +4075,7 @@ The test pyramid is a testing strategy that suggests having more unit tests, few
 ---
 
 
-## **142. What is mock in testing ?**
+## **145. What is mock in testing ?**
 
 A mock is a fake version of a real function, API, or dependency used during testing.
 
@@ -4022,15 +4086,16 @@ A mock is a fake version of a real function, API, or dependency used during test
 - Modules 
 - Timers 
 - Third-party libraries
-👉 **Mock = Fake version of real thing**
-👉 Used to **avoid real dependencies**
-👉 Makes tests **fast, reliable, predictable**
+
+👉 **Mock = Fake version of real thing**  
+👉 Used to **avoid real dependencies**  
+👉 Makes tests **fast, reliable, predictable**  
 
 
 ---
 
 
-## **143. What should NOT be tested?**
+## **146. What should NOT be tested?**
 
 
 - Third-party libraries (e.g., React, Axios internals) 
@@ -4046,14 +4111,17 @@ A mock is a fake version of a real function, API, or dependency used during test
 - Random / non-deterministic behavior (without controlling it via mocks) 
 - Code that has no business logic (pure wiring / boilerplate)
 
+<br>
+<br>
 
 ---
 
 
 # 📐 Architecture & Design Patterns
+<br>
+<br>
 
-
-## **144. What is Component-Driven Development (CDD)?**
+## **147. What is Component-Driven Development (CDD)?**
 
 Component-driven development is an approach where UI is built by creating reusable, independent components first.
 CDD focuses on building UI as reusable components instead of full pages.
@@ -4068,9 +4136,10 @@ CDD focuses on building UI as reusable components instead of full pages.
 ---
 
 
-## **145. What is Atomic Design?**
+## **148. What is Atomic Design?**
 
 Atomic design is a methodology that breaks UI into smaller building blocks like atoms, molecules, organisms, templates, and pages.
+
 Atomic design helps create scalable and consistent design systems.
 
 **💡 Levels**
@@ -4084,7 +4153,7 @@ Atomic design helps create scalable and consistent design systems.
 ---
 
 
-## **146. What are Micro-frontends?**
+## **149. What are Micro-frontends?**
 
 In micro frontends, we usually have separate React applications (like auth, dashboard, payment) that are independently built and deployed, and then composed together using a shell app.
 
@@ -4096,17 +4165,17 @@ In micro frontends, we usually have separate React applications (like auth, dash
 ---
 
 
-## **147. What is Semantic versioning (SemVer) ?**
+## **150. What is Semantic versioning (SemVer) ?**
 
 MAJOR.MINOR.PATCH
 
-MAJOR → break things
-MINOR → add things
-PATCH → fix things
+MAJOR → break things  
+MINOR → add things  
+PATCH → fix things  
 
-1.0.0 → Initial release
-1.0.1 → Bug fix
-1.1.0 → New feature added
-2.0.0 → Breaking change
+1.0.0 → Initial release  
+1.0.1 → Bug fix  
+1.1.0 → New feature added  
+2.0.0 → Breaking change  
 
 ---
