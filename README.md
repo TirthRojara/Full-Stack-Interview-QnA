@@ -78,7 +78,7 @@
 - [12. What is a Rainbow Table Attack?](#12-what-is-a-rainbow-table-attack)
 - [13. How Salting Prevents Rainbow Table Attacks?](#13-how-salting-prevents-rainbow-table-attacks)
 - [14. What is Public Key and Private Key?](#14-what-is-public-key-and-private-key)
-- [15. What is SSL / TLS ?](#15-what-is-ssl-tls)
+- [15. What is SSL / TLS ?](#15-what-is-ssl--tls-)
 - [16. What is End-to-End Encryption (E2EE) ?](#16-what-is-end-to-end-encryption-e2ee)
 - [17. What is Key Exchange (Diffie-Hellman)?](#17-what-is-key-exchange-diffie-hellman)
 - [18. How do you store passwords securely in a database?](#18-how-do-you-store-passwords-securely-in-a-database)
