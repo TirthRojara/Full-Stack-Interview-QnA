@@ -5,252 +5,221 @@
 ## 📑 Table of Contents
 
 
-### 🌐 Basics / Web Fundamentals
+<!-- ### 🌐 Basics / Web Fundamentals -->
 
-- [1. Explain the difference between client-side and server-side programming?](#1-explain-the-difference-between-client-side-and-server-side-programming)
+
 
 ### 🌍 Networking (DNS, HTTP, HTTPS, CORS)
 
-- [2. What is DNS?](#2-what-is-dns)
-- [3. How Does DNS Works?](#3-how-does-dns-works)
-- [4. What is the difference between HTTP and HTTPS?](#4-what-is-the-difference-between-http-and-https)
-- [5. What is CORS, and how do you handle it in a web application?](#5-what-is-cors-and-how-do-you-handle-it-in-a-web-application)
-- [6. How does HTTP work?](#6-how-does-http-work)
-- [7. HTTP/1.1 vs HTTP/2 vs HTTP/3](#7-http11-vs-http2-vs-http3)
+- [1. What is DNS?](#1-what-is-dns)
+- [2. How Does DNS Works?](#2-how-does-dns-works)
+- [3. What is the difference between HTTP and HTTPS?](#3-what-is-the-difference-between-http-and-https)
+- [4. What is CORS, and how do you handle it in a web application?](#4-what-is-cors-and-how-do-you-handle-it-in-a-web-application)
+- [5. How does HTTP work?](#5-how-does-http-work)
+- [6. HTTP/1.1 vs HTTP/2 vs HTTP/3](#6-http11-vs-http2-vs-http3)
 
 ### 🟢 Node.js / Backend
 
-- [8. Explain event loop in Node.js.](#8-explain-event-loop-in-nodejs)
-- [9. Explain the meaning of multithreading?](#9-explain-the-meaning-of-multithreading)
-- [10. How Node.js Handles Concurrency (Without Multithreading)](#10-how-nodejs-handles-concurrency-without-multithreading)
-- [11. Event Loop vs Multithreading](#11-event-loop-vs-multithreading)
-- [12. What is callback function.](#12-what-is-callback-function)
-- [13. What is Promise and explain its states?](#13-what-is-promise-and-explain-its-states)
-- [14. What is Async/Await?](#14-what-is-asyncawait)
-- [15. Explain the Restful API](#15-explain-the-restful-api)
-- [16. HTTP Methods](#16-http-methods)
-- [17. What is Authentication and Authorization?](#17-what-is-authentication-and-authorization)
-- [18. What is the purpose of package.json in a Node.js project?](#18-what-is-the-purpose-of-packagejson-in-a-nodejs-project)
-- [19. Describe the concept of MVC architecture](#19-describe-the-concept-of-mvc-architecture)
-- [20. WebSockets and HTTP](#20-websockets-and-http)
-- [21. Short Polling & Long Polling & WebSockets](#21-short-polling-long-polling-websockets)
-- [22. What is SSE?](#22-what-is-sse)
-- [23. What is web hooks](#23-what-is-web-hooks)
-- [24. Explain the crypto module in Node.js](#24-explain-the-crypto-module-in-nodejs)
-- [25. What is .body-parser in Node.js?](#25-what-is-body-parser-in-nodejs)
-- [26. What is Middleware in Express?](#26-what-is-middleware-in-express)
-- [27. req.params vs req.query vs req.body](#27-reqparams-vs-reqquery-vs-reqbody)
+- [1. Explain event loop in Node.js.](#1-explain-event-loop-in-nodejs)
+- [2. Explain the meaning of multithreading?](#2-explain-the-meaning-of-multithreading)
+- [3. How Node.js Handles Concurrency (Without Multithreading)](#3-how-nodejs-handles-concurrency-without-multithreading)
+- [4. Event Loop vs Multithreading](#4-event-loop-vs-multithreading)
+- [5. What is callback function.](#5-what-is-callback-function)
+- [6. What is Promise and explain its states?](#6-what-is-promise-and-explain-its-states)
+- [7. What is Async/Await?](#7-what-is-asyncawait)
+- [8. Explain the Restful API](#8-explain-the-restful-api)
+- [9. HTTP Methods](#9-http-methods)
+- [10. What is Authentication and Authorization?](#10-what-is-authentication-and-authorization)
+- [11. What is the purpose of package.json in a Node.js project?](#11-what-is-the-purpose-of-packagejson-in-a-nodejs-project)
+- [12. Describe the concept of MVC architecture](#12-describe-the-concept-of-mvc-architecture)
+- [13. WebSockets and HTTP](#13-websockets-and-http)
+- [14. Short Polling & Long Polling & WebSockets](#14-short-polling-long-polling-websockets)
+- [15. What is SSE?](#15-what-is-sse)
+- [16. What is web hooks](#16-what-is-web-hooks)
+- [17. Explain the crypto module in Node.js](#17-explain-the-crypto-module-in-nodejs)
+- [18. What is .body-parser in Node.js?](#18-what-is-body-parser-in-nodejs)
+- [19. What is Middleware in Express?](#19-what-is-middleware-in-express)
+- [20. req.params vs req.query vs req.body](#20-reqparams-vs-reqquery-vs-reqbody)
+- [21. What is GraphQL](#21-what-is-graphql)
+- [22. HTTP status codes](#22-http-status-codes)
+- [23. What is Server-Sent Events (SSE)?](#23-what-is-server-sent-events-sse)
+- [24. SSE vs WebSocket](#24-sse-vs-websocket)
 
 ### 🗄️ Database (SQL, NoSQL, ACID, Indexing)
 
-- [28. What is normalization and denormalization.](#28-what-is-normalization-and-denormalization)
-- [29. Normal Forms (1NF, 2NF, 3NF)](#29-normal-forms-1nf-2nf-3nf)
-- [30. What is Indexing in Database?](#30-what-is-indexing-in-database)
-- [31. What are ACID Properties?](#31-what-are-acid-properties)
-- [32. SQL vs NoSQL](#32-sql-vs-nosql)
-- [33. Replication and Sharding](#33-replication-and-sharding)
+- [1. What is normalization and denormalization.](#1-what-is-normalization-and-denormalization)
+- [2. Normal Forms (1NF, 2NF, 3NF)](#2-normal-forms-1nf-2nf-3nf)
+- [3. What is Indexing in Database?](#3-what-is-indexing-in-database)
+- [4. What are ACID Properties?](#4-what-are-acid-properties)
+- [5. SQL vs NoSQL](#5-sql-vs-nosql)
+- [6. Replication and Sharding](#6-replication-and-sharding)
 
 ### 🐳 DevOps (Docker, CI/CD, Nginx)
 
-- [34. Packages manager in your Node.js](#34-packages-manager-in-your-nodejs)
-- [35. Explain the role of Docker in development and deployment](#35-explain-the-role-of-docker-in-development-and-deployment)
-- [36. What is Docker Compose?](#36-what-is-docker-compose)
-- [37. What is multi stage docker file ?](#37-what-is-multi-stage-docker-file)
-- [38. What is CI/CD ?](#38-what-is-cicd)
+- [1. Packages manager in your Node.js](#1-packages-manager-in-your-nodejs)
+- [2. Explain the role of Docker in development and deployment](#2-explain-the-role-of-docker-in-development-and-deployment)
+- [3. What is Docker Compose?](#3-what-is-docker-compose)
+- [4. What is multi stage docker file ?](#4-what-is-multi-stage-docker-file)
+- [5. What is CI/CD ?](#5-what-is-cicd)
 
 ### 🔐 Security (JWT, Encryption, Hashing)
 
-- [39. Encryption, Decryption and Hashing](#39-encryption-decryption-and-hashing)
-- [40. What is Plaintext and Ciphertext?](#40-what-is-plaintext-and-ciphertext)
-- [41. What is a Key in Encryption?](#41-what-is-a-key-in-encryption)
-- [42. What is Symmetric Encryption?](#42-what-is-symmetric-encryption)
-- [43. What is Asymmetric Encryption?](#43-what-is-asymmetric-encryption)
-- [44. Examples of encryption algorithms (AES, RSA)?](#44-examples-of-encryption-algorithms-aes-rsa)
-- [45. Examples of hashing algorithms (MD5, SHA)?](#45-examples-of-hashing-algorithms-md5-sha)
-- [46. Why is Hashing Used for Passwords?](#46-why-is-hashing-used-for-passwords)
-- [47. What is Salting in Hashing?](#47-what-is-salting-in-hashing)
-- [48. What is a Hash Collision?](#48-what-is-a-hash-collision)
-- [49. What is a Brute Force Attack?](#49-what-is-a-brute-force-attack)
-- [50. What is a Rainbow Table Attack?](#50-what-is-a-rainbow-table-attack)
-- [51. How Salting Prevents Rainbow Table Attacks?](#51-how-salting-prevents-rainbow-table-attacks)
-- [52. What is Public Key and Private Key?](#52-what-is-public-key-and-private-key)
-- [53. What is SSL / TLS ?](#53-what-is-ssl-tls)
-- [54. What is End-to-End Encryption (E2EE) ?](#54-what-is-end-to-end-encryption-e2ee)
-- [55. What is Key Exchange (Diffie-Hellman)?](#55-what-is-key-exchange-diffie-hellman)
-- [56. How do you store passwords securely in a database?](#56-how-do-you-store-passwords-securely-in-a-database)
-- [57. How to implement password hashing in Node.js?](#57-how-to-implement-password-hashing-in-nodejs)
-- [58. How does JWT signing work?](#58-how-does-jwt-signing-work)
-- [59. How do you secure API data?](#59-how-do-you-secure-api-data)
-- [60. What is OAuth?](#60-what-is-oauth)
-- [61. What is XSS and how to prevent it?](#61-what-is-xss-and-how-to-prevent-it)
-- [62. What is CSRF?](#62-what-is-csrf)
-- [63.  How does Content Security Policy (CSP) work?](#63-how-does-content-security-policy-csp-work)
-- [64. What is Clickjacking?](#64-what-is-clickjacking)
-- [65. What are common frontend attack vectors?](#65-what-are-common-frontend-attack-vectors)
+- [1. Encryption, Decryption and Hashing](#1-encryption-decryption-and-hashing)
+- [2. What is Plaintext and Ciphertext?](#2-what-is-plaintext-and-ciphertext)
+- [3. What is a Key in Encryption?](#3-what-is-a-key-in-encryption)
+- [4. What is Symmetric Encryption?](#4-what-is-symmetric-encryption)
+- [5. What is Asymmetric Encryption?](#5-what-is-asymmetric-encryption)
+- [6. Examples of encryption algorithms (AES, RSA)?](#6-examples-of-encryption-algorithms-aes-rsa)
+- [7. Examples of hashing algorithms (MD5, SHA)?](#7-examples-of-hashing-algorithms-md5-sha)
+- [8. Why is Hashing Used for Passwords?](#8-why-is-hashing-used-for-passwords)
+- [9. What is Salting in Hashing?](#9-what-is-salting-in-hashing)
+- [10. What is a Hash Collision?](#10-what-is-a-hash-collision)
+- [11. What is a Brute Force Attack?](#11-what-is-a-brute-force-attack)
+- [12. What is a Rainbow Table Attack?](#12-what-is-a-rainbow-table-attack)
+- [13. How Salting Prevents Rainbow Table Attacks?](#13-how-salting-prevents-rainbow-table-attacks)
+- [14. What is Public Key and Private Key?](#14-what-is-public-key-and-private-key)
+- [15. What is SSL / TLS ?](#15-what-is-ssl-tls)
+- [16. What is End-to-End Encryption (E2EE) ?](#16-what-is-end-to-end-encryption-e2ee)
+- [17. What is Key Exchange (Diffie-Hellman)?](#17-what-is-key-exchange-diffie-hellman)
+- [18. How do you store passwords securely in a database?](#18-how-do-you-store-passwords-securely-in-a-database)
+- [19. How to implement password hashing in Node.js?](#19-how-to-implement-password-hashing-in-nodejs)
+- [20. How does JWT signing work?](#20-how-does-jwt-signing-work)
+- [21. How do you secure API data?](#21-how-do-you-secure-api-data)
+- [22. What is OAuth?](#22-what-is-oauth)
+- [23. What is XSS and how to prevent it?](#23-what-is-xss-and-how-to-prevent-it)
+- [24. What is CSRF?](#24-what-is-csrf)
+- [25.  How does Content Security Policy (CSP) work?](#25-how-does-content-security-policy-csp-work)
+- [26. What is Clickjacking?](#26-what-is-clickjacking)
+- [27. What are common frontend attack vectors?](#27-what-are-common-frontend-attack-vectors)
 
 ### 🏗️ Redis & Nginx
 
-- [66. What is redis ?](#66-what-is-redis)
-- [67. Use case of redis](#67-use-case-of-redis)
-- [68. Explain caching strategies](#68-explain-caching-strategies)
-- [69. What is Nginx ?](#69-what-is-nginx)
+- [1. What is redis ?](#1-what-is-redis)
+- [2. Use case of redis](#2-use-case-of-redis)
+- [3. Explain caching strategies](#3-explain-caching-strategies)
+- [4. What is Nginx ?](#4-what-is-nginx)
 
-### 📡 API & Communication
+<!-- ### 📡 API & Communication -->
 
-- [70. What is GraphQL](#70-what-is-graphql)
-- [71. HTTP status codes](#71-http-status-codes)
-- [72. What is Server-Sent Events (SSE)?](#72-what-is-server-sent-events-sse)
-- [73. SSE vs WebSocket](#73-sse-vs-websocket)
+
 
 ### 🖥️ Browser / DOM / HTML / CSS
 
-- [74. What is DOM?](#74-what-is-dom)
-- [75. What is Virtual DOM?](#75-what-is-virtual-dom)
-- [76. What is HTML?](#76-what-is-html)
-- [77. What is CSS?](#77-what-is-css)
+- [1. What is DOM?](#1-what-is-dom)
+- [2. What is Virtual DOM?](#2-what-is-virtual-dom)
+- [3. What is HTML?](#3-what-is-html)
+- [4. What is CSS?](#4-what-is-css)
+- [5. Why is semantic HTML important beyond SEO?](#5-why-is-semantic-html-important-beyond-seo)
+- [6. What are reflow and repaint?](#6-what-are-reflow-and-repaint)
+- [7. preload vs prefetch vs preconnect](#7-preload-vs-prefetch-vs-preconnect)
+- [8. How does HTML structure affect performance?](#8-how-does-html-structure-affect-performance)
+- [9. Button vs Anchor](#9-button-vs-anchor)
+- [10. What is ARIA? What problems does ARIA solve?](#10-what-is-aria-what-problems-does-aria-solve)
+- [11. How does HTML impact screen readers?](#11-how-does-html-impact-screen-readers)
+- [12. Flexbox and Grid](#12-flexbox-and-grid)
 
 ### ⚛️ React
 
-- [78. What is react ?](#78-what-is-react)
-- [79. How does React.js work?](#79-how-does-reactjs-work)
-- [80. What is JSX?](#80-what-is-jsx)
-- [81. What is a React component?](#81-what-is-a-react-component)
-- [82. What are props ?](#82-what-are-props)
-- [83. What is state in React ?](#83-what-is-state-in-react)
-- [84. What are fragments in React?](#84-what-are-fragments-in-react)
-- [85. What is controlled and uncontrolled components?](#85-what-is-controlled-and-uncontrolled-components)
-- [86. What is react life cycle ?](#86-what-is-react-life-cycle)
-- [87. What are Hooks in React ?](#87-what-are-hooks-in-react)
-- [88. React Hooks](#88-react-hooks)
-- [89. Explain useMemo and useCallback](#89-explain-usememo-and-usecallback)
-- [90. What is State Management in React and what is the difference between Local and Global State?](#90-what-is-state-management-in-react-and-what-is-the-difference-between-local-and-global-state)
-- [91. What are some popular state management solutions in React/Next.js?](#91-what-are-some-popular-state-management-solutions-in-reactnextjs)
-- [92. When should you use Redux over Context API?](#92-when-should-you-use-redux-over-context-api)
-- [93.  Explain the Context API and useReducer in React.](#93-explain-the-context-api-and-usereducer-in-react)
-- [94. What is the difference between Client State and Server State?](#94-what-is-the-difference-between-client-state-and-server-state)
-- [95. HTTP Caching Basics](#95-http-caching-basics)
-- [96. Cache-Control Headers](#96-cache-control-headers)
-- [97. ETag & Last-Modified (Cache Validation)](#97-etag-last-modified-cache-validation)
-- [98. What is CDN and CDN cache](#98-what-is-cdn-and-cdn-cache)
-- [99. Cache Invalidation Strategies](#99-cache-invalidation-strategies)
-- [100. LocalStorage vs SessionStorage vs Cookies](#100-localstorage-vs-sessionstorage-vs-cookies)
-- [101. What is IndexedDB?](#101-what-is-indexeddb)
-- [102. How do you handle asynchronous state updates in React?](#102-how-do-you-handle-asynchronous-state-updates-in-react)
-- [103. what is React.memo ?  How does React.memo help improve performance?](#103-what-is-reactmemo-how-does-reactmemo-help-improve-performance)
-- [104. If I ask you to optimize a slow React application, what techniques would you use?](#104-if-i-ask-you-to-optimize-a-slow-react-application-what-techniques-would-you-use)
-- [105. What is the difference between React.PureComponent and React.Component?](#105-what-is-the-difference-between-reactpurecomponent-and-reactcomponent)
-- [106. What is prop drilling?](#106-what-is-prop-drilling)
-- [107. What is Throttling?](#107-what-is-throttling)
-- [108. What is Debouncing ?](#108-what-is-debouncing)
-- [109. Why is the key prop important in React lists?](#109-why-is-the-key-prop-important-in-react-lists)
-- [110. What happens if we use the array index as a key in React?](#110-what-happens-if-we-use-the-array-index-as-a-key-in-react)
-- [111. What is React Router and why is it used?](#111-what-is-react-router-and-why-is-it-used)
-- [112. What is the difference between client-side routing and server-side routing?](#112-what-is-the-difference-between-client-side-routing-and-server-side-routing)
-- [113. What is Sever Side Rendering and Client Side Rendering](#113-what-is-sever-side-rendering-and-client-side-rendering)
-- [114. What are React Server Components?](#114-what-are-react-server-components)
-- [115. Static Site Generation (SSG)](#115-static-site-generation-ssg)
-- [116. What is Hydration?](#116-what-is-hydration)
+- [1. What is react ?](#1-what-is-react)
+- [2. How does React.js work?](#2-how-does-reactjs-work)
+- [3. What is JSX?](#3-what-is-jsx)
+- [4. What is a React component?](#4-what-is-a-react-component)
+- [5. What are props ?](#5-what-are-props)
+- [6. What is state in React ?](#6-what-is-state-in-react)
+- [7. What are fragments in React?](#7-what-are-fragments-in-react)
+- [8. What is controlled and uncontrolled components?](#8-what-is-controlled-and-uncontrolled-components)
+- [9. What is react life cycle ?](#9-what-is-react-life-cycle)
+- [10. What are Hooks in React ?](#10-what-are-hooks-in-react)
+- [11. React Hooks](#11-react-hooks)
+- [12. Explain useMemo and useCallback](#12-explain-usememo-and-usecallback)
+- [13. What is State Management in React and what is the difference between Local and Global State?](#13-what-is-state-management-in-react-and-what-is-the-difference-between-local-and-global-state)
+- [14. What are some popular state management solutions in React/Next.js?](#14-what-are-some-popular-state-management-solutions-in-reactnextjs)
+- [15. When should you use Redux over Context API?](#15-when-should-you-use-redux-over-context-api)
+- [16.  Explain the Context API and useReducer in React.](#16-explain-the-context-api-and-usereducer-in-react)
+- [17. What is the difference between Client State and Server State?](#17-what-is-the-difference-between-client-state-and-server-state)
+- [18. HTTP Caching Basics](#18-http-caching-basics)
+- [19. Cache-Control Headers](#19-cache-control-headers)
+- [20. ETag & Last-Modified (Cache Validation)](#20-etag-last-modified-cache-validation)
+- [21. What is CDN and CDN cache](#21-what-is-cdn-and-cdn-cache)
+- [22. Cache Invalidation Strategies](#22-cache-invalidation-strategies)
+- [23. LocalStorage vs SessionStorage vs Cookies](#23-localstorage-vs-sessionstorage-vs-cookies)
+- [24. What is IndexedDB?](#24-what-is-indexeddb)
+- [25. How do you handle asynchronous state updates in React?](#25-how-do-you-handle-asynchronous-state-updates-in-react)
+- [26. what is React.memo ?  How does React.memo help improve performance?](#26-what-is-reactmemo-how-does-reactmemo-help-improve-performance)
+- [27. If I ask you to optimize a slow React application, what techniques would you use?](#27-if-i-ask-you-to-optimize-a-slow-react-application-what-techniques-would-you-use)
+- [28. What is the difference between React.PureComponent and React.Component?](#28-what-is-the-difference-between-reactpurecomponent-and-reactcomponent)
+- [29. What is prop drilling?](#29-what-is-prop-drilling)
+- [30. What is Throttling?](#30-what-is-throttling)
+- [31. What is Debouncing ?](#31-what-is-debouncing)
+- [32. Why is the key prop important in React lists?](#32-why-is-the-key-prop-important-in-react-lists)
+- [33. What happens if we use the array index as a key in React?](#33-what-happens-if-we-use-the-array-index-as-a-key-in-react)
+- [34. What is React Router and why is it used?](#34-what-is-react-router-and-why-is-it-used)
+- [35. Explain the difference between client-side and server-side programming?](#35-explain-the-difference-between-client-side-and-server-side-programming)
+- [36. What is the difference between client-side routing and server-side routing?](#36-what-is-the-difference-between-client-side-routing-and-server-side-routing)
+- [37. What is Sever Side Rendering and Client Side Rendering](#37-what-is-sever-side-rendering-and-client-side-rendering)
+- [38. What are React Server Components?](#38-what-are-react-server-components)
+- [39. Static Site Generation (SSG)](#39-static-site-generation-ssg)
+- [40. What is Hydration?](#40-what-is-hydration)
 
-### 🖥️ HTML / CSS / Browser
+<!-- ### 🖥️ HTML / CSS / Browser -->
 
-- [117. Why is semantic HTML important beyond SEO?](#117-why-is-semantic-html-important-beyond-seo)
-- [118. What are reflow and repaint?](#113-what-are-reflow-and-repaint)
-- [119. preload vs prefetch vs preconnect](#114-preload-vs-prefetch-vs-preconnect)
-- [120. How does HTML structure affect performance?](#120-how-does-html-structure-affect-performance)
-- [121. Button vs Anchor](#121-button-vs-anchor)
-- [122. What is ARIA? What problems does ARIA solve?](#122-what-is-aria-what-problems-does-aria-solve)
-- [123. How does HTML impact screen readers?](#123-how-does-html-impact-screen-readers)
-- [124. Flexbox and Grid](#124-flexbox-and-grid)
+
 
 ### 💛 JavaScript Core
 
-- [125. How hoisting works?](#125-how-hoisting-works)
-- [126. Microtasks vs Macrotasks](#126-microtasks-vs-macrotasks)
-- [127. How garbage collection works?](#127-how-garbage-collection-works)
-- [128. What causes memory leaks?](#128-what-causes-memory-leaks)
-- [129. How ‘this’ behaves?](#129-how-this-behaves)
-- [130. What are closures?](#130-what-are-closures)
+- [1. How hoisting works?](#1-how-hoisting-works)
+- [2. Microtasks vs Macrotasks](#2-microtasks-vs-macrotasks)
+- [3. How garbage collection works?](#3-how-garbage-collection-works)
+- [4. What causes memory leaks?](#4-what-causes-memory-leaks)
+- [5. How ‘this’ behaves?](#5-how-this-behaves)
+- [6. What are closures?](#6-what-are-closures)
 
 ### 🔷 TypeScript
 
-- [131. What are generics types?](#131-what-are-generics-types)
-- [132. Interface vs Type](#132-interface-vs-type)
+- [1. What are generics types?](#1-what-are-generics-types)
+- [2. Interface vs Type](#2-interface-vs-type)
 
 ### ⚡ Performance & Web Vitals
 
-- [133. What are Web Vitals (LCP, CLS, INP)?](#133-what-are-web-vitals-lcp-cls-inp)
-- [134. How do you reduce Time To Interactive (TTI)?](#134-how-do-you-reduce-time-to-interactive-tti)
-- [135. Code Splitting (Lazy Loading)](#135-code-splitting-lazy-loading)
-- [136. How do images impact performance? How do images impact performance?](#136-how-do-images-impact-performance-how-do-images-impact-performance)
+- [1. What are Web Vitals (LCP, CLS, INP)?](#1-what-are-web-vitals-lcp-cls-inp)
+- [2. How do you reduce Time To Interactive (TTI)?](#2-how-do-you-reduce-time-to-interactive-tti)
+- [3. Code Splitting (Lazy Loading)](#3-code-splitting-lazy-loading)
+- [4. How do images impact performance? How do images impact performance?](#4-how-do-images-impact-performance-how-do-images-impact-performance)
+- [5. What is WCAG?](#5-what-is-wcag)
 
-### ♿ Accessibility
+<!-- ### ♿ Accessibility -->
 
-- [137. What is WCAG?](#137-what-is-wcag)
 
 ### 🔧 Build Tools & Bundlers
 
-- [138. How do bundlers work?](#138-how-do-bundlers-work)
-- [139. Vite vs Webpack vs Rollup](#139-vite-vs-webpack-vs-rollup)
-- [140. What does Babel do?](#140-what-does-babel-do)
-- [141. How does Hot Module Replacement (HMR) work?](#141-how-does-hot-module-replacement-hmr-work)
-- [142. What is a Monorepo?](#142-what-is-a-monorepo)
+- [1. How do bundlers work?](#1-how-do-bundlers-work)
+- [2. Vite vs Webpack vs Rollup](#2-vite-vs-webpack-vs-rollup)
+- [3. What does Babel do?](#3-what-does-babel-do)
+- [4. How does Hot Module Replacement (HMR) work?](#4-how-does-hot-module-replacement-hmr-work)
+- [5. What is a Monorepo?](#5-what-is-a-monorepo)
 
 ### 🧪 Testing
 
-- [143. What is the Test Pyramid?](#143-what-is-the-test-pyramid)
-- [144. Unit vs Integration vs E2E](#144-unit-vs-integration-vs-e2e)
-- [145. What is mock in testing ?](#145-what-is-mock-in-testing)
-- [146. What should NOT be tested?](#146-what-should-not-be-tested)
+- [1. What is the Test Pyramid?](#1-what-is-the-test-pyramid)
+- [2. Unit vs Integration vs E2E](#2-unit-vs-integration-vs-e2e)
+- [3. What is mock in testing ?](#3-what-is-mock-in-testing)
+- [4. What should NOT be tested?](#4-what-should-not-be-tested)
 
 ### 📐 Architecture & Design Patterns
 
-- [147. What is Component-Driven Development (CDD)?](#147-what-is-component-driven-development-cdd)
-- [148. What is Atomic Design?](#148-what-is-atomic-design)
-- [149. What are Micro-frontends?](#149-what-are-micro-frontends)
-- [150. What is Semantic versioning (SemVer)?](#150-what-is-semantic-versioning-semver)
+- [1. What is Component-Driven Development (CDD)?](#1-what-is-component-driven-development-cdd)
+- [2. What is Atomic Design?](#2-what-is-atomic-design)
+- [3. What are Micro-frontends?](#3-what-are-micro-frontends)
+- [4. What is Semantic versioning (SemVer)?](#4-what-is-semantic-versioning-semver)
 
-<br><br>
----
+<!-- <br><br> -->
+<!-- --- -->
 
 
-# 🌐 Basics / Web Fundamentals
-<br><br>
+<!-- # 🌐 Basics / Web Fundamentals -->
+<!-- <br><br> -->
 
-## **1. Explain the difference between client-side and server-side programming?**
 
-The client-side and server-side refer to two distinct parts of a web application that work together to deliver functionality to users. Understanding their roles is essential for building efficient and responsive applications.
-
-**Client-Side**
-
-**What it Does:**  
-This is the part of the application that runs in the user’s browser. It handles user interfaces and interactions, allowing users to see and interact with the application.
-
-**Key Characteristics:**
-
-- Executes JavaScript code directly in the browser to handle tasks like form validation, animations, and dynamic content updates (through DOM -Document Object Model- updates).
-- Manages rendering of HTML and CSS for a seamless visual experience.
-- Often communicates with the server via REST (Representational State Transfer) APIs to fetch or send data asynchronously.
-
-**Examples:**
-
-- Clicking a button that triggers a JavaScript function to show a popup.
-- Fetching additional items on a page using fetch() or axios without a full page reload.
-
-**Server-Side**
-
-**What it Does:**  
-This part operates on the server and processes requests from the client, performing tasks like database queries, business logic, and serving responses.
-
-Key Characteristics:
-
-- Executes server-side programming languages like Python, Java, or Node.js.
-- Handles sensitive operations like authentication and data storage securely.
-- Sends data to the client in structured formats (e.g., JSON) via REST APIs for rendering.
-
-**Examples:**
-
-- Processing a login request by verifying credentials in a database.
-- Returning a list of products in JSON format for the client to display dynamically.
 
 
 <br><br>
@@ -260,7 +229,10 @@ Key Characteristics:
 # 🌍 Networking (DNS, HTTP, HTTPS, CORS)
 <br><br>
 
-## **2. What is DNS?**
+
+
+
+## **1. What is DNS?**
 
 DNS is a **hierarchical and distributed naming system** that translates domain names into IP addresses. When you type a domain name like  into your browser, DNS ensures that the request reaches the correct server by resolving the domain to its corresponding .
 
@@ -270,7 +242,7 @@ Without DNS, we’d have to remember the numerical IP address of every website w
 ---
 
 
-## **3. How Does DNS Works?**
+## **2. How Does DNS Works?**
 
 
 
@@ -294,7 +266,7 @@ Without DNS, we’d have to remember the numerical IP address of every website w
 ---
 
 
-## **4. What is the difference between HTTP and HTTPS?**
+## **3. What is the difference between HTTP and HTTPS?**
 
 
 | HTTP | HTTPS |
@@ -311,7 +283,7 @@ Without DNS, we’d have to remember the numerical IP address of every website w
 ---
 
 
-## **5. What is CORS, and how do you handle it in a web application?**
+## **4. What is CORS, and how do you handle it in a web application?**
 
 **CORS** (Cross-Origin Resource Sharing) controls access to resources from a different origin (domain, protocol, or port).
 
@@ -322,7 +294,7 @@ Without DNS, we’d have to remember the numerical IP address of every website w
 ---
 
 
-## **6. How does HTTP work?**
+## **5. How does HTTP work?**
 
 HTTP is a request-response protocol where the client sends a request to the server, and the server responds with data.
 
@@ -335,7 +307,7 @@ HTTP is a request-response protocol where the client sends a request to the serv
 ---
 
 
-## **7. HTTP/1.1 vs HTTP/2 vs HTTP/3**
+## **6. HTTP/1.1 vs HTTP/2 vs HTTP/3**
 
 
 **HTTP/1.1**  
@@ -489,7 +461,7 @@ Fries later
 # 🟢 Node.js / Backend
 <br><br>
 
-## **8. Explain event loop in Node.js.**
+## **1. Explain event loop in Node.js.**
 
 **Short Answer (Best for interviews)**  
 Node.js uses a single-threaded, non-blocking architecture. The event loop is what allows Node.js to handle multiple operations asynchronously without creating multiple threads.  
@@ -533,7 +505,7 @@ Timeout
 ---
 
 
-## **9. Explain the meaning of multithreading?**
+## **2. Explain the meaning of multithreading?**
 
 Multithreading is a concept where multiple threads execute tasks simultaneously within a single process, allowing better performance and efficient use of CPU.
 
@@ -546,7 +518,7 @@ Ex- Like a restaurant kitchen where multiple chefs (threads) work on different d
 ---
 
 
-## **10. How Node.js Handles Concurrency (Without Multithreading)**
+## **3. How Node.js Handles Concurrency (Without Multithreading)**
 
 Node.js is single-threaded, but it handles concurrency using the event loop and background workers (libuv).
 
@@ -556,7 +528,7 @@ Node.js achieves concurrency using the event loop and non-blocking I/O operation
 ---
 
 
-## **11. Event Loop vs Multithreading**
+## **4. Event Loop vs Multithreading**
 
 Multithreading runs tasks in parallel using multiple threads, while the event loop handles concurrency in a single thread using non-blocking operations.
 
@@ -564,7 +536,7 @@ Multithreading runs tasks in parallel using multiple threads, while the event lo
 ---
 
 
-## **12. What is callback function.**
+## **5. What is callback function.**
 
 A callback function is a function that is passed as an argument to another function.
 
@@ -615,7 +587,7 @@ fetchProjects(successCb, errorCb);
 ---
 
 
-## **13. What is Promise and explain its states?**
+## **6. What is Promise and explain its states?**
 
 A Promise in JavaScript is an object that represents the result of an asynchronous operation
 - **Pending:** In its initial state, neither fulfilled nor rejected.
@@ -652,7 +624,7 @@ myPromise
 ---
 
 
-## **14. What is Async/Await?**
+## **7. What is Async/Await?**
 
 Async/await is built on top of Promises and helps write cleaner, more readable asynchronous code.  
 We can only use await inside an async function.  
@@ -663,7 +635,7 @@ await → pauses the execution until the Promise is resolved
 ---
 
 
-## **15. Explain the Restful API**
+## **8. Explain the Restful API**
 
 REST API stands for REpresentational State Transfer API  
 API (Application Programming Interface)  
@@ -677,7 +649,7 @@ These methods align with **CRUD** operations, which are used to manipulate res
 ---
 
 
-## **16. HTTP Methods**
+## **9. HTTP Methods**
 
   GET → Read   
   POST → Create   
@@ -694,7 +666,7 @@ These methods align with **CRUD** operations, which are used to manipulate res
 ---
 
 
-## **17. What is Authentication and Authorization?**
+## **10. What is Authentication and Authorization?**
 
 **Authentication** is the process of verifying who the user is (verifying user identity)  
 **Authorization** is the process of determining what the user is allowed to do.  
@@ -705,7 +677,7 @@ These methods align with **CRUD** operations, which are used to manipulate res
 ---
 
 
-## **18. What is the purpose of package.json in a Node.js project?**
+## **11. What is the purpose of package.json in a Node.js project?**
 
 
 It has multiple uses.  
@@ -717,7 +689,7 @@ as well as scripts for tasks like building, testing, or running the app
 ---
 
 
-## **19. Describe the concept of MVC architecture**
+## **12. Describe the concept of MVC architecture**
 
 🔹 **Model (Data Layer)**  
 👉 “Handles data and business logic.”  
@@ -753,7 +725,7 @@ Flow –  User →  View → Controller → Model → Controller → View → Us
 ---
 
 
-## **20. WebSockets and HTTP**
+## **13. WebSockets and HTTP**
 
 
 **🔹 HTTP**  
@@ -773,7 +745,7 @@ WebSocket is a full-duplex protocol that allows real-time, two-way communication
 ---
 
 
-## **21. Short Polling & Long Polling & WebSockets**
+## **14. Short Polling & Long Polling & WebSockets**
 
 Polling and WebSockets are techniques used for client-server communication.  
 Polling repeatedly asks the server for updates  
@@ -822,7 +794,7 @@ WebSocket creates a persistent connection where both client and server can send 
 ---
 
 
-## **22. What is SSE?**
+## **15. What is SSE?**
 
 SSE (Server-Sent Events) allows the server to send data to the client continuously over a single HTTP connection.
 
@@ -840,7 +812,7 @@ SSE is like an improved version of long polling
 ---
 
 
-## **23. What is web hooks**
+## **16. What is web hooks**
 
 A webhook is a way for one application to send real-time data to another application automatically when a specific event occurs.
 
@@ -862,7 +834,7 @@ Webhooks should be secured using signatures or secret keys to verify that the re
 ---
 
 
-## **24. Explain the crypto module in Node.js**
+## **17. Explain the crypto module in Node.js**
 
 The crypto module is used for encrypting, decrypting, or hashing any type of data.
 
@@ -872,7 +844,7 @@ The main use case of the crypto module is to convert the plain readable text to 
 ---
 
 
-## **25. What is .body-parser in Node.js?**
+## **18. What is .body-parser in Node.js?**
 
 body-parser is a middleware in Node.js (Express) used to parse incoming request bodies so we can access data sent by the client in req.body.
 
@@ -883,7 +855,7 @@ body-parser → converts it into usable format ✅
 ---
 
 
-## **26. What is Middleware in Express?**
+## **19. What is Middleware in Express?**
 
 Middleware is a function that runs between the request and the response cycle, and it can modify the request, response, or end the request.
 
@@ -903,10 +875,10 @@ Middleware can:
 ---
 
 
-## **27. req.params vs req.query vs req.body**
+## **20. req.params vs req.query vs req.body**
 
 
-#### **🔹 req.params** 
+### **🔹 req.params** 
 
 👉 Used to get data from **URL path** variables  
 **📌** Example  
@@ -918,7 +890,7 @@ Middleware can:
 👉 URL:  /user/101              👉 Output:  101
 
 
-#### **🔹 req.query**  
+### **🔹 req.query**  
 
 👉 Used to get data from **query string** (URL after ?).  
 **📌** Example  
@@ -930,7 +902,7 @@ Middleware can:
 👉 URL:  /search?name=tirth          👉 Output:  tirth
 
 
-#### **🔹 req.body**  
+### **🔹 req.body**  
 
 👉 Used to get data sent in **request body** (POST/PUT/PATCH).  
 **📌** Example  
@@ -941,6 +913,89 @@ Middleware can:
 ```
 👉 Body:  { "name": "Tirth" }        👉 Output:  Tirth
 
+---
+
+## **21. What is GraphQL**
+
+GraphQL is a query language for APIs that allows clients to request only the data they need.
+
+- REST → /users, /posts, /comments 
+- GraphQL → **single endpoint** 
+
+👉 Client decides **what data to fetch** ✅
+
+**🔹 1. Avoid Over-fetching**  
+👉 Get only required data  
+
+**🔹 2. Avoid Under-fetching**  
+👉 No need for multiple API calls
+
+GraphQL is especially useful in frontend-heavy applications where minimizing API calls is important.
+
+## **22. HTTP status codes**
+
+- Informational responses (100 – 199)
+- Successful responses (200 – 299)
+- Redirection messages (300 – 399)
+- Client error responses (400 – 499)
+- Server error responses (500 – 599)
+
+<br>
+
+100 Continue	                  
+
+200 OK  
+201 Created  
+
+304 Not Modified  
+307 Temporary Redirect  
+308 Permanent Redirect  
+
+400 Bad Request  
+401 Unauthorized  
+403 Forbidden  
+404 Not Found  
+409 Conflict  
+429 Too Many Requests  
+
+500 Internal Server Error 
+
+
+---
+
+
+## **23. What is Server-Sent Events (SSE)?**
+
+Server-Sent Events (SSE) is a technology that allows the server to push real-time updates to the client over a single HTTP connection.
+
+👉 Client opens a connection → server keeps sending updates
+
+- One-way communication (server → client) 
+- Uses normal HTTP 
+- Connection stays open
+
+**📌 Example Use Cases**
+
+- Live notifications 
+- News feeds 
+- Stock price updates
+- Chat gpt
+
+
+---
+
+
+## **24. SSE vs WebSocket**
+
+SSE is one-way (server to client)  
+WebSocket is two-way (bidirectional).
+
+| Feature | SSE | WebSocket |
+| --- | --- | --- |
+| Communication | One-way | Two-way (full-duplex) |
+| Protocol | HTTP | WebSocket (ws://) |
+
+
 
 
 <br><br>
@@ -950,7 +1005,7 @@ Middleware can:
 <br><br>
 
 
-## **28. What is normalization and denormalization.**
+## **1. What is normalization and denormalization.**
 
 
 **Normalization** – Normalization removes duplicate data by splitting it into multiple related tables.
@@ -987,7 +1042,7 @@ In real-world systems, we often use a balance of both — normalized design for 
 ---
 
 
-## **29. Normal Forms (1NF, 2NF, 3NF)**
+## **2. Normal Forms (1NF, 2NF, 3NF)**
 
 
 ### **🔹 1NF (First Normal Form)**    
@@ -1074,7 +1129,7 @@ Enrollments Table
 ---
 
 
-## **30. What is Indexing in Database?**
+## **3. What is Indexing in Database?**
 
 
 Indexing is a technique used to improve the speed of data reads by creating a separate data structure that allows faster searching.
@@ -1090,7 +1145,7 @@ Index improves read performance but adds overhead to write operations.
 ---
 
 
-## **31. What are ACID Properties?**
+## **4. What are ACID Properties?**
 
 
 ACID ensures reliable and consistent database transactions.
@@ -1150,7 +1205,7 @@ Once a transaction is committed, it will NOT be lost — even if the system cras
 ---
 
 
-## **32. SQL vs NoSQL**
+## **5. SQL vs NoSQL**
 
 
 | Feature | SQL | NoSQL |
@@ -1195,7 +1250,7 @@ Once a transaction is committed, it will NOT be lost — even if the system cras
       Instead of joining tables: You store related data together   
 
 
-## **33. Replication and Sharding**
+## **6. Replication and Sharding**
 
 **Replication (Copying Database)**  
 Replication = making copies of your database  
@@ -1245,7 +1300,7 @@ Shard 3 → Users 2001–3000
 # 🐳 DevOps (Docker, CI/CD, Nginx)
 <br>
 
-## **34. Packages manager in your Node.js**
+## **1. Packages manager in your Node.js**
 
 A package manager in a Node.js project is a tool used to install, manage, and maintain project dependencies.
 
@@ -1260,7 +1315,7 @@ Ex –  npm, Yarn, pnpm
 ---
 
 
-## **35. Explain the role of Docker in development and deployment**
+## **2. Explain the role of Docker in development and deployment**
 
 Docker is a containerization tool that allows developers to package an application along with its dependencies into a container, ensuring it runs consistently across different environments.
 
@@ -1306,7 +1361,7 @@ Docker is a containerization tool that allows developers to package an applicati
 
 ---
 
-## **36. What is Docker Compose?**
+## **3. What is Docker Compose?**
 
 Docker Compose is a tool used to define and run multiple containers together using a single configuration file.
 
@@ -1337,7 +1392,7 @@ Docker Compose is a tool used to define and run multiple containers together usi
 ---
 
 
-## **37. What is multi stage docker file ?**
+## **4. What is multi stage docker file ?**
 
 A multi-stage Dockerfile is a Dockerfile that uses multiple build stages to create a smaller and optimized final image by separating build and runtime environments.
 
@@ -1440,7 +1495,7 @@ CMD ["node", "dist/index.js"]
 ---
 
 
-## **38. What is CI/CD ?**
+## **5. What is CI/CD ?**
 
 CI/CD stands for Continuous Integration and Continuous Deployment/Delivery.
 
@@ -1465,7 +1520,7 @@ Developer → Push code to GitHub
 # 🔐 Security (JWT, Encryption, Hashing)
 <br><br>
 
-## **39. Encryption, Decryption and Hashing**
+## **1. Encryption, Decryption and Hashing**
 
 **Encryption** is the process of converting readable data (plain text) into unreadable data (cipher text) using a key to protect it.
 - Data becomes unreadable 
@@ -1490,7 +1545,7 @@ Developer → Push code to GitHub
 ---
 
 
-## **40. What is Plaintext and Ciphertext?**
+## **2. What is Plaintext and Ciphertext?**
 
 Plaintext is readable data  
 Ciphertext is the encrypted unreadable form.
@@ -1499,7 +1554,7 @@ Ciphertext is the encrypted unreadable form.
 ---
 
 
-## **41. What is a Key in Encryption?**
+## **3. What is a Key in Encryption?**
 
 A key is a secret value used in encryption and decryption to convert plaintext into ciphertext and vice versa.
 
@@ -1507,7 +1562,7 @@ A key is a secret value used in encryption and decryption to convert plaintext i
 ---
 
 
-## **42. What is Symmetric Encryption?**
+## **4. What is Symmetric Encryption?**
 
 Symmetric encryption uses the same key for both encryption and decryption.   
 Encrypt → Key A   
@@ -1517,7 +1572,7 @@ Decrypt → Key A
 ---
 
 
-## **43. What is Asymmetric Encryption?**
+## **5. What is Asymmetric Encryption?**
 
 Asymmetric encryption uses two keys: a public key and a private key  
 Public key → encrypt   
@@ -1530,7 +1585,7 @@ Private key → decrypt
 ---
 
 
-## **44. Examples of encryption algorithms (AES, RSA)?**
+## **6. Examples of encryption algorithms (AES, RSA)?**
 
 🔹 AES (Advanced Encryption Standard)  
 - Symmetric encryption  
@@ -1547,7 +1602,7 @@ Private key → decrypt
 ---
 
 
-## **45. Examples of hashing algorithms (MD5, SHA)?**
+## **7. Examples of hashing algorithms (MD5, SHA)?**
 
 **🔹** MD5  
 - Older hashing algorithm  
@@ -1566,7 +1621,7 @@ Private key → decrypt
 ---
 
 
-## **46. Why is Hashing Used for Passwords?**
+## **8. Why is Hashing Used for Passwords?**
 
 Hashing is used to securely store passwords so that even if the database is compromised, the original passwords cannot be retrieved  
 
@@ -1576,7 +1631,7 @@ Hashing protects user passwords by storing them in a non-reversible format.
 ---
 
 
-## **47. What is Salting in Hashing?**
+## **9. What is Salting in Hashing?**
 
 Salting is the process of **adding a random value to a password** before hashing to make it more secure.
 
@@ -1588,7 +1643,7 @@ Result → hash("123456xyz")
 ---
 
 
-## **48. What is a Hash Collision?**
+## **10. What is a Hash Collision?**
 
 A hash collision occurs when two different inputs produce the same hash output.
 
@@ -1596,7 +1651,7 @@ A hash collision occurs when two different inputs produce the same hash output.
 ---
 
 
-## **49. What is a Brute Force Attack?**
+## **11. What is a Brute Force Attack?**
 
 A brute force attack is when an attacker tries all possible combinations to guess a password.
 
@@ -1604,7 +1659,7 @@ A brute force attack is when an attacker tries all possible combinations to gues
 ---
 
 
-## **50. What is a Rainbow Table Attack?**
+## **12. What is a Rainbow Table Attack?**
 
 
 A rainbow table attack uses precomputed hash values to quickly find the original password.
@@ -1617,7 +1672,7 @@ Attacker already has list:  123456 → hash1
 ---
 
 
-## **51. How Salting Prevents Rainbow Table Attacks?**
+## **13. How Salting Prevents Rainbow Table Attacks?**
 
 Salting makes each password hash unique, so precomputed rainbow tables become useless.  
 
@@ -1628,7 +1683,7 @@ Salting makes each password hash unique, so precomputed rainbow tables become us
 ---
 
 
-## **52. What is Public Key and Private Key?**
+## **14. What is Public Key and Private Key?**
 
 A public key is shared openly and used for encryption, while a private key is kept secret and used for decryption.
 
@@ -1639,7 +1694,7 @@ Private key → key 🔑
 ---
 
 
-## **53. What is SSL / TLS ?**
+## **15. What is SSL / TLS ?**
 
 SSL/TLS are cryptographic protocols that provide secure communication over the internet.  
 
@@ -1650,7 +1705,7 @@ TLS : Transport Layer Security
 ---
 
 
-## **54. What is End-to-End Encryption (E2EE) ?**
+## **16. What is End-to-End Encryption (E2EE) ?**
 
 End-to-end encryption ensures that only the sender and receiver can read the data, and even the server cannot access it.
 
@@ -1658,7 +1713,7 @@ End-to-end encryption ensures that only the sender and receiver can read the dat
 ---
 
 
-## **55. What is Key Exchange (Diffie-Hellman)?**
+## **17. What is Key Exchange (Diffie-Hellman)?**
 
 Diffie-Hellman is a method that allows two parties to securely generate a shared secret key over an insecure network.
 
@@ -1670,7 +1725,7 @@ Diffie-Hellman allows secure key exchange without transmitting the actual key.
 ---
 
 
-## **56. How do you store passwords securely in a database?**
+## **18. How do you store passwords securely in a database?**
 
 Passwords should be stored using hashing with a strong algorithm like **bcrypt** or **Argon2**, along with **salting**.
 
@@ -1678,7 +1733,7 @@ Passwords should be stored using hashing with a strong algorithm like **bcrypt**
 ---
 
 
-## **57. How to implement password hashing in Node.js?**
+## **19. How to implement password hashing in Node.js?**
 
 const hashedPassword = await **bcrypt.hash**("123456", 10);
 
@@ -1688,7 +1743,7 @@ const isMatch = await **bcrypt.compare**("123456", hashedPassword);
 ---
 
 
-## **58. How does JWT signing work?**
+## **20. How does JWT signing work?**
 
 JWT is signed, not encrypted.
 
@@ -1702,7 +1757,7 @@ JWT uses signing to verify data integrity, not encryption to hide data.
 ---
 
 
-## **59. How do you secure API data?**
+## **21. How do you secure API data?**
 
 - HTTPS (encryption) 
 - JWT authentication 
@@ -1714,7 +1769,7 @@ JWT uses signing to verify data integrity, not encryption to hide data.
 ---
 
 
-## **60. What is OAuth?**
+## **22. What is OAuth?**
 
 OAuth is an authorization framework that allows a user to grant a third-party application access to their data without sharing their password.
 
@@ -1722,7 +1777,7 @@ OAuth is an authorization framework that allows a user to grant a third-party ap
 ---
 
 
-## **61. What is XSS and how to prevent it?**
+## **23. What is XSS and how to prevent it?**
 
 XSS (Cross-Site Scripting) is an attack where malicious JavaScript is injected into a webpage and executed in the user’s browser.
 
@@ -1739,7 +1794,7 @@ XSS is prevented by **validating inputs** and avoiding unsafe HTML rendering.
 ---
 
 
-## **62. What is CSRF?**
+## **24. What is CSRF?**
 
 Malicious website uses your logged-in identity to perform actions you've never requested
 **Cross-Site Request Forgery**
@@ -1759,7 +1814,7 @@ Malicious website uses your logged-in identity to perform actions you've never r
 ---
 
 
-## **63.  How does Content Security Policy (CSP) work?**
+## **25.  How does Content Security Policy (CSP) work?**
 
 Content Security Policy is a security feature that restricts which resources (scripts, styles) can be loaded on a webpage.
 
@@ -1795,7 +1850,7 @@ Try to run this code in github it will block by CSP and work on google home page
 ---
 
 
-## **64. What is Clickjacking?**
+## **26. What is Clickjacking?**
 
 Clickjacking is an attack where a user is tricked into clicking something different from what they see.
 
@@ -1810,7 +1865,7 @@ Clickjacking is an attack where a user is tricked into clicking something differ
 ---
 
 
-## **65. What are common frontend attack vectors?**
+## **27. What are common frontend attack vectors?**
 
 - XSS 
 - CSRF 
@@ -1822,10 +1877,10 @@ Clickjacking is an attack where a user is tricked into clicking something differ
 ---
 
 
-# 🏗️ System Design (Caching, CDN, Scaling)
+# 🏗️ Redis & Nginx
 <br><br>
 
-## **66. What is redis ?**
+## **1. What is redis ?**
 
 Redis is an in-memory key-value database used for caching, fast data access, and real-time applications.
 
@@ -1838,7 +1893,7 @@ Redis is an in-memory key-value database used for caching, fast data access, and
 ---
 
 
-## **67. Use case of redis**
+## **2. Use case of redis**
 
 - Caching
 - Session Management
@@ -1851,7 +1906,7 @@ Redis is an in-memory key-value database used for caching, fast data access, and
 ---
 
 
-## **68. Explain caching strategies**
+## **3. Explain caching strategies**
 
 
 ### 1. **Cache-Aside** 
@@ -1936,7 +1991,7 @@ Cache expires automatically after a certain time.
 ---
 
 
-## **69. What is Nginx ?**
+## **4. What is Nginx ?**
 
 Nginx is a high-performance web server that can also act as a reverse proxy, load balancer, and API gateway.  
 
@@ -1978,90 +2033,12 @@ Nginx connects the domain to a backend server running on a specific port by acti
 
 👉 Stores responses to serve faster
 
-<br><br>
+<!-- <br><br> -->
 ---
 
 
-# 📡 API & Communication
-<br><br>
-
-## **70. What is GraphQL**
-
-GraphQL is a query language for APIs that allows clients to request only the data they need.
-
-- REST → /users, /posts, /comments 
-- GraphQL → **single endpoint** 
-
-👉 Client decides **what data to fetch** ✅
-
-**🔹 1. Avoid Over-fetching**  
-👉 Get only required data  
-
-**🔹 2. Avoid Under-fetching**  
-👉 No need for multiple API calls
-
-GraphQL is especially useful in frontend-heavy applications where minimizing API calls is important.
-
-## **71. HTTP status codes**
-
-- Informational responses (100 – 199)
-- Successful responses (200 – 299)
-- Redirection messages (300 – 399)
-- Client error responses (400 – 499)
-- Server error responses (500 – 599)
-
-100 Continue	                  
-
-200 OK  
-201 Created  
-
-304 Not Modified  
-307 Temporary Redirect  
-308 Permanent Redirect  
-
-400 Bad Request  
-401 Unauthorized  
-403 Forbidden  
-404 Not Found  
-409 Conflict  
-429 Too Many Requests  
-
-500 Internal Server Error 
-
-
----
-
-
-## **72. What is Server-Sent Events (SSE)?**
-
-Server-Sent Events (SSE) is a technology that allows the server to push real-time updates to the client over a single HTTP connection.
-
-👉 Client opens a connection → server keeps sending updates
-
-- One-way communication (server → client) 
-- Uses normal HTTP 
-- Connection stays open
-
-**📌 Example Use Cases**
-
-- Live notifications 
-- News feeds 
-- Stock price updates
-- Chat gpt
-
-
----
-
-
-## **73. SSE vs WebSocket**
-
-SSE is one-way (server to client)  
-WebSocket is two-way (bidirectional).
-
-| Feature | SSE | WebSocket |
-| --- | --- | --- |
-| Communication | One-way | Two-way (full-duplex) |
-| Protocol | HTTP | WebSocket (ws://) |
+<!-- # 📡 API & Communication -->
+<!-- <br><br> -->
 
 
 
@@ -2074,7 +2051,7 @@ WebSocket is two-way (bidirectional).
 # 🖥️ Browser / DOM / HTML / CSS
 <br><br>
 
-## **74. What is DOM?**
+## **1. What is DOM?**
 
 DOM (Document Object Model) is a programming interface for HTML.  
 
@@ -2110,7 +2087,7 @@ document.querySelector("h1").textContent = "Hi";
 ---
 
 
-## **75. What is Virtual DOM?**
+## **2. What is Virtual DOM?**
 
 Virtual DOM is a lightweight copy of the real DOM in memory.
 
@@ -2136,7 +2113,7 @@ DOM updates everything directly, while Virtual DOM updates only the changed part
 ---
 
 
-## **76. What is HTML?**
+## **3. What is HTML?**
 
 HTML (HyperText Markup Language) is used to create the structure of a web page.  
 HTML = skeleton of a website
@@ -2145,1197 +2122,15 @@ HTML = skeleton of a website
 ---
 
 
-## **77. What is CSS?**
+## **4. What is CSS?**
 
 CSS (Cascading Style Sheets) is used to style the HTML elements.  
 Colors, layout, spacing, fonts, responsiveness  
 CSS = design of a website 
 
-<br><br>
 ---
 
-
-# ⚛️ React
-<br><br>
-
-## **78. What is react ?**
-
-ReactJS is a component-based JavaScript library used to build dynamic and interactive user interfaces.
-
-It simplifies the creation of single-page applications (SPAs) with a focus on performance and maintainability.
-- Reusable components
-- Fast performance 
-- Easy to manage UI updates
-
-## **79. How does React.js work?**
-React is a JavaScript library for building UI using components, and it works by updating the UI efficiently using a Virtual DOM and state-based re-rendering.
-
-1️⃣ Component-Based Architecture      
-2️⃣ Virtual DOM   
-3️⃣ State & Re-rendering  
-
-👉 **flow:**
-1. User interacts (click, input) 
-2. State changes 
-3. Virtual DOM updates 
-4. Diffing happens 
-5. Real DOM updates efficiently
-
-<br>
-
-- **Components**: UI is broken into reusable, independent pieces.
-- **JSX**: Allows writing HTML-like code inside JavaScript for easier UI development..
-- **Virtual DOM**: A lightweight copy of the real DOM that tracks changes.
-- **Reconciliation**: Compares old and new Virtual DOM and updates only the changed parts in the real DOM.
-- **One-way Data Flow**: Ensures predictable UI updates by passing data from parent to child via props.
-- **State Management**: React automatically re-renders components when their state changes.
-
-## **80. What is JSX?**
-JSX ( JavaScript XML ) Syntax extension for JavaScript, mainly used with React.
-
-Allows writing HTML-like code inside JavaScript for easier readability and maintenance.
-
-## **81. What is a React component?**
-A React component is a reusable, independent piece of UI in a React application. It is basically a JavaScript function or class that returns JSX, which describes how the UI should look.
-
-Components help us break the UI into smaller parts, making the code more modular, maintainable, and reusable.
-
-
----
-
-
-## **82. What are props ?**
-
-Props (properties) are used to pass data from a parent component to a child component. They are read-only and help make components dynamic and reusable.
-
-**props** are used to **pass data**, and **default props** ensure a **fallback value** if no prop is provided.
-
-
-
----
-
-
-## **83. What is state in React ?**
-
-State is a built-in object in React that is used to store data that can change over time and affect how a component renders.
-
-When the state changes, React automatically re-renders the component to reflect the updated data in the UI.
-
-In functional components, we use the **useState** hook to manage state.
-
-```js
-const [isOn, setIsOn] = useState(false);  
-setIsOn(prev => !prev)
-
-const [count, setCount] = useState(0);  
-setCount(prev => prev + 1);
-```
-
----
-
-
-## **84. What are fragments in React?**
-
-Fragments in React are used to group multiple elements without adding an extra DOM node.
-
-They help avoid unnecessary wrapper elements like \<div>, which keeps the DOM clean.
-
-In React, you must return a **single parent element**
-
-```js
-return (
-    <>
-        <h1>Hello</h1>
-        <p>World</p>
-    </>
-);
-```
-
-- Fragments avoid extra DOM nodes.
-- Short syntax: <> </> (cannot use attributes).
-- Full syntax: <React.Fragment> </React.Fragment> (can use key).
-- Useful in lists, tables, and grouping multiple elements.
-- Helps keep the DOM clean and lightweight.
-
-
----
-
-
-## **85. What is controlled and uncontrolled components?**
-
-Controlled components are form elements whose data is managed by React state, while uncontrolled components store their own state in the DOM.
-
-**Controlled components:** React manages the input’s value through state. The UI is always in sync with React state, and updates happen on every change via onChange.
-
-**Uncontrolled components:** The DOM manages the input’s value, and React only accesses it when needed using refs. Useful for simple forms where you don’t need to track every change.
-
-**1. Controlled Components** 
-👉 Form data is controlled by React using state.
-
-```jsx
-import { useState } from "react";
-
-function Form() {
-  const [name, setName] = useState("");
-
-  return (
-    <input
-      value={name}
-      onChange={(e) => setName(e.target.value)}
-    />
-  );
-}
-```
-
-
-**✅ Key Points**
-- React controls input value 
-- Single source of truth = state 
-- Easy validation 
-
-
-**2. Uncontrolled Components**
-👉 Form data is handled by the DOM itself using refs.
-
-
-```jsx
-import { useRef } from "react";
-
-function Form() {
-  const inputRef = useRef();
-
-  function handleSubmit() {
-    console.log(inputRef.current.value);
-  }
-
-  return <input ref={inputRef} />;
-}
-```
-
-
-**✅ Key Points**
-- Uses ref 
-- No React state 
-- Less control 
-
-<br>
-
-| Feature | Controlled Component | Uncontrolled Component |
-| --- | --- | --- |
-| Data Source | React state | DOM |
-| Control | High | Low |
-| Validation | Easy | Hard |
-| Code Complexity | More | Less |
-
-
-
-
-
-
-
----
-
-
-## **86. What is react life cycle ?**
-
-React lifecycle includes mounting, updating, and unmounting phases, and in functional components, it is handled using useEffect.
-
-
-```jsx
-import { useEffect } from "react";
-
-function App() {
-  useEffect(() => {
-    console.log("Mounted");
-
-    return () => {
-      console.log("Unmounted");
-    };
-  }, []);
-}
-```
-
-
-- useEffect(..., []) → runs on mount 
-- Cleanup function → runs on unmount
-
-
----
-
-
-## **87. What are Hooks in React ?**
-
-Hooks are functions in React that allow functional components to use state and lifecycle features.
-
-**Why Hooks are Used**
-
-- Manage state 
-- Handle lifecycle 
-- Reuse logic 
-- Write cleaner code 
-
-**✅ Rules of Hooks**  
-- Only call hooks at **top level** 
-- Only call hooks inside **React functions**
-- Custom hooks should always start with **use**, like **useFetch** or **useForm**
-
----
-
-
-## **88. React Hooks**
-
-
-**useState :** Used to manage state in functional components.
-
-**useEffect :** Used to handle side effects like API calls, timers, or subscriptions.
-
-**useContext :** Used to access global data without passing props.
-
-**useRef :** Used to access DOM elements or store values without re-rendering.
-
-**useMemo :** Used to optimize performance by memoizing expensive calculations. (remember value)
-
-**useCallback :** Used to memoize functions to prevent unnecessary re-renders. (remember function)
-
-
----
-
-
-## **89. Explain useMemo and useCallback**
-
-
-### **🔹 useMemo (Memoize a VALUE)** 
-
-Every time a component re-renders:  
-Expensive calculations run again ❗     
-It **caches a computed value** so it doesn’t recalculate unnecessarily
-
-
-
-```jsx
-import { useState, useMemo } from "react";
-
-function ExpensiveComponent() {
-  const [count, setCount] = useState(0);
-  const [text, setText] = useState("");
-
-  const expensiveValue = useMemo(() => {
-    console.log("Calculating...");
-    return count * 1000;
-  }, [count]);
-
-  return (
-    <>
-      <h1>{expensiveValue}</h1>
-      <button onClick={() => setCount(count + 1)}>Increase</button>
-      <input value={text} onChange={(e) => setText(e.target.value)} />
-    </>
-  );
-}
-```
-
-
-**🔍 What happens?**
-- When text changes → component re-renders 
-- BUT expensiveValue is **NOT recalculated** ✅ 
-- Because count didn’t change 
-
-**🧠 Use when:**
-- Heavy calculations 
-- Derived data (filter, sort, map) 
-- Avoid unnecessary recomputation
-
-
-
-
-### **🔹 useCallback (Memoize a FUNCTION)**
-Every time a component re-renders:  
-Functions are recreated ❗  
-It **caches a function** so it doesn’t get recreated on every render
-
-
-```jsx
-import { useState, useCallback } from "react";
-
-function Parent() {
-  const [count, setCount] = useState(0);
-
-  const handleClick = useCallback(() => {
-    console.log("Clicked");
-  }, []);
-
-  return (
-    <>
-      <Child onClick={handleClick} />
-      <button onClick={() => setCount(count + 1)}>Increase</button>
-    </>
-  );
-}
-
-function Child({ onClick }) {
-  console.log("Child rendered");
-  return <button onClick={onClick}>Click me</button>;
-}
-```
-
-
-Without useCallback:
-- handleClick is recreated every render ❌ 
-- Child re-renders unnecessarily ❌ 
-With useCallback:
-- Same function reference reused ✅ 
-- Child avoids unnecessary re-render ✅
-- Parent re-render → creates new function ❗ 
-- New function → new reference ❗ 
-- Memoized child sees change → re-render ❗ 
-
-👉 useCallback fixes the **reference problem**
-
-
----
-
-
-## **90. What is State Management in React and what is the difference between Local and Global State?**
-
-State management in React is the process of managing and controlling data (state) within an application so that the UI updates correctly when the data changes.
-
-- State = data that changes over time 
-- When state changes → UI re-renders
-
-**Local State:** Local state is managed inside a single component and is not shared with others.  
-
-Ex: useState
-- Cannot easily share with other components
-- To share it we have to use props.
-
-**Global State:** Global state is shared across multiple components in the application.   
-**💡 Tools:** Context API, Redux, Zustand
-
-
----
-
-
-## **91. What are some popular state management solutions in React/Next.js?**
-
-- **React built-in hooks**: useState, useReducer, useContext – for local or small-scale state management.
-- **Context API**: Ideal for small to medium global state needs.
-- **Redux / Redux Toolkit**: Widely used for large-scale applications with complex state logic.
-- **Zustand**: Lightweight state management library for simplicity and performance.
-- **Recoil / Jotai / MobX**: Alternative libraries offering fine-grained state control.
-- **Server-side state (Next.js)**: useSWR, React Query, or Server Actions for fetching and caching server data efficiently.
-
-
----
-
-
-## **92. When should you use Redux over Context API?**
-
-Choosing between Redux and Context API depends on the **size** and **complexity** of your application:
-
-Use Redux when:     
-- The application is **large** and **complex**.
-- You need predictable state management with **debugging tools** (e.g., Redux DevTools).
-- There are frequent state updates and many shared states across components.
-
-Use Context API when:
-- The application is **small** or **medium-sized**.
-- You only need to share simple state, such as theme, language, or user info.
-
-
----
-
-
-## **93.  Explain the Context API and useReducer in React.**
-
-**Context API** in React is used to share data globally across components without prop drilling.
-
-- Avoids prop drilling.
-- Data available directly to any component 
-- Components consume data with useContext or Consumer.
-- Best for global values like theme, auth, language.
-- Often combined with useState/useReducer for updates.
-
-**useReducer** is a React hook used to manage complex state logic using a reducer function. 
-
-**When to Use useReducer**
-- Complex state logic 
-- Multiple related state values 
-- State transitions
-
-
----
-
-
-## **94. What is the difference between Client State and Server State?**
-
-**Client state** is data that lives in the browser and is controlled by the frontend.
-
-**Server state** is data that comes from a server and needs to be fetched, cached, and synced.
-
-<br>
-
-| Feature | Client State | Server State |
-| --- | --- | --- |
-| Source | Frontend | Backend (API) |
-| Persistence | Temporary | Stored in DB |
-| Examples | UI state, form data | API data |
-| Tools | useState, Redux | React Query, SWR |
-| Sync Needed | ❌ No | ✅ Yes (with server) |
-
-
-
-
----
-
-
-## **95. HTTP Caching Basics**
-
-In HTTP caching we stored the responses so future requests can be served faster without hitting the server again.
-HTTP caching stores responses to **reduce server calls** and **improve performance**.
-
-**📦 Where caching happens?**
-
-**1. Browser Cache**
-- Stored in user’s browser  
-- First place checked before making request 
-
-**2. Proxy / CDN Cache (like Cloudflare)**
-- Stored between client and server 
-- Shared across multiple users 
-
-**🔄 Flow Example**  
-
-1st Request:    
-Client → Server → Response (stored in cache)
-
-2nd Request:    
-Client → Browser Cache → Response (no server hit)
-
-
----
-
-
-## **96. Cache-Control Headers**
-
-Cache-Control headers define how and for how long a response should be cached.
-
-- **max-age**=3600 → cache for 1 hour 
-- **s-maxage**=3600 → cache for shared caches (CDN) 
-- **no-cache** → must revalidate before using cache (cache BUT must **check with server before using**)
-- **no-store** → don’t store in cache at all 
-- **public** → can be cached by browser and CDN 
-- **private** → cache only in browser, not CDN 
-- **must-revalidate** → must check with server after expiry 
-- **proxy-revalidate** → same as above but for proxies/CDNs 
-- **immutable** → content won’t change, no revalidation needed 
-- **stale-while-revalidate=60** → serve stale content while fetching new one 
-- **stale-if-error=60** → serve stale content if server fails
-
-
-
-
-
-
----
-
-
-## **97. ETag & Last-Modified (Cache Validation)**
-
-**🎯 Problem they solve :** 👉 What if cache exists but might be outdated?
-
-**🧠 Solution:** Use validation instead of full re-download
-ETag and Last-Modified help validate cached data and avoid unnecessary re-fetching.
-
-**🔹 ETag**     
-A unique identifier (hash/version) for a resource   
-📌 Example -  ETag : "abc123"  
-
-**🔄 Flow**     
-
-1st Request:    
-Client → Server → Response + ETag
-
-2nd Request:    
-Client → Server: If-None-Match: "abc123"
-
-Server:   
-\- If same → 304 Not Modified ✅   
-\- If changed → 200 + new data ❗   
-
-**🔹 Last-Modified**    
-Timestamp of last update     
-📌 Example - Last-Modified: Wed, 01 Apr 2026 10:00:00 GMT
-
-**🔄 Flow**
-
-Client → Server: If-Modified-Since: timestamp   
-Server:   
-\- Not changed → 304 ✅   
-\- Changed → 200 + new data ❗   
-
----
-
-
-## **98. What is CDN and CDN cache**
-
-A CDN (Content Delivery Network) is a network of distributed servers that deliver content to users from the nearest location to improve speed and performance. (instead of the origin server)
-
-**✅ Simple Explanation**
-👉 Instead of loading data from one central server:
-- CDN stores copies of content in multiple locations (edge servers) 
-- User gets data from **nearest server**   
-
-👉 Result = faster loading 🚀
-
-**✅ How CDN Works**
-- User requests a resource (e.g., image, API)
-- Request goes to nearest CDN server (edge server)
-- If cached → CDN returns response ✅
-- If not cached → CDN fetches from origin server ❗
-- CDN stores it and serves user
-
-**📦 What content is cached in CDN?**   
-Images, Videos, CSS / JS files, Fonts, Static HTML
-
-**⚠️ Can also cache (with rules):**
-- API responses 
-- Dynamic content (using cache strategies)
-
-**🔑 Popular CDN Providers**
-Cloudflare, AWS CloudFront, Akamai
-
----
-
-
-## **99. Cache Invalidation Strategies**
-
-Cache invalidation is the process of removing or updating cached data when it becomes outdated, so users always get fresh data.
-
-**💡 Types**
-- TTL (time-based) 
-- Manual (delete cache) 
-- Event-based (on update)
-
-
----
-
-
-## **100. LocalStorage vs SessionStorage vs Cookies**
-
-
-### **🔹 LocalStorage**
-LocalStorage is a browser storage that **stores data permanently (no expiry)** until **manually cleared.**
-
-**🧠 Key Characteristics**
-- ✅ Persistent (data stays even after browser restart) 
-- ✅ Storage limit ~5MB 
-- ❌ Not sent to server automatically 
-- ✅ Accessible via JavaScript
-
-**🧠 Use cases**
-- User preferences (theme, language) 
-- Caching non-sensitive data 
-- Saving UI state
-
-**⚠️ Warning**  
-👉 Don’t store:
-- Passwords 
-- Tokens (unsafe ❗ vulnerable to XSS)
-
-### **🔹 SessionStorage**
-SessionStorage stores data only for the current **browser tab/session**
-
-**🧠 Key Characteristics**
-- ❌ Cleared when tab is closed 
-- ✅ Same API as LocalStorage 
-- ❌ Not shared across tabs 
-- ❌ Not sent to server 
-
-**🧠 Use cases**
-- Multi-step forms 
-- Temporary UI state 
-- Per-tab session data
-
-### **🔹 Cookies**
-**Cookies** are small pieces of data stored in the browser that are **automatically sent to the server with every HTTP request**
-
-
-**🧠 Key Characteristics**
-- 📏 Small size (~4KB) 
-- 📡 Sent with every request 
-- ⏳ Expiry can be set 
-- 🔒 Can be secure (HttpOnly, Secure)
-
-**🧠 Use cases**
-- Authentication (session ID, JWT) 
-- Tracking (analytics) 
-- Server-side sessions 
-
-**🔐 Security Features (Important)**
-- HttpOnly → JS cannot access (protects from XSS) 
-- Secure → only HTTPS 
-- SameSite → prevents CSRF
-
-<br>
-<br>
-
-| Feature | LocalStorage | SessionStorage | Cookies |
-| --- | --- | --- | --- |
-| Expiry | No expiry | Tab close | Set manually |
-| Size | ~5MB | ~5MB | ~4KB |
-| Sent to server | ❌ No | ❌ No | ✅ Yes |
-| Accessible by JS | ✅ Yes | ✅ Yes | ✅ Yes (unless HttpOnly) |
-| Scope | All tabs | Single tab | All tabs |
-
-
-
-
-
-
----
-
-
-## **101. What is IndexedDB?**
-
-IndexedDB is a browser-based NoSQL database used to store large amounts of structured data on the client side.
-
-**🔥 Why do we need IndexedDB?**
-LocalStorage has limitations:
-- ❌ Only strings 
-- ❌ ~5MB limit 
-- ❌ Synchronous (can block UI) 
-
-👉 IndexedDB solves this:
-- ✅ Stores large data (hundreds of MBs) 
-- ✅ Stores objects, arrays, files 
-- ✅ Asynchronous (non-blocking) 
-- ✅ Supports indexing & queries 
-
-**📦 What can you store?**
-- JSON objects 
-- Files (images, blobs) 
-- Offline app data 
-- Complex structured data
-
-**🔥 Use Cases**  
-
-**✅ Offline apps**  
-- Store data when no internet 
-
-**✅ Large data storage**  
-- Notes app 
-- Chat messages 
-- Caching API data 
-
-**✅ Progressive Web Apps (PWA)**
-- Background sync 
-- Offline support
-
-
----
-
-
-## **102. How do you handle asynchronous state updates in React?**
-
-React state updates are asynchronous, so we should use functional updates or useEffect to handle updated state correctly.
-
-Since React state updates are asynchronous, we use functional updates or useEffect to ensure we work with the latest state.
-
-**✅ Why State Updates are Asynchronous**  
-👉 React batches updates for performance   
-
-```js
-setCount(count + 1);
-console.log(count);  // old value ❌
-```
-
-👉 State doesn’t update immediately
-
-**✅ Ways to Handle Async State Updates**
-
-**🔹 1. Functional Updates**   
-👉 **“Use previous state to get correct value.”** 
-
-```js
-setCount((prev) => prev + 1);
-```
-
-**💡 Why?**
-- Always gets latest state 
-- Avoids stale values 
-
-**🔹 2. useEffect (After State Update)**   
-👉 **“Run code after state has updated.”**  
-
-```js
-useEffect(() => {
-  console.log(count); // updated value ✅
-}, [count]);
-```
-
-**🔹 3. Multiple Updates Handling**   
-
-```js
-// ❌ Wrong:  
-setCount(count + 1);
-setCount(count + 1);
-
-//👉 Result: only +1
-```
-
-
-```js
-// ✅ Correct:
-setCount((prev) => prev + 1);
-setCount((prev) => prev + 1);
-
-// 👉 Result: +2 ✅
-```
-
-**🔹 4. Avoid Direct State Dependency**   
-👉 Don’t rely on old state directly   
-
-Always prefer functional update when:
-- Multiple updates 
-- Async operations 
-
-
----
-
-
-## **103. what is React.memo ?  How does React.memo help improve performance?**
-
-React.memo is a higher-order component that prevents a component from re-rendering if its props have not changed.
-
-**✅ Simple Explanation** 
-
-👉 Normally:  
-- Parent re-renders → child also re-renders ❌ 
-
-👉 With React.memo:  
-- Child re-renders **only if props change** ✅
-
-If component is small → comparison cost > benefit ❌   
-Don’t optimize blindly — optimize when needed.
-
-
----
-
-
-## **104. If I ask you to optimize a slow React application, what techniques would you use?**
-
-
-- Use React.memo, useMemo, and useCallback to avoid unnecessary re-renders.
-- Split code using React.lazy and Suspense for on-demand component loading.
-- Optimize large lists with react-window or react-virtualized.
-- Avoid anonymous functions in render; use useCallback instead.
-- Keep state localized as much as possible instead of placing everything in global state.
-- Use proper key props when rendering lists.
-- For server data, use libraries like React Query or SWR with caching to reduce unnecessary refetching.
-- Debounce / Throttle Inputs ( Reduce API calls )
-
-
----
-
-
-## **105. What is the difference between React.PureComponent and React.Component?**
-
-Both Component and PureComponent are used to create **class components**, but they handle re-rendering differently:
-- **React.Component**: Always re-renders when setState is called, regardless of whether the state or props have changed.
-
-- **React.PureComponent**: Implements a shallow comparison of props and state; it only re-renders if something has actually changed.
-
-
----
-
-
-## **106. What is prop drilling?**
-
-Prop drilling is the process of passing data from a parent component to deeply nested child components through multiple intermediate components.
-
-Data has to pass through components that don’t even need it ❌
-
-
----
-
-
-## **107. What is Throttling?**
-
-**Throttle** ensures a function runs **at most once in a given time interval**, no matter how many times the event fires.
-
-👉 Run this function every 1 second, even if event fires 100 times
-
-**Problem:** Fires **hundreds of times per second** ❌
-
-Use throttle when:
-- Scroll events 📜 
-- Resize events 📏 
-- Mouse movement 🖱️ 
-- Button spam prevention 🔘
-
-```js
-function throttle(fn, delay) {
-  let lastCall = 0;
-
-  return function (...args) {
-    const now = Date.now();
-
-    if (now - lastCall >= delay) {
-      lastCall = now;
-      fn.apply(this, args);
-    }
-  };
-}
-```
-
-
-```js
-const handleScroll = throttle(() => {
-  console.log("Throttled scroll");
-}, 1000);
-
-window.addEventListener("scroll", handleScroll);
-```
-
-Scroll 100 times 👉 Function runs **only once per second** ✅
-
-
-```js
-const handleClick = throttle(() => {
-  console.log("Button clicked");
-}, 2000);
-```
-
-👉 Even if user clicks 10 times  
-👉 Runs once every 2 seconds ✅
-
-
-
-
-
----
-
-
-## **108. What is Debouncing ?**
-
-Debounce delays the execution of a function until the user stops triggering the event for a specified time.
-
-**💡 Example**  
-
-👉 Search input:
-- User types: a → ap → app → appl → apple
-- API call happens **only after user stops typing**
-
-👉 Without debounce:
-- 5 API calls ❌ 
-**✅ With debounce**
-- Wait 300ms after typing stops 
-- Only **1 API call** ✅
-
-**✅ Use Cases**
-- Search input 
-- Auto-save 
-- Form validation 
-- Window Resize Event
-
-
-
-
-
-
-
-```jsx
-import { useState, useEffect } from "react";
-
-function useDebounce(value, delay) {
-  const [debouncedValue, setDebouncedValue] = useState(value);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setDebouncedValue(value);
-    }, delay);
-
-    return () => clearTimeout(timer);
-  }, [value, delay]);
-
-  return debouncedValue;
-}
-```
-
-
-```jsx
-export default function App() {
-  const [query, setQuery] = useState("");
-
-  const debouncedQuery = useDebounce(query, 500);
-  console.log(debouncedQuery);
-
-  const { data, error, isLoading } = useGetActivities({
-    search: debouncedSearch,
-  });
-
-  return (
-    <div className="App">
-      <input
-        value={query}
-        onChange={(e) => setQuery(e.target.value)}
-        placeholder="Search..."
-      />
-    </div>
-  );
-}
-```
-
-
-
-
-
-
----
-
-
-## **109. Why is the key prop important in React lists?**
-
-The key prop in React lists helps React identify which items have changed, been added, or removed, so it can efficiently update the UI.
-
-**🔹 1. Efficient Re-rendering**  
-👉 React compares old vs new list  
-👉 Updates only changed items  
-
-**🔹 2. Prevents Bugs**  
-👉 Without key → wrong DOM updates  
-
-**🔹 3. Improves Performance**  
-👉 Avoids unnecessary re-renders
-
-
----
-
-
-## **110. What happens if we use the array index as a key in React?**
-
-Using array index as a key can cause incorrect UI updates and bugs when the list changes, because indexes are not stable.
-
-- Can cause issues when list items are reordered.  
-- May lead to incorrect updates if items are added or removed.  
-- Safe only for static lists that never change.
-
-
----
-
-
-## **111. What is React Router and why is it used?**
-
-React Router is a library used for handling navigation and routing in React applications without reloading the page.
-
-
-
----
-
-
-## **112. What is the difference between client-side routing and server-side routing?**
-
-**Client-side** routing happens in the browser without reloading the page
-
-**server-side** routing happens on the server and returns a new page for each request.
-
-Client-side routing improves performance and user experience by avoiding page reloads, while server-side routing reloads the page for each request.
-
-**Client-Side Routing:** Routing is handled in the browser using JavaScript (React Router).
-
-**💡 How it works**
-- User clicks link 
-- React updates UI 
-- No page reload 
-
-**📌 Example :** 👉 React SPA using React Router
-
-**✅ Benefits**
-- Fast navigation 🚀 
-- Smooth user experience
-
-**Server-Side Routing:** Routing is handled by the server, and each request returns a new HTML page.
-
-**💡 How it works**
-- User clicks link 
-- Request goes to server 
-- Server sends new page 
-
-**📌 Example:**  👉 Traditional websites (PHP, Django)
-
-**❌ Drawback**
-- Full page reload 
-- Slower
-
-
----
-
-
-## **113. What is Sever Side Rendering and Client Side Rendering**
-
-Client-Side Rendering (CSR) renders the UI in the browser using JavaScript
-
-Server-Side Rendering (SSR) renders the HTML on the server before sending it to the client.
-
-### **Client-Side Rendering (CSR)**  
-Rendering happens in the browser using JavaScript.
-
-**💡 How it works**
-- Browser loads empty HTML 
-- JS loads 
-- React builds UI 
-
-**📌 Example** 
-👉 React 
-
-**✅ Advantages**
-- Fast navigation after load 
-- Rich UI 
-**❌ Disadvantages**
-- Slow initial load 
-- Bad for SEO
-
-### **Server-Side Rendering (SSR)**
-Rendering happens on the server and a fully built HTML page is sent to the client
-
-**💡 How it works**
-- Request sent to server 
-- Server renders HTML 
-- HTML sent to browser 
-
-**📌 Example**
-👉 Next.js
-
-**✅ Advantages**
-- Fast initial load 
-- Better SEO 
-
-**❌ Disadvantages**
-- More server load 
-- Slower navigation
-
-
-<br>
-<br>
-
-| Feature | CSR | SSR |
-| --- | --- | --- |
-| Rendering | Browser | Server |
-| Initial Load | Slow | Fast |
-| SEO | Poor | Good |
-| Performance | Better after load | Better initial |
-
-<br>
-
-| Concept | Meaning |
-| --- | --- |
-| Client-side routing | Navigation handled in browser |
-| Server-side routing | Navigation handled by server |
-| CSR | UI built in browser |
-| SSR | UI built on server |
-
-
-
-
----
-
-
-## **114. What are React Server Components?**
-
-React Server Components are components that run on the server and send rendered content to the client without including their JavaScript.
-
-
-
-**💡 Simple Explanation**  
-**👉 Instead of sending JS to browser:**
-- Component runs on server 
-- Sends HTML only 
-- No client JS needed
-
-
-```jsx
-// Server Component
-export default async function Page() {
-  const data = await fetch("API");
-  return <div>{data}</div>;
-}
-```
-
-
-**✅ Benefits**
-- Smaller bundle size 🚀 
-- Faster loading 
-- Better performance 
-
-**⚠️ Limitations**
-- No hooks like useState 
-- No event handlers
-
-
-
-
----
-
-
-
-
-## **115. Static Site Generation (SSG)**
-
-HTML is generated at build time and served as static files.
-
-<br>
-
-| Feature | CSR | SSR | SSG |
-| --- | --- | --- | --- |
-| Render Time | Browser | Request time | Build time |
-| Speed | Slow first load | Medium | Fastest |
-| SEO | Poor | Good | Best |
-| Use Case | Dashboards | Dynamic pages | Blogs, landing pages |
-
-<br>
-
-
-SSG is preferred for static content,  
-SSR for dynamic data  
-CSR for highly interactive apps.
-
-
-
----
-
-
-## **116. What is Hydration?**
-
-Hydration is the process where React attaches event listeners and makes server-rendered HTML interactive on the client side.
-
-👉 Hydration makes it:
-- Clickable ✅ 
-- Interactive ✅ 
-- React-controlled ✅
-
-**🔄 Step-by-step Flow**
-1. Server renders HTML (SSR)
-2. Browser receives HTML (fast display)
-3. React loads JS
-4. React "hydrates" the HTML
-5. Now UI becomes interactive
-
-**🧠 Why Hydration is needed**  
-👉 Server can only send **HTML (structure)**  
-👉 Browser needs **JavaScript for interactivity**
-
-
-<br>
-<br>
-
----
-
-
-# 🖥️ HTML / CSS / Browser
-<br>
-<br>
-
-## **117. Why is semantic HTML important beyond SEO?**
+## **5. Why is semantic HTML important beyond SEO?**
 
 Semantic HTML improves accessibility, readability, and maintainability.
 - Helps screen readers understand structure 
@@ -3347,7 +2142,7 @@ Semantic HTML improves accessibility, readability, and maintainability.
 ---
 
 
-## **118. What are reflow and repaint?**
+## **6. What are reflow and repaint?**
 
 👉 **Reflow (Layout):**
 - Recalculates layout 
@@ -3363,7 +2158,7 @@ Repaint = cheaper ✅
 ---
 
 
-## **119. preload vs prefetch vs preconnect**
+## **7. preload vs prefetch vs preconnect**
 
 **👉 preload :**  preload is for current page
 - Load resource immediately (critical) 
@@ -3378,7 +2173,7 @@ Repaint = cheaper ✅
 ---
 
 
-## **120. How does HTML structure affect performance?**
+## **8. How does HTML structure affect performance?**
 
 Poor structure increases DOM size and slows rendering.
 - Deep nesting → slow 
@@ -3391,7 +2186,7 @@ Poor structure increases DOM size and slows rendering.
 ---
 
 
-## **121. Button vs Anchor**
+## **9. Button vs Anchor**
 
 👉 **Use \<button>**
 - Actions (submit, click, toggle) 
@@ -3403,7 +2198,7 @@ Poor structure increases DOM size and slows rendering.
 ---
 
 
-## **122. What is ARIA? What problems does ARIA solve?**
+## **10. What is ARIA? What problems does ARIA solve?**
 
 ARIA adds accessibility to elements when semantic HTML is not enough.
 
@@ -3516,7 +2311,7 @@ Accessible ✅
 ---
 
 
-## **123. How does HTML impact screen readers?**
+## **11. How does HTML impact screen readers?**
 
 Screen readers rely on semantic HTML to understand content structure.
 
@@ -3524,11 +2319,1235 @@ Screen readers rely on semantic HTML to understand content structure.
 ---
 
 
-## **124. Flexbox and Grid**
+## **12. Flexbox and Grid**
 
 **Flexbox** is a **one-dimensional** layout system used for arranging items **in a row or column.**
 
 **Grid** is a **two-dimensional** system used for layouts **with rows and columns.**
+
+
+<br><br>
+---
+
+
+# ⚛️ React
+<br><br>
+
+## **1. What is react ?**
+
+ReactJS is a component-based JavaScript library used to build dynamic and interactive user interfaces.
+
+It simplifies the creation of single-page applications (SPAs) with a focus on performance and maintainability.
+- Reusable components
+- Fast performance 
+- Easy to manage UI updates
+
+## **2. How does React.js work?**
+React is a JavaScript library for building UI using components, and it works by updating the UI efficiently using a Virtual DOM and state-based re-rendering.
+
+1️⃣ Component-Based Architecture      
+2️⃣ Virtual DOM   
+3️⃣ State & Re-rendering  
+
+👉 **flow:**
+1. User interacts (click, input) 
+2. State changes 
+3. Virtual DOM updates 
+4. Diffing happens 
+5. Real DOM updates efficiently
+
+<br>
+
+- **Components**: UI is broken into reusable, independent pieces.
+- **JSX**: Allows writing HTML-like code inside JavaScript for easier UI development..
+- **Virtual DOM**: A lightweight copy of the real DOM that tracks changes.
+- **Reconciliation**: Compares old and new Virtual DOM and updates only the changed parts in the real DOM.
+- **One-way Data Flow**: Ensures predictable UI updates by passing data from parent to child via props.
+- **State Management**: React automatically re-renders components when their state changes.
+
+## **3. What is JSX?**
+JSX ( JavaScript XML ) Syntax extension for JavaScript, mainly used with React.
+
+Allows writing HTML-like code inside JavaScript for easier readability and maintenance.
+
+## **4. What is a React component?**
+A React component is a reusable, independent piece of UI in a React application. It is basically a JavaScript function or class that returns JSX, which describes how the UI should look.
+
+Components help us break the UI into smaller parts, making the code more modular, maintainable, and reusable.
+
+
+---
+
+
+## **5. What are props ?**
+
+Props (properties) are used to pass data from a parent component to a child component. They are read-only and help make components dynamic and reusable.
+
+**props** are used to **pass data**, and **default props** ensure a **fallback value** if no prop is provided.
+
+
+
+---
+
+
+## **6. What is state in React ?**
+
+State is a built-in object in React that is used to store data that can change over time and affect how a component renders.
+
+When the state changes, React automatically re-renders the component to reflect the updated data in the UI.
+
+In functional components, we use the **useState** hook to manage state.
+
+```js
+const [isOn, setIsOn] = useState(false);  
+setIsOn(prev => !prev)
+
+const [count, setCount] = useState(0);  
+setCount(prev => prev + 1);
+```
+
+---
+
+
+## **7. What are fragments in React?**
+
+Fragments in React are used to group multiple elements without adding an extra DOM node.
+
+They help avoid unnecessary wrapper elements like \<div>, which keeps the DOM clean.
+
+In React, you must return a **single parent element**
+
+```js
+return (
+    <>
+        <h1>Hello</h1>
+        <p>World</p>
+    </>
+);
+```
+
+- Fragments avoid extra DOM nodes.
+- Short syntax: <> </> (cannot use attributes).
+- Full syntax: <React.Fragment> </React.Fragment> (can use key).
+- Useful in lists, tables, and grouping multiple elements.
+- Helps keep the DOM clean and lightweight.
+
+
+---
+
+
+## **8. What is controlled and uncontrolled components?**
+
+Controlled components are form elements whose data is managed by React state, while uncontrolled components store their own state in the DOM.
+
+**Controlled components:** React manages the input’s value through state. The UI is always in sync with React state, and updates happen on every change via onChange.
+
+**Uncontrolled components:** The DOM manages the input’s value, and React only accesses it when needed using refs. Useful for simple forms where you don’t need to track every change.
+
+**1. Controlled Components** 
+👉 Form data is controlled by React using state.
+
+```jsx
+import { useState } from "react";
+
+function Form() {
+  const [name, setName] = useState("");
+
+  return (
+    <input
+      value={name}
+      onChange={(e) => setName(e.target.value)}
+    />
+  );
+}
+```
+
+
+**✅ Key Points**
+- React controls input value 
+- Single source of truth = state 
+- Easy validation 
+
+
+**2. Uncontrolled Components**
+👉 Form data is handled by the DOM itself using refs.
+
+
+```jsx
+import { useRef } from "react";
+
+function Form() {
+  const inputRef = useRef();
+
+  function handleSubmit() {
+    console.log(inputRef.current.value);
+  }
+
+  return <input ref={inputRef} />;
+}
+```
+
+
+**✅ Key Points**
+- Uses ref 
+- No React state 
+- Less control 
+
+<br>
+
+| Feature | Controlled Component | Uncontrolled Component |
+| --- | --- | --- |
+| Data Source | React state | DOM |
+| Control | High | Low |
+| Validation | Easy | Hard |
+| Code Complexity | More | Less |
+
+
+
+
+
+
+
+---
+
+
+## **9. What is react life cycle ?**
+
+React lifecycle includes mounting, updating, and unmounting phases, and in functional components, it is handled using useEffect.
+
+
+```jsx
+import { useEffect } from "react";
+
+function App() {
+  useEffect(() => {
+    console.log("Mounted");
+
+    return () => {
+      console.log("Unmounted");
+    };
+  }, []);
+}
+```
+
+
+- useEffect(..., []) → runs on mount 
+- Cleanup function → runs on unmount
+
+
+---
+
+
+## **10. What are Hooks in React ?**
+
+Hooks are functions in React that allow functional components to use state and lifecycle features.
+
+**Why Hooks are Used**
+
+- Manage state 
+- Handle lifecycle 
+- Reuse logic 
+- Write cleaner code 
+
+**✅ Rules of Hooks**  
+- Only call hooks at **top level** 
+- Only call hooks inside **React functions**
+- Custom hooks should always start with **use**, like **useFetch** or **useForm**
+
+---
+
+
+## **11. React Hooks**
+
+
+**useState :** Used to manage state in functional components.
+
+**useEffect :** Used to handle side effects like API calls, timers, or subscriptions.
+
+**useContext :** Used to access global data without passing props.
+
+**useRef :** Used to access DOM elements or store values without re-rendering.
+
+**useMemo :** Used to optimize performance by memoizing expensive calculations. (remember value)
+
+**useCallback :** Used to memoize functions to prevent unnecessary re-renders. (remember function)
+
+
+---
+
+
+## **12. Explain useMemo and useCallback**
+
+
+### **🔹 useMemo (Memoize a VALUE)** 
+
+Every time a component re-renders:  
+Expensive calculations run again ❗     
+It **caches a computed value** so it doesn’t recalculate unnecessarily
+
+
+
+```jsx
+import { useState, useMemo } from "react";
+
+function ExpensiveComponent() {
+  const [count, setCount] = useState(0);
+  const [text, setText] = useState("");
+
+  const expensiveValue = useMemo(() => {
+    console.log("Calculating...");
+    return count * 1000;
+  }, [count]);
+
+  return (
+    <>
+      <h1>{expensiveValue}</h1>
+      <button onClick={() => setCount(count + 1)}>Increase</button>
+      <input value={text} onChange={(e) => setText(e.target.value)} />
+    </>
+  );
+}
+```
+
+
+**🔍 What happens?**
+- When text changes → component re-renders 
+- BUT expensiveValue is **NOT recalculated** ✅ 
+- Because count didn’t change 
+
+**🧠 Use when:**
+- Heavy calculations 
+- Derived data (filter, sort, map) 
+- Avoid unnecessary recomputation
+
+
+
+
+### **🔹 useCallback (Memoize a FUNCTION)**
+Every time a component re-renders:  
+Functions are recreated ❗  
+It **caches a function** so it doesn’t get recreated on every render
+
+
+```jsx
+import { useState, useCallback } from "react";
+
+function Parent() {
+  const [count, setCount] = useState(0);
+
+  const handleClick = useCallback(() => {
+    console.log("Clicked");
+  }, []);
+
+  return (
+    <>
+      <Child onClick={handleClick} />
+      <button onClick={() => setCount(count + 1)}>Increase</button>
+    </>
+  );
+}
+
+function Child({ onClick }) {
+  console.log("Child rendered");
+  return <button onClick={onClick}>Click me</button>;
+}
+```
+
+
+Without useCallback:
+- handleClick is recreated every render ❌ 
+- Child re-renders unnecessarily ❌ 
+With useCallback:
+- Same function reference reused ✅ 
+- Child avoids unnecessary re-render ✅
+- Parent re-render → creates new function ❗ 
+- New function → new reference ❗ 
+- Memoized child sees change → re-render ❗ 
+
+👉 useCallback fixes the **reference problem**
+
+
+---
+
+
+## **13. What is State Management in React and what is the difference between Local and Global State?**
+
+State management in React is the process of managing and controlling data (state) within an application so that the UI updates correctly when the data changes.
+
+- State = data that changes over time 
+- When state changes → UI re-renders
+
+**Local State:** Local state is managed inside a single component and is not shared with others.  
+
+Ex: useState
+- Cannot easily share with other components
+- To share it we have to use props.
+
+**Global State:** Global state is shared across multiple components in the application.   
+**💡 Tools:** Context API, Redux, Zustand
+
+
+---
+
+
+## **14. What are some popular state management solutions in React/Next.js?**
+
+- **React built-in hooks**: useState, useReducer, useContext – for local or small-scale state management.
+- **Context API**: Ideal for small to medium global state needs.
+- **Redux / Redux Toolkit**: Widely used for large-scale applications with complex state logic.
+- **Zustand**: Lightweight state management library for simplicity and performance.
+- **Recoil / Jotai / MobX**: Alternative libraries offering fine-grained state control.
+- **Server-side state (Next.js)**: useSWR, React Query, or Server Actions for fetching and caching server data efficiently.
+
+
+---
+
+
+## **15. When should you use Redux over Context API?**
+
+Choosing between Redux and Context API depends on the **size** and **complexity** of your application:
+
+Use Redux when:     
+- The application is **large** and **complex**.
+- You need predictable state management with **debugging tools** (e.g., Redux DevTools).
+- There are frequent state updates and many shared states across components.
+
+Use Context API when:
+- The application is **small** or **medium-sized**.
+- You only need to share simple state, such as theme, language, or user info.
+
+
+---
+
+
+## **16.  Explain the Context API and useReducer in React.**
+
+**Context API** in React is used to share data globally across components without prop drilling.
+
+- Avoids prop drilling.
+- Data available directly to any component 
+- Components consume data with useContext or Consumer.
+- Best for global values like theme, auth, language.
+- Often combined with useState/useReducer for updates.
+
+**useReducer** is a React hook used to manage complex state logic using a reducer function. 
+
+**When to Use useReducer**
+- Complex state logic 
+- Multiple related state values 
+- State transitions
+
+
+---
+
+
+## **17. What is the difference between Client State and Server State?**
+
+**Client state** is data that lives in the browser and is controlled by the frontend.
+
+**Server state** is data that comes from a server and needs to be fetched, cached, and synced.
+
+<br>
+
+| Feature | Client State | Server State |
+| --- | --- | --- |
+| Source | Frontend | Backend (API) |
+| Persistence | Temporary | Stored in DB |
+| Examples | UI state, form data | API data |
+| Tools | useState, Redux | React Query, SWR |
+| Sync Needed | ❌ No | ✅ Yes (with server) |
+
+
+
+
+---
+
+
+## **18. HTTP Caching Basics**
+
+In HTTP caching we stored the responses so future requests can be served faster without hitting the server again.
+HTTP caching stores responses to **reduce server calls** and **improve performance**.
+
+**📦 Where caching happens?**
+
+**1. Browser Cache**
+- Stored in user’s browser  
+- First place checked before making request 
+
+**2. Proxy / CDN Cache (like Cloudflare)**
+- Stored between client and server 
+- Shared across multiple users 
+
+**🔄 Flow Example**  
+
+1st Request:    
+Client → Server → Response (stored in cache)
+
+2nd Request:    
+Client → Browser Cache → Response (no server hit)
+
+
+---
+
+
+## **19. Cache-Control Headers**
+
+Cache-Control headers define how and for how long a response should be cached.
+
+- **max-age**=3600 → cache for 1 hour 
+- **s-maxage**=3600 → cache for shared caches (CDN) 
+- **no-cache** → must revalidate before using cache (cache BUT must **check with server before using**)
+- **no-store** → don’t store in cache at all 
+- **public** → can be cached by browser and CDN 
+- **private** → cache only in browser, not CDN 
+- **must-revalidate** → must check with server after expiry 
+- **proxy-revalidate** → same as above but for proxies/CDNs 
+- **immutable** → content won’t change, no revalidation needed 
+- **stale-while-revalidate=60** → serve stale content while fetching new one 
+- **stale-if-error=60** → serve stale content if server fails
+
+
+
+
+
+
+---
+
+
+## **20. ETag & Last-Modified (Cache Validation)**
+
+**🎯 Problem they solve :** 👉 What if cache exists but might be outdated?
+
+**🧠 Solution:** Use validation instead of full re-download
+ETag and Last-Modified help validate cached data and avoid unnecessary re-fetching.
+
+**🔹 ETag**     
+A unique identifier (hash/version) for a resource   
+📌 Example -  ETag : "abc123"  
+
+**🔄 Flow**     
+
+1st Request:    
+Client → Server → Response + ETag
+
+2nd Request:    
+Client → Server: If-None-Match: "abc123"
+
+Server:   
+\- If same → 304 Not Modified ✅   
+\- If changed → 200 + new data ❗   
+
+**🔹 Last-Modified**    
+Timestamp of last update     
+📌 Example - Last-Modified: Wed, 01 Apr 2026 10:00:00 GMT
+
+**🔄 Flow**
+
+Client → Server: If-Modified-Since: timestamp   
+Server:   
+\- Not changed → 304 ✅   
+\- Changed → 200 + new data ❗   
+
+---
+
+
+## **21. What is CDN and CDN cache**
+
+A CDN (Content Delivery Network) is a network of distributed servers that deliver content to users from the nearest location to improve speed and performance. (instead of the origin server)
+
+**✅ Simple Explanation**
+👉 Instead of loading data from one central server:
+- CDN stores copies of content in multiple locations (edge servers) 
+- User gets data from **nearest server**   
+
+👉 Result = faster loading 🚀
+
+**✅ How CDN Works**
+- User requests a resource (e.g., image, API)
+- Request goes to nearest CDN server (edge server)
+- If cached → CDN returns response ✅
+- If not cached → CDN fetches from origin server ❗
+- CDN stores it and serves user
+
+**📦 What content is cached in CDN?**   
+Images, Videos, CSS / JS files, Fonts, Static HTML
+
+**⚠️ Can also cache (with rules):**
+- API responses 
+- Dynamic content (using cache strategies)
+
+**🔑 Popular CDN Providers**
+Cloudflare, AWS CloudFront, Akamai
+
+---
+
+
+## **22. Cache Invalidation Strategies**
+
+Cache invalidation is the process of removing or updating cached data when it becomes outdated, so users always get fresh data.
+
+**💡 Types**
+- TTL (time-based) 
+- Manual (delete cache) 
+- Event-based (on update)
+
+
+---
+
+
+## **23. LocalStorage vs SessionStorage vs Cookies**
+
+
+### **🔹 LocalStorage**
+LocalStorage is a browser storage that **stores data permanently (no expiry)** until **manually cleared.**
+
+**🧠 Key Characteristics**
+- ✅ Persistent (data stays even after browser restart) 
+- ✅ Storage limit ~5MB 
+- ❌ Not sent to server automatically 
+- ✅ Accessible via JavaScript
+
+**🧠 Use cases**
+- User preferences (theme, language) 
+- Caching non-sensitive data 
+- Saving UI state
+
+**⚠️ Warning**  
+👉 Don’t store:
+- Passwords 
+- Tokens (unsafe ❗ vulnerable to XSS)
+
+### **🔹 SessionStorage**
+SessionStorage stores data only for the current **browser tab/session**
+
+**🧠 Key Characteristics**
+- ❌ Cleared when tab is closed 
+- ✅ Same API as LocalStorage 
+- ❌ Not shared across tabs 
+- ❌ Not sent to server 
+
+**🧠 Use cases**
+- Multi-step forms 
+- Temporary UI state 
+- Per-tab session data
+
+### **🔹 Cookies**
+**Cookies** are small pieces of data stored in the browser that are **automatically sent to the server with every HTTP request**
+
+
+**🧠 Key Characteristics**
+- 📏 Small size (~4KB) 
+- 📡 Sent with every request 
+- ⏳ Expiry can be set 
+- 🔒 Can be secure (HttpOnly, Secure)
+
+**🧠 Use cases**
+- Authentication (session ID, JWT) 
+- Tracking (analytics) 
+- Server-side sessions 
+
+**🔐 Security Features (Important)**
+- HttpOnly → JS cannot access (protects from XSS) 
+- Secure → only HTTPS 
+- SameSite → prevents CSRF
+
+<br>
+<br>
+
+| Feature | LocalStorage | SessionStorage | Cookies |
+| --- | --- | --- | --- |
+| Expiry | No expiry | Tab close | Set manually |
+| Size | ~5MB | ~5MB | ~4KB |
+| Sent to server | ❌ No | ❌ No | ✅ Yes |
+| Accessible by JS | ✅ Yes | ✅ Yes | ✅ Yes (unless HttpOnly) |
+| Scope | All tabs | Single tab | All tabs |
+
+
+
+
+
+
+---
+
+
+## **24. What is IndexedDB?**
+
+IndexedDB is a browser-based NoSQL database used to store large amounts of structured data on the client side.
+
+**🔥 Why do we need IndexedDB?**
+LocalStorage has limitations:
+- ❌ Only strings 
+- ❌ ~5MB limit 
+- ❌ Synchronous (can block UI) 
+
+👉 IndexedDB solves this:
+- ✅ Stores large data (hundreds of MBs) 
+- ✅ Stores objects, arrays, files 
+- ✅ Asynchronous (non-blocking) 
+- ✅ Supports indexing & queries 
+
+**📦 What can you store?**
+- JSON objects 
+- Files (images, blobs) 
+- Offline app data 
+- Complex structured data
+
+**🔥 Use Cases**  
+
+**✅ Offline apps**  
+- Store data when no internet 
+
+**✅ Large data storage**  
+- Notes app 
+- Chat messages 
+- Caching API data 
+
+**✅ Progressive Web Apps (PWA)**
+- Background sync 
+- Offline support
+
+
+---
+
+
+## **25. How do you handle asynchronous state updates in React?**
+
+React state updates are asynchronous, so we should use functional updates or useEffect to handle updated state correctly.
+
+Since React state updates are asynchronous, we use functional updates or useEffect to ensure we work with the latest state.
+
+**✅ Why State Updates are Asynchronous**  
+👉 React batches updates for performance   
+
+```js
+setCount(count + 1);
+console.log(count);  // old value ❌
+```
+
+👉 State doesn’t update immediately
+
+**✅ Ways to Handle Async State Updates**
+
+**🔹 1. Functional Updates**   
+👉 **“Use previous state to get correct value.”** 
+
+```js
+setCount((prev) => prev + 1);
+```
+
+**💡 Why?**
+- Always gets latest state 
+- Avoids stale values 
+
+**🔹 2. useEffect (After State Update)**   
+👉 **“Run code after state has updated.”**  
+
+```js
+useEffect(() => {
+  console.log(count); // updated value ✅
+}, [count]);
+```
+
+**🔹 3. Multiple Updates Handling**   
+
+```js
+// ❌ Wrong:  
+setCount(count + 1);
+setCount(count + 1);
+
+//👉 Result: only +1
+```
+
+
+```js
+// ✅ Correct:
+setCount((prev) => prev + 1);
+setCount((prev) => prev + 1);
+
+// 👉 Result: +2 ✅
+```
+
+**🔹 4. Avoid Direct State Dependency**   
+👉 Don’t rely on old state directly   
+
+Always prefer functional update when:
+- Multiple updates 
+- Async operations 
+
+
+---
+
+
+## **26. what is React.memo ?  How does React.memo help improve performance?**
+
+React.memo is a higher-order component that prevents a component from re-rendering if its props have not changed.
+
+**✅ Simple Explanation** 
+
+👉 Normally:  
+- Parent re-renders → child also re-renders ❌ 
+
+👉 With React.memo:  
+- Child re-renders **only if props change** ✅
+
+If component is small → comparison cost > benefit ❌   
+Don’t optimize blindly — optimize when needed.
+
+
+---
+
+
+## **27. If I ask you to optimize a slow React application, what techniques would you use?**
+
+
+- Use React.memo, useMemo, and useCallback to avoid unnecessary re-renders.
+- Split code using React.lazy and Suspense for on-demand component loading.
+- Optimize large lists with react-window or react-virtualized.
+- Avoid anonymous functions in render; use useCallback instead.
+- Keep state localized as much as possible instead of placing everything in global state.
+- Use proper key props when rendering lists.
+- For server data, use libraries like React Query or SWR with caching to reduce unnecessary refetching.
+- Debounce / Throttle Inputs ( Reduce API calls )
+
+
+---
+
+
+## **28. What is the difference between React.PureComponent and React.Component?**
+
+Both Component and PureComponent are used to create **class components**, but they handle re-rendering differently:
+- **React.Component**: Always re-renders when setState is called, regardless of whether the state or props have changed.
+
+- **React.PureComponent**: Implements a shallow comparison of props and state; it only re-renders if something has actually changed.
+
+
+---
+
+
+## **29. What is prop drilling?**
+
+Prop drilling is the process of passing data from a parent component to deeply nested child components through multiple intermediate components.
+
+Data has to pass through components that don’t even need it ❌
+
+
+---
+
+
+## **30. What is Throttling?**
+
+**Throttle** ensures a function runs **at most once in a given time interval**, no matter how many times the event fires.
+
+👉 Run this function every 1 second, even if event fires 100 times
+
+**Problem:** Fires **hundreds of times per second** ❌
+
+Use throttle when:
+- Scroll events 📜 
+- Resize events 📏 
+- Mouse movement 🖱️ 
+- Button spam prevention 🔘
+
+```js
+function throttle(fn, delay) {
+  let lastCall = 0;
+
+  return function (...args) {
+    const now = Date.now();
+
+    if (now - lastCall >= delay) {
+      lastCall = now;
+      fn.apply(this, args);
+    }
+  };
+}
+```
+
+
+```js
+const handleScroll = throttle(() => {
+  console.log("Throttled scroll");
+}, 1000);
+
+window.addEventListener("scroll", handleScroll);
+```
+
+Scroll 100 times 👉 Function runs **only once per second** ✅
+
+
+```js
+const handleClick = throttle(() => {
+  console.log("Button clicked");
+}, 2000);
+```
+
+👉 Even if user clicks 10 times  
+👉 Runs once every 2 seconds ✅
+
+
+
+
+
+---
+
+
+## **31. What is Debouncing ?**
+
+Debounce delays the execution of a function until the user stops triggering the event for a specified time.
+
+**💡 Example**  
+
+👉 Search input:
+- User types: a → ap → app → appl → apple
+- API call happens **only after user stops typing**
+
+👉 Without debounce:
+- 5 API calls ❌ 
+**✅ With debounce**
+- Wait 300ms after typing stops 
+- Only **1 API call** ✅
+
+**✅ Use Cases**
+- Search input 
+- Auto-save 
+- Form validation 
+- Window Resize Event
+
+
+
+
+
+
+
+```jsx
+import { useState, useEffect } from "react";
+
+function useDebounce(value, delay) {
+  const [debouncedValue, setDebouncedValue] = useState(value);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setDebouncedValue(value);
+    }, delay);
+
+    return () => clearTimeout(timer);
+  }, [value, delay]);
+
+  return debouncedValue;
+}
+```
+
+
+```jsx
+export default function App() {
+  const [query, setQuery] = useState("");
+
+  const debouncedQuery = useDebounce(query, 500);
+  console.log(debouncedQuery);
+
+  const { data, error, isLoading } = useGetActivities({
+    search: debouncedSearch,
+  });
+
+  return (
+    <div className="App">
+      <input
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+        placeholder="Search..."
+      />
+    </div>
+  );
+}
+```
+
+
+
+
+
+
+---
+
+
+## **32. Why is the key prop important in React lists?**
+
+The key prop in React lists helps React identify which items have changed, been added, or removed, so it can efficiently update the UI.
+
+**🔹 1. Efficient Re-rendering**  
+👉 React compares old vs new list  
+👉 Updates only changed items  
+
+**🔹 2. Prevents Bugs**  
+👉 Without key → wrong DOM updates  
+
+**🔹 3. Improves Performance**  
+👉 Avoids unnecessary re-renders
+
+
+---
+
+
+## **33. What happens if we use the array index as a key in React?**
+
+Using array index as a key can cause incorrect UI updates and bugs when the list changes, because indexes are not stable.
+
+- Can cause issues when list items are reordered.  
+- May lead to incorrect updates if items are added or removed.  
+- Safe only for static lists that never change.
+
+
+---
+
+
+## **34. What is React Router and why is it used?**
+
+React Router is a library used for handling navigation and routing in React applications without reloading the page.
+
+
+
+---
+
+## **35. Explain the difference between client-side and server-side programming?**
+
+The client-side and server-side refer to two distinct parts of a web application that work together to deliver functionality to users. Understanding their roles is essential for building efficient and responsive applications.
+
+**Client-Side**
+
+**What it Does:**  
+This is the part of the application that runs in the user’s browser. It handles user interfaces and interactions, allowing users to see and interact with the application.
+
+**Key Characteristics:**
+
+- Executes JavaScript code directly in the browser to handle tasks like form validation, animations, and dynamic content updates (through DOM -Document Object Model- updates).
+- Manages rendering of HTML and CSS for a seamless visual experience.
+- Often communicates with the server via REST (Representational State Transfer) APIs to fetch or send data asynchronously.
+
+**Examples:**
+
+- Clicking a button that triggers a JavaScript function to show a popup.
+- Fetching additional items on a page using fetch() or axios without a full page reload.
+
+**Server-Side**
+
+**What it Does:**  
+This part operates on the server and processes requests from the client, performing tasks like database queries, business logic, and serving responses.
+
+Key Characteristics:
+
+- Executes server-side programming languages like Python, Java, or Node.js.
+- Handles sensitive operations like authentication and data storage securely.
+- Sends data to the client in structured formats (e.g., JSON) via REST APIs for rendering.
+
+**Examples:**
+
+- Processing a login request by verifying credentials in a database.
+- Returning a list of products in JSON format for the client to display dynamically.
+
+---
+
+
+## **36. What is the difference between client-side routing and server-side routing?**
+
+**Client-side** routing happens in the browser without reloading the page
+
+**server-side** routing happens on the server and returns a new page for each request.
+
+Client-side routing improves performance and user experience by avoiding page reloads, while server-side routing reloads the page for each request.
+
+**Client-Side Routing:** Routing is handled in the browser using JavaScript (React Router).
+
+**💡 How it works**
+- User clicks link 
+- React updates UI 
+- No page reload 
+
+**📌 Example :** 👉 React SPA using React Router
+
+**✅ Benefits**
+- Fast navigation 🚀 
+- Smooth user experience
+
+**Server-Side Routing:** Routing is handled by the server, and each request returns a new HTML page.
+
+**💡 How it works**
+- User clicks link 
+- Request goes to server 
+- Server sends new page 
+
+**📌 Example:**  👉 Traditional websites (PHP, Django)
+
+**❌ Drawback**
+- Full page reload 
+- Slower
+
+
+---
+
+
+## **37. What is Sever Side Rendering and Client Side Rendering**
+
+Client-Side Rendering (CSR) renders the UI in the browser using JavaScript
+
+Server-Side Rendering (SSR) renders the HTML on the server before sending it to the client.
+
+### **Client-Side Rendering (CSR)**  
+Rendering happens in the browser using JavaScript.
+
+**💡 How it works**
+- Browser loads empty HTML 
+- JS loads 
+- React builds UI 
+
+**📌 Example** 
+👉 React 
+
+**✅ Advantages**
+- Fast navigation after load 
+- Rich UI 
+**❌ Disadvantages**
+- Slow initial load 
+- Bad for SEO
+
+### **Server-Side Rendering (SSR)**
+Rendering happens on the server and a fully built HTML page is sent to the client
+
+**💡 How it works**
+- Request sent to server 
+- Server renders HTML 
+- HTML sent to browser 
+
+**📌 Example**
+👉 Next.js
+
+**✅ Advantages**
+- Fast initial load 
+- Better SEO 
+
+**❌ Disadvantages**
+- More server load 
+- Slower navigation
+
+
+<br>
+<br>
+
+| Feature | CSR | SSR |
+| --- | --- | --- |
+| Rendering | Browser | Server |
+| Initial Load | Slow | Fast |
+| SEO | Poor | Good |
+| Performance | Better after load | Better initial |
+
+<br>
+
+| Concept | Meaning |
+| --- | --- |
+| Client-side routing | Navigation handled in browser |
+| Server-side routing | Navigation handled by server |
+| CSR | UI built in browser |
+| SSR | UI built on server |
+
+
+
+
+---
+
+
+## **38. What are React Server Components?**
+
+React Server Components are components that run on the server and send rendered content to the client without including their JavaScript.
+
+
+
+**💡 Simple Explanation**  
+**👉 Instead of sending JS to browser:**
+- Component runs on server 
+- Sends HTML only 
+- No client JS needed
+
+
+```jsx
+// Server Component
+export default async function Page() {
+  const data = await fetch("API");
+  return <div>{data}</div>;
+}
+```
+
+
+**✅ Benefits**
+- Smaller bundle size 🚀 
+- Faster loading 
+- Better performance 
+
+**⚠️ Limitations**
+- No hooks like useState 
+- No event handlers
+
+
+
+
+---
+
+
+
+
+## **39. Static Site Generation (SSG)**
+
+HTML is generated at build time and served as static files.
+
+<br>
+
+| Feature | CSR | SSR | SSG |
+| --- | --- | --- | --- |
+| Render Time | Browser | Request time | Build time |
+| Speed | Slow first load | Medium | Fastest |
+| SEO | Poor | Good | Best |
+| Use Case | Dashboards | Dynamic pages | Blogs, landing pages |
+
+<br>
+
+
+SSG is preferred for static content,  
+SSR for dynamic data  
+CSR for highly interactive apps.
+
+
+
+---
+
+
+## **40. What is Hydration?**
+
+Hydration is the process where React attaches event listeners and makes server-rendered HTML interactive on the client side.
+
+👉 Hydration makes it:
+- Clickable ✅ 
+- Interactive ✅ 
+- React-controlled ✅
+
+**🔄 Step-by-step Flow**
+1. Server renders HTML (SSR)
+2. Browser receives HTML (fast display)
+3. React loads JS
+4. React "hydrates" the HTML
+5. Now UI becomes interactive
+
+**🧠 Why Hydration is needed**  
+👉 Server can only send **HTML (structure)**  
+👉 Browser needs **JavaScript for interactivity**
+
+
+<!-- <br>
+<br>
+
+---
+
+
+# 🖥️ HTML / CSS / Browser
+<br>
+<br> -->
+
 
 
 <br>
@@ -3541,7 +3560,7 @@ Screen readers rely on semantic HTML to understand content structure.
 <br>
 <br>
 
-## **125. How hoisting works?**
+## **1. How hoisting works?**
 
 **Hoisting** is JavaScript’s behavior of **moving variable and function declarations to the top of their scope.**
 
@@ -3583,7 +3602,7 @@ var sayHi = function () {
 ---
 
 
-## **126. Microtasks vs Macrotasks**
+## **2. Microtasks vs Macrotasks**
 
 Microtasks run before macrotasks in the event loop.
 
@@ -3602,7 +3621,7 @@ Microtasks run before macrotasks in the event loop.
 ---
 
 
-## **127. How garbage collection works?**
+## **3. How garbage collection works?**
 
 JavaScript uses automatic garbage collection to free memory that is no longer referenced
 
@@ -3626,7 +3645,7 @@ user = null;
 ---
 
 
-## **128. What causes memory leaks?**
+## **4. What causes memory leaks?**
 
 Memory leaks occur when unused memory is not released.
 
@@ -3712,7 +3731,7 @@ clearInterval(id);
 ---
 
 
-## **129. How ‘this’ behaves?**
+## **5. How ‘this’ behaves?**
 
 The value of ‘this’ in JavaScript depends on how a function is called. 
 
@@ -3741,7 +3760,7 @@ while arrow functions inherit ‘this’ from their surrounding scope.
 ---
 
 
-## **130. What are closures?**
+## **6. What are closures?**
 
 A closure is a function that remembers variables from its outer scope even after the outer function has finished.
 
@@ -3795,7 +3814,7 @@ counter(); // 1
 <br>
 <br>
 
-## **131. What are generics types?**
+## **1. What are generics types?**
 
 Generics allow writing reusable, type-safe code by passing types as parameters.
 
@@ -3803,7 +3822,7 @@ Generics allow writing reusable, type-safe code by passing types as parameters.
 ---
 
 
-## **132. Interface vs Type**
+## **2. Interface vs Type**
 
 | Feature | Interface | Type |
 | :--- | :--- | :--- |
@@ -3821,7 +3840,7 @@ Generics allow writing reusable, type-safe code by passing types as parameters.
 <br>
 <br>
 
-## **133. What are Web Vitals (LCP, CLS, INP)?**
+## **1. What are Web Vitals (LCP, CLS, INP)?**
 
 Web Vitals are performance metrics that measure user experience on a website, focusing on loading speed, interactivity, and visual stability.
 
@@ -3875,7 +3894,7 @@ INP measures how quickly the page responds to user interactions like clicks or t
 ---
 
 
-## **134. How do you reduce Time To Interactive (TTI)?**
+## **2. How do you reduce Time To Interactive (TTI)?**
 
 To reduce TTI, we minimize JavaScript execution, split code, optimize resource loading, and reduce main thread blocking to make the page interactive as quickly as possible.
 
@@ -3883,7 +3902,7 @@ To reduce TTI, we minimize JavaScript execution, split code, optimize resource l
 ---
 
 
-## **135. Code Splitting (Lazy Loading)**
+## **3. Code Splitting (Lazy Loading)**
 
 **Code Splitting** is a technique where your app’s JavaScript is split into smaller chunks and loaded only when needed.
 
@@ -3892,7 +3911,7 @@ To reduce TTI, we minimize JavaScript execution, split code, optimize resource l
 ---
 
 
-## **136. How do images impact performance? How do images impact performance?**
+## **4. How do images impact performance? How do images impact performance?**
 
 Images impact performance by increasing page load time, bandwidth usage, and rendering time, especially if they are large or not optimized.
 
@@ -3944,17 +3963,7 @@ Images impact performance by increasing page load time, bandwidth usage, and ren
 **🔹 6. Use CDN**    
 👉 Faster delivery
 
-<br>
-<br>
-
----
-
-
-# ♿ Accessibility
-<br>
-<br>
-
-## **137. What is WCAG?**
+## **5. What is WCAG?**
 
 WCAG (Web Content Accessibility Guidelines) is a set of standards to make web content accessible to all users, including people with disabilities.
 
@@ -3969,11 +3978,24 @@ WCAG (Web Content Accessibility Guidelines) is a set of standards to make web co
 ---
 
 
+<!-- <br>
+<br>
+
+---
+
+
+# ♿ Accessibility
+<br>
+<br> -->
+
+
+
+
 # 🔧 Build Tools & Bundlers
 <br>
 <br>
 
-## **138. How do bundlers work?**
+## **1. How do bundlers work?**
 
 Bundlers take multiple files (JS, CSS, images) and combine them into optimized bundles for the browser.
 
@@ -3981,7 +4003,7 @@ Bundlers take multiple files (JS, CSS, images) and combine them into optimized b
 ---
 
 
-## **139. Vite vs Webpack vs Rollup**
+## **2. Vite vs Webpack vs Rollup**
 
 All three are **build tools / bundlers** used in frontend apps.
 
@@ -3999,7 +4021,7 @@ All three are **build tools / bundlers** used in frontend apps.
 ---
 
 
-## **140. What does Babel do?**
+## **3. What does Babel do?**
 
 Babel converts modern JavaScript into older versions for browser compatibility.
 
@@ -4016,7 +4038,7 @@ return a + b;
 ---
 
 
-## **141. How does Hot Module Replacement (HMR) work?**
+## **4. How does Hot Module Replacement (HMR) work?**
 
 HMR updates only the changed module in the browser without reloading the entire page.
 
@@ -4024,7 +4046,7 @@ HMR updates only the changed module in the browser without reloading the entire 
 ---
 
 
-## **142. What is a Monorepo?**
+## **5. What is a Monorepo?**
 
 A monorepo is a single repository that contains multiple projects or packages.
 
@@ -4047,7 +4069,7 @@ One repo → everything together, easier sharing
 <br>
 <br>
 
-## **143. What is the Test Pyramid?**
+## **1. What is the Test Pyramid?**
 
 The test pyramid is a testing strategy that suggests having more unit tests, fewer integration tests, and very few end-to-end tests.”
 
@@ -4060,7 +4082,7 @@ The test pyramid is a testing strategy that suggests having more unit tests, few
 ---
 
 
-## **144. Unit vs Integration vs E2E**
+## **2. Unit vs Integration vs E2E**
 
 
 | Type | What it tests | Example |
@@ -4075,7 +4097,7 @@ The test pyramid is a testing strategy that suggests having more unit tests, few
 ---
 
 
-## **145. What is mock in testing ?**
+## **3. What is mock in testing ?**
 
 A mock is a fake version of a real function, API, or dependency used during testing.
 
@@ -4095,7 +4117,7 @@ A mock is a fake version of a real function, API, or dependency used during test
 ---
 
 
-## **146. What should NOT be tested?**
+## **4. What should NOT be tested?**
 
 
 - Third-party libraries (e.g., React, Axios internals) 
@@ -4121,7 +4143,7 @@ A mock is a fake version of a real function, API, or dependency used during test
 <br>
 <br>
 
-## **147. What is Component-Driven Development (CDD)?**
+## **1. What is Component-Driven Development (CDD)?**
 
 Component-driven development is an approach where UI is built by creating reusable, independent components first.
 CDD focuses on building UI as reusable components instead of full pages.
@@ -4136,7 +4158,7 @@ CDD focuses on building UI as reusable components instead of full pages.
 ---
 
 
-## **148. What is Atomic Design?**
+## **2. What is Atomic Design?**
 
 Atomic design is a methodology that breaks UI into smaller building blocks like atoms, molecules, organisms, templates, and pages.
 
@@ -4153,7 +4175,7 @@ Atomic design helps create scalable and consistent design systems.
 ---
 
 
-## **149. What are Micro-frontends?**
+## **3. What are Micro-frontends?**
 
 In micro frontends, we usually have separate React applications (like auth, dashboard, payment) that are independently built and deployed, and then composed together using a shell app.
 
@@ -4165,7 +4187,7 @@ In micro frontends, we usually have separate React applications (like auth, dash
 ---
 
 
-## **150. What is Semantic versioning (SemVer)?**
+## **4. What is Semantic versioning (SemVer)?**
 
 MAJOR.MINOR.PATCH
 
