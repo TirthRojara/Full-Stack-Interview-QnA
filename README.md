@@ -168,11 +168,14 @@
 ### 💛 JavaScript Core
 
 - [1. How hoisting works?](#1-how-hoisting-works)
-- [2. Microtasks vs Macrotasks](#2-microtasks-vs-macrotasks)
-- [3. How garbage collection works?](#3-how-garbage-collection-works)
-- [4. What causes memory leaks?](#4-what-causes-memory-leaks)
-- [5. How ‘this’ behaves?](#5-how-this-behaves)
-- [6. What are closures?](#6-what-are-closures)
+- [2. What is TDZ (Temporal Dead Zone)?](#2-what-is-tdz-temporal-dead-zone)
+- [3. What is the difference between var, let, and const?](#3-what-is-the-difference-between-var-let-and-const)
+- [4. Microtasks vs Macrotasks](#4-microtasks-vs-macrotasks)
+- [5. How garbage collection works?](#5-how-garbage-collection-works)
+- [6. What causes memory leaks?](#6-what-causes-memory-leaks)
+- [7. How ‘this’ behaves?](#7-how-this-behaves)
+- [8. What are closures?](#8-what-are-closures)
+- [9. What is lexical environment ?](#9-what-is-lexical-environment)
 
 ### 🔷 TypeScript
 
@@ -3576,6 +3579,9 @@ let b = 20;
 // output: ReferenceError ❌
 ```
 
+**let** and **const** are also hoisted BUT:  
+They are in a **Temporal Dead Zone (TDZ)** until initialized  
+Accessing them before declaration → ReferenceError
 
 ```js
 sayHello();
@@ -3598,11 +3604,135 @@ var sayHi = function () {
 ```
 
 
+---
+
+## **2. What is TDZ (Temporal Dead Zone)?**
+
+👉 TDZ is the **time between:**
+
+**when a variable is hoisted**  
+and  
+**when it is initialized**
+
+During this time, **you cannot access the variable at all** — not even as **undefined**.
+
+**Example:**
+
+```js
+console.log(a); // ❌ ReferenceError
+let a = 10;
+```
+let a is hoisted   
+BUT it's in TDZ until a = 10
+
+**Timeline Understanding:**
+
+```js
+{
+// TDZ starts here
+console.log(a); // ❌ ReferenceError
+
+let a = 10; // TDZ ends, a is initialized
+
+console.log(a); // 10 ✅
+}
+```
+👉 TDZ = from start of scope → declaration line
+
+
+**const** also has TDZ  
+And must be initialized immediately
+
+No TDZ for **var** 
+
+**Why TDZ Exists:**  
+- Prevent bugs from using variables before declaration
+- Make code more predictable
+- Encourage better coding practices
 
 ---
 
+## **3. What is the difference between var, let, and const?**
 
-## **2. Microtasks vs Macrotasks**
+### **1. Scope**
+
+```js
+{
+  var a = 1;
+  let b = 2;
+  const c = 3;
+}
+
+console.log(a); // ✅ 1
+console.log(b); // ❌ ReferenceError
+console.log(c); // ❌ ReferenceError
+```
+
+- var → function scoped   
+- let, const → block scoped
+
+👉 This is one of the biggest differences.
+
+### **2. Hoisting & TDZ**
+
+```js
+console.log(a); // undefined
+var a = 10;
+
+console.log(b); // ❌ ReferenceError
+let b = 20;
+```
+
+- var → hoisted with undefined
+- let, const → hoisted but in TDZ (Temporal Dead Zone)
+
+### **3. Re-declaration**
+
+```js
+var a = 1;
+var a = 2; // ✅ allowed
+
+let b = 1;
+let b = 2; // ❌ error
+
+const c = 1;
+const c = 2; // ❌ error
+```
+
+- var → can re-declare
+- let, const → ❌ cannot re-declare
+
+### **4. Re-assignment**
+
+```js
+var a = 1;
+a = 2; // ✅ allowed
+
+let b = 1;
+b = 2; // ✅ allowed
+
+const c = 1;
+c = 2; // ❌ error
+```
+
+- var → can change value
+- let → can change value
+- const → cannot change value (constant)
+
+### **5. Initialization**
+
+```js
+var a;       // ✅ allowed  // undefined
+let a;       // ✅ allowed  // undefined
+
+const b;     // ❌ error
+const c = 10; // ✅ allowed 
+```
+- const must be initialized at declaration
+
+---
+
+## **4. Microtasks vs Macrotasks**
 
 Microtasks run before macrotasks in the event loop.
 
@@ -3621,7 +3751,7 @@ Microtasks run before macrotasks in the event loop.
 ---
 
 
-## **3. How garbage collection works?**
+## **5. How garbage collection works?**
 
 JavaScript uses automatic garbage collection to free memory that is no longer referenced
 
@@ -3645,7 +3775,7 @@ user = null;
 ---
 
 
-## **4. What causes memory leaks?**
+## **6. What causes memory leaks?**
 
 Memory leaks occur when unused memory is not released.
 
@@ -3731,7 +3861,7 @@ clearInterval(id);
 ---
 
 
-## **5. How ‘this’ behaves?**
+## **7. How ‘this’ behaves?**
 
 The value of ‘this’ in JavaScript depends on how a function is called. 
 
@@ -3760,7 +3890,7 @@ while arrow functions inherit ‘this’ from their surrounding scope.
 ---
 
 
-## **6. What are closures?**
+## **8. What are closures?**
 
 A closure is a function that remembers variables from its outer scope even after the outer function has finished.
 
@@ -3768,8 +3898,14 @@ Without closure, variables are recreated on every function call, so the value re
 
 Closures allow variables to persist across calls, enabling stateful behavior like counters.
 
+Function + its lexical environment (variables) = Closure
+
 **✅ Use Cases**
-- Data privacy, Counters, Memoization
+- Data privacy (**Encapsulation**) , Counters, Memoization
+- Closures are used in: **useState**, **useEffect**
+- Closures are used in **throttle** and **debounce**
+
+<br>
 
 ```js
 function outer() {
@@ -3803,6 +3939,36 @@ counter(); // 1
 counter(); // 1
 ```
 
+---
+
+## **9. What is lexical environment ?**
+
+A lexical environment is an internal structure that JavaScript uses to store variables and function declarations, along with a reference to its outer environment.
+
+Lexical = based on **where code is written**, not where it’s called
+
+**Example**
+
+```js
+function outer() {
+  let x = 10;
+
+  function inner() {
+    console.log(x);
+  }
+
+  return inner;
+}
+
+const fn = outer();
+
+function another() {
+  let x = 50;
+  fn();
+}
+
+another(); // 10
+```
 
 <br>
 <br>
