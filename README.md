@@ -59,8 +59,8 @@
 - [1. Packages manager in your Node.js](#1-packages-manager-in-your-nodejs)
 - [2. Explain the role of Docker in development and deployment](#2-explain-the-role-of-docker-in-development-and-deployment)
 - [3. What is Docker Compose?](#3-what-is-docker-compose)
-- [4. What is multi stage docker file ?](#4-what-is-multi-stage-docker-file)
-- [5. What is CI/CD ?](#5-what-is-cicd)
+- [4. What is multi stage docker file](#4-what-is-multi-stage-docker-file)
+- [5. What is CI/CD?](#5-what-is-cicd)
 
 ### 🔐 Security (JWT, Encryption, Hashing)
 
@@ -457,7 +457,9 @@ Fries later
 | Head-of-line blocking | ❌ Yes | ⚠️ Partial | ✅ No |
 | Speed | Slow | Fast ⚡ | Faster ⚡⚡ |
 | Encryption | Optional | Optional | Mandatory 🔒 |  
+
 <br><br>
+
 ---
 
 
@@ -1395,7 +1397,7 @@ Docker Compose is a tool used to define and run multiple containers together usi
 ---
 
 
-## **4. What is multi stage docker file ?**
+## **4. What is multi stage docker file**
 
 A multi-stage Dockerfile is a Dockerfile that uses multiple build stages to create a smaller and optimized final image by separating build and runtime environments.
 
@@ -1498,7 +1500,7 @@ CMD ["node", "dist/index.js"]
 ---
 
 
-## **5. What is CI/CD ?**
+## **5. What is CI/CD?**
 
 CI/CD stands for Continuous Integration and Continuous Deployment/Delivery.
 
