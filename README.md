@@ -139,7 +139,7 @@
 - [17. What is the difference between Client State and Server State?](#17-what-is-the-difference-between-client-state-and-server-state)
 - [18. HTTP Caching Basics](#18-http-caching-basics)
 - [19. Cache-Control Headers](#19-cache-control-headers)
-- [20. ETag & Last-Modified (Cache Validation)](#20-etag-last-modified-cache-validation)
+- [20. ETag & Last-Modified (Cache Validation)](#20-etag--last-modified-cache-validation)
 - [21. What is CDN and CDN cache](#21-what-is-cdn-and-cdn-cache)
 - [22. Cache Invalidation Strategies](#22-cache-invalidation-strategies)
 - [23. LocalStorage vs SessionStorage vs Cookies](#23-localstorage-vs-sessionstorage-vs-cookies)
