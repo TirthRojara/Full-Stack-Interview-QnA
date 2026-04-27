@@ -124,8 +124,8 @@
 - [2. How does React.js work?](#2-how-does-reactjs-work)
 - [3. What is JSX?](#3-what-is-jsx)
 - [4. What is a React component?](#4-what-is-a-react-component)
-- [5. What are props ?](#5-what-are-props)
-- [6. What is state in React ?](#6-what-is-state-in-react)
+- [5. What are props?](#5-what-are-props)
+- [6. What is state in React?](#6-what-is-state-in-react)
 - [7. What are fragments in React?](#7-what-are-fragments-in-react)
 - [8. What is controlled and uncontrolled components?](#8-what-is-controlled-and-uncontrolled-components)
 - [9. What is react life cycle ?](#9-what-is-react-life-cycle)
@@ -2384,7 +2384,7 @@ Components help us break the UI into smaller parts, making the code more modular
 ---
 
 
-## **5. What are props ?**
+## **5. What are props?**
 
 Props (properties) are used to pass data from a parent component to a child component. They are read-only and help make components dynamic and reusable.
 
@@ -2395,7 +2395,7 @@ Props (properties) are used to pass data from a parent component to a child comp
 ---
 
 
-## **6. What is state in React ?**
+## **6. What is state in React?**
 
 State is a built-in object in React that is used to store data that can change over time and affect how a component renders.
 
