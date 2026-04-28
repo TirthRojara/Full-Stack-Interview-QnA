@@ -150,7 +150,7 @@
 - [28. What is the difference between React.PureComponent and React.Component?](#28-what-is-the-difference-between-reactpurecomponent-and-reactcomponent)
 - [29. What is prop drilling?](#29-what-is-prop-drilling)
 - [30. What is Throttling?](#30-what-is-throttling)
-- [31. What is Debouncing ?](#31-what-is-debouncing)
+- [31. What is Debouncing?](#31-what-is-debouncing)
 - [32. Why is the key prop important in React lists?](#32-why-is-the-key-prop-important-in-react-lists)
 - [33. What happens if we use the array index as a key in React?](#33-what-happens-if-we-use-the-array-index-as-a-key-in-react)
 - [34. What is React Router and why is it used?](#34-what-is-react-router-and-why-is-it-used)
@@ -3196,7 +3196,7 @@ const handleClick = throttle(() => {
 ---
 
 
-## **31. What is Debouncing ?**
+## **31. What is Debouncing?**
 
 Debounce delays the execution of a function until the user stops triggering the event for a specified time.
 
