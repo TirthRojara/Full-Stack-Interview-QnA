@@ -175,7 +175,7 @@
 - [6. What causes memory leaks?](#6-what-causes-memory-leaks)
 - [7. How ‘this’ behaves?](#7-how-this-behaves)
 - [8. What are closures?](#8-what-are-closures)
-- [9. What is lexical environment ?](#9-what-is-lexical-environment)
+- [9. What is lexical environment?](#9-what-is-lexical-environment)
 
 ### 🔷 TypeScript
 
@@ -3943,7 +3943,7 @@ counter(); // 1
 
 ---
 
-## **9. What is lexical environment ?**
+## **9. What is lexical environment?**
 
 A lexical environment is an internal structure that JavaScript uses to store variables and function declarations, along with a reference to its outer environment.
 
