@@ -205,7 +205,7 @@
 
 - [1. What is the Test Pyramid?](#1-what-is-the-test-pyramid)
 - [2. Unit vs Integration vs E2E](#2-unit-vs-integration-vs-e2e)
-- [3. What is mock in testing ?](#3-what-is-mock-in-testing)
+- [3. What is mock in testing?](#3-what-is-mock-in-testing)
 - [4. What should NOT be tested?](#4-what-should-not-be-tested)
 
 ### 📐 Architecture & Design Patterns
@@ -4265,7 +4265,7 @@ The test pyramid is a testing strategy that suggests having more unit tests, few
 ---
 
 
-## **3. What is mock in testing ?**
+## **3. What is mock in testing?**
 
 A mock is a fake version of a real function, API, or dependency used during testing.
 
